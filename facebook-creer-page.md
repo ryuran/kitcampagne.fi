@@ -3,7 +3,7 @@ layout: default
 title: Apprendre à créer une page Facebook
 permalink: /facebook-creer-page/
 creator: necropotame
-contentdescription: 
+contentdescription:
 ---
 
 ## Créer une page Facebook pour votre candidature
@@ -19,7 +19,7 @@ Choisissez le type de page à créer. Pour les législatives, cliquez sur “Cau
 ![Facebook]({{site.url}}/assets/images/screenshots/facebook-3.png){:class="screenshot"}
 
 Votre page est maintenant créée
-		
+
 ## Accéder à votre page Facebook
 
 Dans le menu gauche, section “Parcourir”, cliquez sur “Pages”.
