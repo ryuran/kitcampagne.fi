@@ -12,3 +12,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+sass:
+  sass_dir: _sass
+  style: compressed
+autoprefixer:
+  browsers:
+  - last 2 versions

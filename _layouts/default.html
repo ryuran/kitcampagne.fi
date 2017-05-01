@@ -1,5 +1,12 @@
-{% include header.html %}
-
-{{ content }}
-
-{% include footer.html %}
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    {% include meta.html %}
+	  <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/main.css">
+  </head>
+  <body>
+	<div id="content">
+    {{ content }}
+	</div>
+  </body>
+</html>
