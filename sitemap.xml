@@ -1,14 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+---
+permalink: /sitemap.xml
+type: dataset
+creator: necropotame
+excludeFromSitemap: true
+---
 
-<url>
-  <loc>http://kitcampagne.fi/index.html</loc>
-  <lastmod>2016-12-21T09:58:50+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>{{site.url}}</loc>
+	</url>
+{% for page in site.pages %}
+{% if page.permalink != null and page.excludeFromSitemap != true %}
+	<url>
+		<loc>{{site.url}}{{page.permalink}}</loc>
+		{% if page.changefreq != null %}
+		<changefreq>{{page.changefreq}}</changefreq>
+		{% endif %}
+	</url>{% endif %}{% endfor %}
 </urlset>
