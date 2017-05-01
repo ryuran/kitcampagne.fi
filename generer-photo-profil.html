@@ -1,0 +1,64 @@
+---
+layout: default
+title: Générer une photo de profil
+permalink: /generer-photo-profil/
+creator: necropotame
+contentdescription:
+---
+
+<script>
+var imageStyle;
+
+selectStyle(''); // set default value
+
+function selectStyle(newValue)
+{
+	if(newValue == 'bw')
+		imageStyle = newValue;
+	else if(newValue == 'br')
+		imageStyle = newValue;
+	else
+		imageStyle = 'rw';
+
+	refreshImage()
+}
+
+function refreshImage()
+{
+	var canvas = document.getElementById('canvas');
+	if(!canvas)
+		return;
+	var context = canvas.getContext('2d');
+
+	context.fillStyle = "#eeeeee";
+	context.fillRect(0, 0, 256, 256);
+	context.drawImage(canvas, 0, 0);
+
+	layer_fi = new Image();
+	layer_fi.src = '/assets/images/templates/photo-profil-'+imageStyle+'.png';
+	layer_fi.onload = function()
+	{
+		context.drawImage(layer_fi, 0, 0);
+	}
+}
+</script>
+
+<h2>Importer une photo</h2>
+
+<h2>Choisir le style</h2>
+
+<ul>
+<li><img src="/assets/images/templates/photo-profil-rw.png" onclick="selectStyle('rw')" /></li>
+<li><img src="/assets/images/templates/photo-profil-bw.png" onclick="selectStyle('bw')" /></li>
+<li><img src="/assets/images/templates/photo-profil-br.png" onclick="selectStyle('br')" /></li>
+</ul>
+
+<h2>Enregistrer la photo de profil</h2>
+
+<canvas id="canvas" width="256" height="256"></canvas>
+<img id="generated-image" width="256" height="256">
+
+<script>
+refreshImage();
+</script>
+
