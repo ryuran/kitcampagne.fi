@@ -25,7 +25,8 @@ contentdescription:
   <!-- Boucle avec les différents styles -->
   <ul class="inline">
     <!-- Quand on clique sur un style, l'image est générée -->
-    <li v-for="template in templates" v-on:click="reflechissez(template)" class="modeles">
+    <li v-for="template in templates" v-on:click="reflechissez(template)" class="modeles scene">
+      <img v-bind:src="image.url" v-if="image.url"/>
       <img v-bind:src="template"/>
     </li>
   </ul>
@@ -33,7 +34,7 @@ contentdescription:
   <h2><span class="nb">3</span>Cliquez sur l'image pour enregistrer</h2>
 
   <!-- Rendu de la scène avec le lien pour le téléchargement -->
-  <a v-bind:href="image_url" id="scene" download target="_blank">
+  <a v-bind:href="image_url" id="scene" download target="_blank" class="scene">
 
     <!-- Les calques sont superposés dans l'ordre inversé : le 1er sera le plus au fond -->
     <img v-bind:src="image.url" v-if="image.url"/>

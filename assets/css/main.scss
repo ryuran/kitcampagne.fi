@@ -114,12 +114,42 @@ p {
   display: none !important;
 }
 
+h2 {
+  .nb {
+    background: white;
+    width: 26px;
+    height: 30px;
+    color: #c94e34;
+    display: inline-block;
+    border-radius: 100%;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 4px;
+    font-size: 27px;
+    line-height: 1.2;
+    margin-right: 8px;
+  }
+}
+
 ul.inline {
   display: flex;
   list-style-type: none;
+  padding-left: 0;
+
+  .modeles {
+    background: #ccc;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+    cursor: pointer;
+
+    img {
+      max-width: 100%;
+    }
+  }
 }
 
-#scene {
+.scene {
   width: 512px;
   height: 512px;
   position: relative;
