@@ -7,58 +7,89 @@ contentdescription:
 ---
 
 <script>
-var imageStyle;
-
-selectStyle(''); // set default value
-
-function selectStyle(newValue)
-{
-	if(newValue == 'bw')
-		imageStyle = newValue;
-	else if(newValue == 'br')
-		imageStyle = newValue;
-	else
-		imageStyle = 'rw';
-
-	refreshImage()
-}
-
-function refreshImage()
-{
-	var canvas = document.getElementById('canvas');
-	if(!canvas)
-		return;
-	var context = canvas.getContext('2d');
-
-	context.fillStyle = "#eeeeee";
-	context.fillRect(0, 0, 256, 256);
-	context.drawImage(canvas, 0, 0);
-
-	layer_fi = new Image();
-	layer_fi.src = '/assets/images/templates/photo-profil-'+imageStyle+'.png';
-	layer_fi.onload = function()
-	{
-		context.drawImage(layer_fi, 0, 0);
-	}
-}
+  // CONFIGURATION
+  var templates = [
+    'assets/images/templates/photo-profil-rw.png',
+    'assets/images/templates/photo-profil-br.png',
+    'assets/images/templates/photo-profil-bw.png'
+  ];
 </script>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css" />
 
-<h2>Importer une photo</h2>
+<h2><span class="nb">1</span>Importer une photo</h2>
+<div class="dropzone"></div>
 
-<h2>Choisir le style</h2>
+<div id="app">
+  <h2><span class="nb">2</span>Choisir le style</h2>
 
-<ul>
-<li><img src="/assets/images/templates/photo-profil-rw.png" onclick="selectStyle('rw')" /></li>
-<li><img src="/assets/images/templates/photo-profil-bw.png" onclick="selectStyle('bw')" /></li>
-<li><img src="/assets/images/templates/photo-profil-br.png" onclick="selectStyle('br')" /></li>
-</ul>
+  <!-- Boucle avec les différents styles -->
+  <ul class="inline">
+    <!-- Quand on clique sur un style, l'image est générée -->
+    <li v-for="template in templates" v-on:click="reflechissez(template)" class="modeles scene">
+      <img v-bind:src="image.url" v-if="image.url"/>
+      <img v-bind:src="template"/>
+    </li>
+  </ul>
 
-<h2>Enregistrer la photo de profil</h2>
+  <h2><span class="nb">3</span>Cliquez sur l'image pour enregistrer</h2>
 
-<canvas id="canvas" width="256" height="256"></canvas>
-<img id="generated-image" width="256" height="256">
+  <!-- Rendu de la scène avec le lien pour le téléchargement -->
+  <a v-bind:href="image_url" id="scene" download target="_blank" class="scene">
 
+    <!-- Les calques sont superposés dans l'ordre inversé : le 1er sera le plus au fond -->
+    <img v-bind:src="image.url" v-if="image.url"/>
+    <img v-bind:src="selected" v-if="selected"/>
+  </a>
+</div>
+
+<script src="https://unpkg.com/vue@2.3.2/dist/vue.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
 <script>
-refreshImage();
-</script>
+  // configuration du drag & drop des images
+  Dropzone.autoDiscover = false;
+  var options = {
+    url: 'fi', // pas besoin d'URL : on n'envoie pas les images au serveur
+    autoProcessQueue: false,
+    thumbnailWidth: 512,
+    thumbnailHeight: 512,
+    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
+    thumbnail: function (file, dataUrl) {
+      app.image.url = dataUrl // quand l'image est prête, on l'injecte dans la scène
+    }
+  };
 
+  new Dropzone(".dropzone", options);
+
+  // initialisation de Vue
+  var app = new Vue({
+    el: '#app',
+    data: {
+      image: {url: null},
+      templates: templates,
+      selected: null,
+      image_url: null
+    },
+    methods: {
+      reflechissez: function (template) {
+        this.selected = template;
+        var scrollPos = document.body.scrollTop;
+        var scene = document.getElementById('scene');
+
+        // on attend 100ms que l'image soit "prête"
+        setTimeout(function () {
+          // on transform la scene en image
+          html2canvas(scene, {
+            onrendered: function (canvas) {
+              // repositionnement du scroll car html2canvas fait un scrollTop à la fin du rendu ><
+              window.scrollTo(0, scrollPos);
+
+              // modification du lien de l'image générée
+              app.image_url = canvas.toDataURL("image/jpeg");
+            }
+          });
+        }, 100);
+      }
+    }
+  });
+</script>
