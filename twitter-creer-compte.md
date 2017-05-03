@@ -6,6 +6,8 @@ creator: necropotame
 contentdescription:
 ---
 
+# Apprendre à créer un compte Twitter
+
 ## Créer un compte Twitter
 
 Allez sur la page [https://twitter.com/signup](https://twitter.com/signup) pour créer un compte, et remplissez les champs « Nom complet », « Email » et « Mot de passe » comme montré dans la figure suivante, puis cliquez sur « S’inscrire ».
