@@ -1,55 +1,59 @@
 ---
-layout: default
+layout: tool
 title: Générer une photo de profil
 permalink: /generer-photo-profil/
 creator: necropotame
 contentdescription:
+footerScript:
+- "https://unpkg.com/vue@2.3.2/dist/vue.js"
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"
+- "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"
+- "assets/js/avatarBuilder.js"
+stylesheet:
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css"
 ---
 
-<script>
-  // CONFIGURATION
-  var templates = [
-    'assets/images/templates/photo-profil-rw.svg',
-    'assets/images/templates/photo-profil-br.svg',
-    'assets/images/templates/photo-profil-bw.svg'
-  ];
-</script>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css"/>
-
-<h2><span class="nb">1</span>Importer une photo</h2>
-<div class="dropzone">
-  <img id="preview"/>
+<div class="tool-step">
+  <h2 class="tool-step-title">Importer une photo</h2>
+  <div class="dropzone">
+    <div id="preview"></div>
+  </div>
 </div>
 
 <div id="app">
-  <h2><span class="nb">2</span>Choisir le style</h2>
+  <div class="tool-step">
+    <h2 class="tool-step-title">Choisir le style</h2>
 
-  <!-- Boucle avec les différents styles -->
-  <ul class="inline">
-    <!-- Quand on clique sur un style, l'aperçu est modifié -->
-    <li v-for="template in templates" v-on:click="selected = template" class="modeles scene"
-        v-bind:class="{selected: selected == template}">
-      <img v-bind:src="image.url" v-if="image.url"/>
-      <img v-bind:src="template"/>
-    </li>
-  </ul>
+    <!-- Boucle avec les différents styles -->
+    <ul class="inline">
+      <!-- Quand on clique sur un style, l'aperçu est modifié -->
+      <li v-for="template in templates" v-on:click="selected = template" class="modeles scene"
+          v-bind:class="{selected: selected == template}">
+        <img v-bind:src="image.url" v-if="image.url"/>
+        <img v-bind:src="template"/>
+      </li>
+    </ul>
 
-  <div v-if="selected">
-    <h2><span class="nb">3</span>Télécharger la photo de profil</h2>
+    <div class="tool-step">
+      <h2 class="tool-step-title">Télécharger la photo de profil</h2>
 
-    <!-- Le bouton ouvre le générateur -->
-    <button v-on:click="reflechissez()">
-      Télécharger
-    </button>
+      <!-- Le bouton ouvre le générateur -->
+      <button v-on:click="reflechissez()"  v-if="selected && image.url">
+        Télécharger
+      </button>
+
+      <button disabled  v-if="!selected || !image.url">
+        Envoyez votre image et choisissez votre modèle
+      </button>
+    </div>
   </div>
-
   <!-- Une étape en "fullscreen" est obligatoire pour le rendu -->
   <div class="fullscreen" v-bind:class="{open: debat}">
     <div id="scene" class="scene big">
       <img v-bind:src="image.url" v-if="image.url"/>
       <img v-bind:src="selected"/>
     </div>
-    Génération en cours...
+    Génération en cours…
     <div class="loader">
       <div class="loader__bar"></div>
       <div class="loader__bar"></div>
@@ -60,71 +64,3 @@ contentdescription:
     </div>
   </div>
 </div>
-
-<script src="https://unpkg.com/vue@2.3.2/dist/vue.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
-<script>
-  // configuration du drag & drop des images
-  Dropzone.autoDiscover = false;
-  var options           = {
-    url:                'fi', // pas besoin d'URL : on n'envoie pas les images au serveur
-    autoProcessQueue:   false,
-    thumbnailWidth:     512,
-    thumbnailHeight:    512,
-    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
-    thumbnail:          function (file, dataUrl) {
-      app.image.url = dataUrl // quand l'image est prête, on l'injecte dans la scène
-      document.getElementById('preview').setAttribute('src', dataUrl);
-    }
-  };
-
-  function downloadURI(uri, name) {
-    var link      = document.createElement("a");
-    link.download = name;
-    link.href     = uri;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    delete link;
-  }
-
-  new Dropzone(".dropzone", options);
-
-  // initialisation de Vue
-  var app = new Vue({
-    el:      '#app',
-    data:    {
-      image:     { url: null },
-      templates: templates,
-      selected:  null,
-      image_url: null,
-      debat:     false
-    },
-    methods: {
-      reflechissez: function () {
-        var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var scene     = document.getElementById('scene');
-        this.debat    = true;
-
-        // on attend 100ms que l'image soit "prête"
-        setTimeout(function () {
-          // on transform la scene en image
-          html2canvas(scene, {
-            onrendered: function (canvas) {
-              // repositionnement du scroll car html2canvas fait un scrollTop à la fin du rendu ><
-              window.scrollTo(0, scrollPos);
-
-              // modification du lien de l'image générée
-              downloadURI(canvas.toDataURL("image/jpeg"), 'Photo de profil');
-
-              setTimeout(function () {
-                app.debat = false;
-              }, 2500);
-            }
-          });
-        }, 300);
-      }
-    }
-  });
-</script>

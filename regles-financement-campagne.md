@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Règles pour le financement d'une campagne législative
 permalink: /regles-financement-campagne/
 creator: discord local, necropotame
