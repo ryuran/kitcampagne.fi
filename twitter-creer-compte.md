@@ -10,41 +10,41 @@ contentdescription:
 
 Allez sur la page [https://twitter.com/signup](https://twitter.com/signup) pour créer un compte, et remplissez les champs « Nom complet », « Email » et « Mot de passe » comme montré dans la figure suivante, puis cliquez sur « S’inscrire ».
 
-![Copie d'écran du formulaire de création d'un compte Twitter - Etape 1](assets/images/screenshots/twitter-1.png){:class="screenshot"}
+![Copie d'écran du formulaire de création d'un compte Twitter - Etape 1](assets/images/screenshots/tw-1.png){:class="screenshot"}
 
 Entrez votre numéro de téléphone pour sécuriser votre compte. Cette étape est importante car en période de campagne, les piratages sont fréquents. Cliquez sur « Suivant » une fois le champ rempli.
 
-![Copie d'écran du formulaire de création d'un compte Twitter - Etape 2](assets/images/screenshots/twitter-2.png){:class="screenshot"}
+![Copie d'écran du formulaire de création d'un compte Twitter - Etape 2](assets/images/screenshots/tw-2.png){:class="screenshot"}
 
 Vous allez recevoir un SMS avec un code : « Votre code de confirmation Twitter est 977350 ». Entrez ce code dans la page et cliquez sur suivant.
 
-![Copie d'écran du formulaire de création d'un compte Twitter - Etape 3](assets/images/screenshots/twitter-3.png){:class="screenshot"}
+![Copie d'écran du formulaire de création d'un compte Twitter - Etape 3](assets/images/screenshots/tw-3.png){:class="screenshot"}
 
 Votre compte twitter est maintenant activé. Pour le finaliser, n’oubliez pas de confirmer votre adresse email. Pour cela, trouvez dans vos emails le message « Confirmez votre compte Twitter », puis cliquez sur « Confirmer maintenant ».
 
-![Email pour valider votre compte Twitter](assets/images/screenshots/twitter-4.png){:class="screenshot"}
+![Email pour valider votre compte Twitter](assets/images/screenshots/tw-4.png){:class="screenshot"}
 
 ## Configurer votre compte Twitter
 
 Rendez-vous sur [https://twitter.com](https://twitter.com) pour acceder à votre compte Twitter. Puis cliquez sur votre nom a gauche pour acceder à votre profil.
 
-![Copie d'écran de la page d'accueil de Twitter](assets/images/screenshots/twitter-5.png){:class="screenshot"}
+![Copie d'écran de la page d'accueil de Twitter](assets/images/screenshots/tw-5.png){:class="screenshot"}
 
 Cliquez sur le boutton « Éditer le profil » pour pouvoir changer votre photo et votre biographie.
 
-![Copie d'écran de votre profil Twitter](assets/images/screenshots/twitter-6.png){:class="screenshot"}
-![Copie d'écran de la page d'édition de votre profil Twitter](assets/images/screenshots/twitter-7.png){:class="screenshot"}
+![Copie d'écran de votre profil Twitter](assets/images/screenshots/tw-6.png){:class="screenshot"}
+![Copie d'écran de la page d'édition de votre profil Twitter](assets/images/screenshots/tw-7.png){:class="screenshot"}
 
 ### Changer les informations dans votre profil
 
 Remplissez les informations vous concernant dans les champs à gauche. Nous recommandons de mentionnner votre candidature dans votre biographie.
 
-![Copie d'écran du formulaire pour éditer votre biographie](assets/images/screenshots/twitter-edit-bio.png){:class="screenshot"}
+![Copie d'écran du formulaire pour éditer votre biographie](assets/images/screenshots/tw-edit-bio.png){:class="screenshot"}
 
 Changez la couleur de votre page pour celles de la France Insoumise. Cliquez sur « Couleur du thème » dans le menu gauche, puis sur l'icône « plus », puis rentrez la couleur rouge de la France insoumise (#C9452E), ou bleu (#00AFCC).
 
-![Copie d'écran de l'outil pour changer la couleur de votre thème Twitter - Etape 1](assets/images/screenshots/twitter-color1.png){:class="screenshot"}
-![Copie d'écran de l'outil pour changer la couleur de votre thème Twitter - Etape 2](assets/images/screenshots/twitter-color2.png){:class="screenshot"}
+![Copie d'écran de l'outil pour changer la couleur de votre thème Twitter - Etape 1](assets/images/screenshots/tw-color1.png){:class="screenshot"}
+![Copie d'écran de l'outil pour changer la couleur de votre thème Twitter - Etape 2](assets/images/screenshots/tw-color2.png){:class="screenshot"}
 
 ### Changer votre photo de profil
 
@@ -57,5 +57,3 @@ Cliquez sur « Appliquer ».
 ### Enregistrer les modifications
 
 N'oubliez pas d'enregistrer vos modifications avant de quitter. Pour cela, cliquez sur « Enregistrer les modifications ».
-
-
