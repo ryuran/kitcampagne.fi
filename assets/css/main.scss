@@ -214,6 +214,7 @@ ul.inline {
     color: $color-pacific;
     padding: 0;
     border: 2px solid $color-pacific;
+    position: relative;
 
     .dz-message {
       margin: 2em .5em;
@@ -223,12 +224,15 @@ ul.inline {
       display: none !important;
     }
 
-    img {
-      max-width: 100%;
-
-      &:not([src]) {
-        display: none;
-      }
+    #preview {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      pointer-events: none;
+      background-size: cover;
+      background-position: center;
     }
   }
 }
@@ -262,4 +266,9 @@ button {
   text-transform: uppercase;
   padding: 6px 10px;
   cursor: pointer;
+
+  &[disabled] {
+    color: $color-grey;
+    border-color: $color-grey;
+  }
 }

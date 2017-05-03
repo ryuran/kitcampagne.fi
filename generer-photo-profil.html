@@ -15,7 +15,9 @@ stylesheet:
 
 <div class="tool-step">
   <h2 class="tool-step-title">Importer une photo</h2>
-  <div class="dropzone"></div>
+  <div class="dropzone">
+    <div id="preview"></div>
+  </div>
 </div>
 
 <div id="app">
@@ -32,12 +34,16 @@ stylesheet:
       </li>
     </ul>
 
-    <div v-if="selected" class="tool-step">
+    <div class="tool-step">
       <h2 class="tool-step-title">Télécharger la photo de profil</h2>
 
       <!-- Le bouton ouvre le générateur -->
-      <button v-on:click="reflechissez()">
+      <button v-on:click="reflechissez()"  v-if="selected && image.url">
         Télécharger
+      </button>
+
+      <button disabled  v-if="!selected || !image.url">
+        Envoyez votre image et choisissez votre modèle
       </button>
     </div>
   </div>
