@@ -1,30 +1,50 @@
 ---
 ---
 
-$couleur_rouge: #c94e34;
+// variables
+@import 'variable/color';
+@import 'variable/font';
 
-@import "loader";
+// base and init
+@import 'base/fontface';
 
-body {
-  height: 100%;
-  width: 100%;
-  background: url("../images/bg.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  margin: 0;
-  position: relative;
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 12pt;
-  padding: 1.5rem 0 0;
+// UI element
+@import 'element/loader';
+
+
+// TODO: cut it in partials
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-#content {
-  max-width: 1000px;
-  width: 90%;
-  margin: 0 auto;
-  background-color: $couleur_rouge;
-  padding: 1.5rem;
+body {
+	height: 100%;
+	width: 100%;
+	background: url("../images/bg.jpg");
+  background-color: #ccc;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	position: relative;
+	color: $color-white;
+	font-family: $font-standard;
+  padding: 3.5rem 1rem;
+}
+
+.wrap {
+	max-width: 55rem;
+	margin: 0 auto;
+	padding: 1.5rem;
+	background-color: $color-white;
+  color: $color-text;
+
+  &-home {
+	  background-color: $color-corail;
+    color: $color-white;
+  }
 }
 
 .logo-desc {
@@ -39,6 +59,7 @@ body {
 
   > li {
     display: inline-block;
+    vertical-align: top;
   }
 }
 
@@ -52,12 +73,12 @@ body {
 
   &:visited,
   &:hover {
-    color: #ffffff;
+    color: $color-white;
     text-decoration: none;
   }
 
   > .icon {
-    background-color: #ffffff;
+    background-color: $color-white;
     border-radius: 5px;
     width: 160px;
     line-height: 160px;
@@ -73,32 +94,58 @@ body {
   }
 }
 
-.screenshot {
-  max-width: 40rem;
-  width: 100%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  border: 1px solid #000000;
+.tuto {
+  img {
+    max-width: 40rem;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid #000000;
+  }
+}
+
+.tool {
+  counter-reset: tool-step;
+
+  &-header {
+    display: block;
+    text-align: center;
+  }
+
+  &-title {
+    font-family: $font-calligraphic;
+    font-size: 3rem;
+    font-weight: normal;
+  }
+
+  &-step {
+    counter-increment: tool-step;
+
+    &-title {
+      &:before {
+        content: counter(tool-step);
+        color: $color-corail;
+        display: inline-block;
+        font-weight: bold;
+        margin-right: .5em;
+      }
+    }
+  }
 }
 
 h2 {
-  font-weight: 500;
-  margin: 0;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 200%;
-  text-align: left;
-  border-bottom: 1px solid #ffffff;
+	margin: 2em 0 1.5em;
+	padding-bottom: .5em;
+	font-size: 2rem;
+	text-align: left;
+	border-bottom: 1px solid $color-corail;
+	font-weight: bold;
 }
 
 p {
-  font-size: 18px;
-  text-align: justify;
-  margin: 16px 0 16px;
-  padding-right: 30px;
-  padding-left: 30px;
+	margin: 1.5em 0;
 }
 
 #index-logo-frame {
@@ -112,23 +159,6 @@ p {
 #index-logo {
   max-width: 400px;
   display: block;
-}
-
-h2 {
-  .nb {
-    background: white;
-    width: 26px;
-    height: 30px;
-    color: $couleur_rouge;
-    display: inline-block;
-    border-radius: 100%;
-    font-weight: 800;
-    text-align: right;
-    padding-right: 4px;
-    font-size: 27px;
-    line-height: 1.2;
-    margin-right: 8px;
-  }
 }
 
 ul.inline {
@@ -151,74 +181,68 @@ ul.inline {
 }
 
 .scene {
-  width: 512px;
-  height: 512px;
+  width: 30rem;
+  height: 30rem;
   position: relative;
   display: block;
-
-  &:before {
-    content: '';
-    top: -4px;
-    right: -4px;
-    bottom: -4px;
-    left: -4px;
-    background: white;
-    position: absolute;
-    display: block;
-  }
+  background: $color-white;
+  box-shadow: 0 0 0 .2em $color-pacific;
 
   &.selected {
-    &:before {
-      background: black;
-    }
+    box-shadow: 0 0 0 .2em $color-corail;
   }
 
   &.big {
-    margin-bottom: 20px;
+    margin: 1.5em;
   }
 
   img {
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
     display: block;
     width: 100%;
+    height: 100%;
   }
 }
 
-body .dropzone {
-  width: 150px;
-  height: 150px;
-  background: none;
-  background: transparent;
-  color: white;
-  padding: 0;
-  border: 2px solid white;
+.tool{
+  .dropzone {
+    width: 10em;
+    height: 10em;
+    background: transparent none;
+    color: $color-pacific;
+    padding: 0;
+    border: 2px solid $color-pacific;
 
-  .dz-preview {
-    display: none !important;
-  }
+    .dz-message {
+      margin: 2em .5em;
+    }
 
-  img {
-    max-width: 100%;
+    .dz-preview {
+      display: none !important;
+    }
 
-    &:not([src]) {
-      display: none;
+    img {
+      max-width: 100%;
+
+      &:not([src]) {
+        display: none;
+      }
     }
   }
 }
 
 .fullscreen {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  background: $couleur_rouge;
+  bottom: 0;
+  right: 0;
+  background: $color-corail;
   z-index: 10;
-  min-width: 550px;
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
   transform: translateY(-100%);
   transition: .3s;
   display: flex;
@@ -232,10 +256,10 @@ body .dropzone {
 }
 
 button {
-  border: 1px solid white;
+  border: 1px solid $color-corail;
   background: none;
-  color: white;
+  color: $color-corail;
   text-transform: uppercase;
   padding: 6px 10px;
-  cursors: pointer;
+  cursor: pointer;
 }

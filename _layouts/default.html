@@ -4,10 +4,20 @@
     <base href="{{site.baseurl}}">
     {% include meta.html %}
 	  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    {% if page.stylesheet %}
+      {% for  style in page.stylesheet %}
+        <link rel="stylesheet" type="text/css" href="{{ style }}" />
+      {% endfor %}
+    {% endif %}
   </head>
   <body>
-	<div id="content">
-    {{ content }}
-	</div>
+    <div class="wrap {{ page.wrapClass }}">
+      {{ content }}
+    </div>
+    {% if page.footerScript %}
+      {% for  script in page.footerScript %}
+        <script src="{{ script }}"></script>
+      {% endfor %}
+    {% endif %}
   </body>
 </html>
