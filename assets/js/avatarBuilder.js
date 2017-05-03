@@ -16,7 +16,7 @@
     dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
     thumbnail:          function (file, dataUrl) {
       app.image.url = dataUrl // quand l'image est prête, on l'injecte dans la scène
-      document.getElementById('preview').setAttribute('src', dataUrl);
+      document.getElementById('preview').setAttribute('style', 'background-image: url('+dataUrl+')');
     }
   };
 
