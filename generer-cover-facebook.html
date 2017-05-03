@@ -1,0 +1,69 @@
+---
+layout: tool
+title: Générer une photo de couverture FB
+permalink: /generer-photo-facebook/
+creator: necropotame
+contentdescription:
+footerScript:
+- "https://unpkg.com/vue@2.3.2/dist/vue.js"
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"
+- "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"
+- "assets/js/imageBuilder.js"
+- "assets/js/coverBuilder.js"
+stylesheet:
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css"
+---
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Importer une photo</h2>
+  <div class="dropzone">
+    <div id="preview"></div>
+  </div>
+</div>
+
+<div id="app">
+  <div class="tool-step">
+    <h2 class="tool-step-title">Compléter les informations</h2>
+
+    <label>Prénom candidat</label>
+    <input type="text" v-model="candidat.prenom" />
+
+    <label>Nom candidat</label>
+    <input type="text" v-model="candidat.nom" />
+
+    <label>Prénom suppléant</label>
+    <input type="text" v-model="suppleant.prenom" />
+
+    <label>Nom suppléant</label>
+    <input type="text" v-model="suppleant.nom" />
+
+    <div class="tool-step">
+      <h2 class="tool-step-title">Télécharger la photo de profil</h2>
+
+      <!-- Le bouton ouvre le générateur -->
+      <button v-on:click="reflechissez()"  v-if="selected && image.url">
+        Télécharger
+      </button>
+
+      <button disabled  v-if="!selected || !image.url">
+        Envoyez votre image et choisissez votre modèle
+      </button>
+    </div>
+  </div>
+  <!-- Une étape en "fullscreen" est obligatoire pour le rendu -->
+  <div class="fullscreen" v-bind:class="{open: debat}">
+    <div id="scene" class="scene big">
+      <img v-bind:src="image.url" v-if="image.url"/>
+      <img v-bind:src="selected"/>
+    </div>
+    Génération en cours…
+    <div class="loader">
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__bar"></div>
+      <div class="loader__ball"></div>
+    </div>
+  </div>
+</div>

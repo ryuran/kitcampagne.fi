@@ -1,9 +1,10 @@
 (function (Vue, imageBuilder) {
   var options = {
-    width:           512,
-    height:          512,
-    dropzoneMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
-    filename:        'Photo de profil',
+    width:           851,
+    height:          315,
+    dropzoneMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de couverture',
+    filename:        'Photo de couverture insoumiseBen' +
+                     '',
     templates:       [
       '/assets/images/templates/photo-profil-rw.svg',
       '/assets/images/templates/photo-profil-br.svg',
