@@ -42,15 +42,15 @@ Remplissez les informations vous concernant dans les champs à gauche. Nous reco
 
 ![Copie d’écran du formulaire pour éditer votre biographie](assets/images/screenshots/tw-edit-bio.png)
 
-Changez la couleur de votre page pour celles de la France Insoumise. Cliquez sur « Couleur du thème » dans le menu gauche, puis sur l'icône « plus », puis rentrez la couleur rouge de la France insoumise (#C9452E), ou bleu (#00AFCC).
+Changez la couleur de votre page pour celles de la France Insoumise. Cliquez sur « Couleur du thème » dans le menu gauche, puis sur l’icône « plus », puis rentrez la couleur rouge de la France insoumise (#C9452E), ou bleu (#00AFCC).
 
-![Copie d’écran de l'outil pour changer la couleur de votre thème Twitter - Etape 1](assets/images/screenshots/tw-color1.png)
+![Copie d’écran de l’outil pour changer la couleur de votre thème Twitter - Etape 1](assets/images/screenshots/tw-color1.png)
 
-![Copie d’écran de l'outil pour changer la couleur de votre thème Twitter - Etape 2](assets/images/screenshots/tw-color2.png)
+![Copie d’écran de l’outil pour changer la couleur de votre thème Twitter - Etape 2](assets/images/screenshots/tw-color2.png)
 
 ### Changer votre photo de profil
 
-Cliquez sur votre photo à gauche, comme indiqué sur l'image ci-dessous, puis cliquez sur « Envoyer une photo ». Selectionnez la photo que vous souhaitez utiliser pour votre compte.
+Cliquez sur votre photo à gauche, comme indiqué sur l’image ci-dessous, puis cliquez sur « Envoyer une photo ». Selectionnez la photo que vous souhaitez utiliser pour votre compte.
 
 Cliquez sur « Appliquer ».
 

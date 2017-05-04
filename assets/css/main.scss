@@ -7,37 +7,15 @@
 
 // base and init
 @import 'base/fontface';
+@import 'base/box-sizing';
+@import 'base/body';
+@import 'base/typo';
 
 // UI element
 @import 'element/loader';
 
-
 // TODO: cut it in partials
 
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-html {
-  font-size: calc(1vw + .6em);
-  line-height: 1.2em;
-}
-
-body {
-	height: 100%;
-	width: 100%;
-	background: url("../images/bg.jpg");
-  background-color: #ccc;
-	background-attachment: fixed;
-	background-size: cover;
-	margin: 0;
-	position: relative;
-	color: $color-white;
-	font-family: $font-standard;
-  padding: 3.5rem 1rem;
-  line-height: 1.5rem;
-}
 
 .wrap {
 	max-width: 40rem;
@@ -149,37 +127,6 @@ body {
   }
 }
 
-h1 {
-  font-family: $font-calligraphic;
-  font-size: 2rem;
-  font-weight: normal;
-  text-align: center;
-  margin: 2rem 0 1.5rem;
-  line-height: 1.2em;
-}
-
-h2 {
-	margin: 3rem 0 1.5rem;
-	padding-bottom: .5rem;
-	font-size: 1.6rem;
-	text-align: left;
-	border-bottom: 1px solid $color-corail;
-	font-weight: bold;
-  line-height: 1.2em;
-}
-
-h3 {
-	margin: 3rem 0 1.5rem;
-	font-size: 1.4rem;
-	text-align: left;
-	font-weight: bold;
-  line-height: 1.2em;
-}
-
-p {
-	margin: 1.5rem 0;
-  line-height: 1.5em;
-}
 
 #index-logo-frame {
   margin-left: auto;
