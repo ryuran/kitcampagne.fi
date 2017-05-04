@@ -11,6 +11,19 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+collections:
+  cat_franceinsoumise:
+    output: true
+    permalink: franceinsoumise
+    title: La France Insoumise
+  cat_reseauxsociaux:
+    output: true
+    permalink: reseauxsociaux
+    title: Réseaux sociaux
+  cat_legislatives2017:
+    output: true
+    permalink: legislative2017
+    title: Législatives 2017
 sass:
   sass_dir: _sass
   style: compressed

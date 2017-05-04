@@ -1,11 +1,10 @@
 ---
 layout: article
 title: Apprendre à créer un compte Twitter
-permalink: /twitter-creer-compte/
 creator: necropotame
 contentdescription:
-category: web
 icon: logo-twitter.svg
+level: 1
 ---
 
 ## Créer un compte Twitter
