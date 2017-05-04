@@ -9,7 +9,7 @@
 
 @font-face {
   $font-name: 'Montserrat';
-  $font-path: '../fonts/#{$font-name}/#{$font-name}-Regular';
+  $font-path: '../fonts/#{$font-name}/#{$font-name}-Bold';
   font-family: $font-name;
   src:  url('#{$font-path}.woff2') format('woff2'),
         url('#{$font-path}.woff') format('woff');

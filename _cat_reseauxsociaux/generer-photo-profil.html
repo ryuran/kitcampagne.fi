@@ -8,7 +8,7 @@ footerScript:
 - "https://unpkg.com/vue@2.3.2/dist/vue.js"
 - "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"
 - "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"
-- "assets/js/avatarBuilder.js"
+- "/assets/js/avatarBuilder.js"
 stylesheet:
 - "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css"
 ---
@@ -42,25 +42,15 @@ stylesheet:
         Télécharger
       </button>
 
-      <button disabled  v-if="!selected || !image.url">
+      <div v-if="!selected || !image.url">
         Envoyez votre image et choisissez votre modèle
-      </button>
-    </div>
-  </div>
-  <!-- Une étape en "fullscreen" est obligatoire pour le rendu -->
-  <div class="fullscreen" v-bind:class="{open: debat}">
-    <div id="scene" class="scene big">
-      <img v-bind:src="image.url" v-if="image.url"/>
-      <img v-bind:src="selected"/>
-    </div>
-    Génération en cours…
-    <div class="loader">
-      <div class="loader__bar"></div>
-      <div class="loader__bar"></div>
-      <div class="loader__bar"></div>
-      <div class="loader__bar"></div>
-      <div class="loader__bar"></div>
-      <div class="loader__ball"></div>
+      </div>
+
+      <!-- Une étape en "fullscreen" est obligatoire pour le rendu -->
+      <div id="scene" class="scene render">
+        <img v-bind:src="image.url" v-if="image.url"/>
+        <img v-bind:src="selected"/>
+      </div>
     </div>
   </div>
 </div>

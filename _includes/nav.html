@@ -1,0 +1,31 @@
+<div id="navigation" class="nav">
+  <div class="nav-toggle">
+    <a href="#navigation" class="nav-toggle-open">
+      Menu
+    </a>
+    <a href="#main" class="nav-toggle-close">
+      Fermer
+    </a>
+  </div>
+  <nav class="nav-pan">
+    <ul class="nav-list">
+      {% for c in site.collections %}
+        {% if c.label != 'posts' %}
+          <li class="nav-group">
+            <span class="nav-group-title">{{c.title}}</span>
+            <ul class="nav-sublist">
+              {% for p in c.docs %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ p.url | relative_url }}">
+                    <img class="nav-link-icon" src="/assets/images/icons/{{p.icon}}" />
+                    <span class="nav-link-label" >{{p.title}}</span>
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</div>

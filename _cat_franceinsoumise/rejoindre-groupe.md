@@ -7,4 +7,3 @@ contentdescription:
 icon: groupe-rejoindre.svg
 ---
 
-# Rejoindre un groupe d’appui

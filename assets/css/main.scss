@@ -14,6 +14,9 @@
 // UI element
 @import 'element/loader';
 
+// UI component
+@import 'component/nav';
+
 // TODO: cut it in partials
 
 
@@ -161,8 +164,8 @@ ul.inline {
 }
 
 .scene {
-  width: 30rem;
-  height: 30rem;
+  width: 512px;
+  height: 512px;
   position: relative;
   display: block;
   background: $color-white;
@@ -173,7 +176,7 @@ ul.inline {
   }
 
   &.big {
-    margin: 1.5em;
+    margin: 1.5em auto;
   }
 
   img {
@@ -219,26 +222,9 @@ ul.inline {
   }
 }
 
-.fullscreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: $color-corail;
-  z-index: 10;
-  min-width: 100vw;
-  min-height: 100vh;
-  transform: translateY(-100%);
-  transition: .3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  &.open {
-    transform: translateY(0);
-  }
+.render {
+  margin: 1.5em auto;
+  background: $color-white;
 }
 
 button {

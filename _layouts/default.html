@@ -10,30 +10,7 @@
     {% endif %}
   </head>
   <body>
-    <div class="nav">
-      <a class="nav-toggle">Menu</a>
-      <nav id="navigation" class="nav-pan">
-        <ul class="nav-list">
-          {% for c in site.collections %}
-            {% if c.label != 'posts' %}
-              <li class="nav-list-group">
-                {{c.title}}
-                <ul class="nav-sublist">
-                  {% for p in c.docs %}
-                    <li>
-                      <a class="nav-item" href="{{ p.url | relative_url }}">
-                        <img class="nav-icon" src="/assets/images/icons/{{p.icon}}" />
-                        {{p.title}}
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      </nav>
-    </div>
+    {% include nav.html %}
     <div class="wrap {{ page.wrapClass }}">
       {{ content }}
     </div>
