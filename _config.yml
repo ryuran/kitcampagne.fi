@@ -14,15 +14,15 @@ exclude:
 collections:
   cat_franceinsoumise:
     output: true
-    permalink: franceinsoumise
+    permalink: franceinsoumise/:name/
     title: La France Insoumise
   cat_reseauxsociaux:
     output: true
-    permalink: reseauxsociaux
+    permalink: reseauxsociaux/:name/
     title: Réseaux sociaux
   cat_legislatives2017:
     output: true
-    permalink: legislative2017
+    permalink: legislatives2017/:name/
     title: Législatives 2017
 sass:
   sass_dir: _sass

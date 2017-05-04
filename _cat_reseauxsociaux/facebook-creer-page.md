@@ -4,7 +4,6 @@ title: Apprendre à créer une page Facebook
 creator: necropotame
 contentdescription:
 icon: logo-facebook.svg
-level: 1
 ---
 
 ## Créer une page Facebook pour votre candidature
