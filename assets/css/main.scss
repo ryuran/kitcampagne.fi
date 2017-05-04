@@ -19,6 +19,10 @@
 *:before {
   box-sizing: border-box;
 }
+html {
+  font-size: calc(1vw + .6em);
+  line-height: 1.2em;
+}
 
 body {
 	height: 100%;
@@ -32,10 +36,11 @@ body {
 	color: $color-white;
 	font-family: $font-standard;
   padding: 3.5rem 1rem;
+  line-height: 1.5rem;
 }
 
 .wrap {
-	max-width: 55rem;
+	max-width: 40rem;
 	margin: 0 auto;
 	padding: 1.5rem;
 	background-color: $color-white;
@@ -67,9 +72,11 @@ body {
   text-align: center;
   max-width: 10rem;
   display: block;
-  margin: 2rem 1rem;
+  margin: 1rem;
   color: #ffffff;
   text-decoration: none;
+  font-size: .7em;
+  line-height: 1.5em;
 
   &:visited,
   &:hover {
@@ -83,7 +90,7 @@ body {
     width: 160px;
     line-height: 160px;
     box-shadow: 0px 6px 0px #bbbbbb;
-    margin-bottom: 10px;
+    margin: 0 auto 1em;
 
     > img {
       display: inline-block;
@@ -95,9 +102,12 @@ body {
 }
 
 .tuto {
+  max-width: 30em;
+  margin: 0 auto;
+
   img {
-    max-width: 40rem;
-    width: 100%;
+    width: auto;
+    max-width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -112,12 +122,6 @@ body {
   &-header {
     display: block;
     text-align: center;
-  }
-
-  &-title {
-    font-family: $font-calligraphic;
-    font-size: 3rem;
-    font-weight: normal;
   }
 
   &-step {
@@ -135,17 +139,36 @@ body {
   }
 }
 
+h1 {
+  font-family: $font-calligraphic;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 2rem 0 1.5rem;
+  line-height: 1.2em;
+}
+
 h2 {
-	margin: 2em 0 1.5em;
-	padding-bottom: .5em;
-	font-size: 2rem;
+	margin: 3rem 0 1.5rem;
+	padding-bottom: .5rem;
+	font-size: 1.6rem;
 	text-align: left;
 	border-bottom: 1px solid $color-corail;
 	font-weight: bold;
+  line-height: 1.2em;
+}
+
+h3 {
+	margin: 3rem 0 1.5rem;
+	font-size: 1.4rem;
+	text-align: left;
+	font-weight: bold;
+  line-height: 1.2em;
 }
 
 p {
-	margin: 1.5em 0;
+	margin: 1.5rem 0;
+  line-height: 1.5em;
 }
 
 #index-logo-frame {
@@ -169,9 +192,9 @@ ul.inline {
 
   .modeles {
     background: #ccc;
-    width: 150px;
-    height: 150px;
-    margin: 10px;
+    width: 10em;
+    height: 10em;
+    margin: 1em;
     cursor: pointer;
 
     img {
@@ -215,9 +238,11 @@ ul.inline {
     padding: 0;
     border: 2px solid $color-pacific;
     position: relative;
+    display: flex;
+    align-items: center;
 
     .dz-message {
-      margin: 2em .5em;
+      margin: .5em;
     }
 
     .dz-preview {
