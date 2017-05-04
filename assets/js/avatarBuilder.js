@@ -1,9 +1,9 @@
 (function(Dropzone, Vue, html2canvas){
 
   var templates = [
-    'assets/images/templates/photo-profil-rw.svg',
-    'assets/images/templates/photo-profil-br.svg',
-    'assets/images/templates/photo-profil-bw.svg'
+    '/assets/images/templates/photo-profil-rw.svg',
+    '/assets/images/templates/photo-profil-br.svg',
+    '/assets/images/templates/photo-profil-bw.svg'
   ];
 
   // configuration du drag & drop des images
@@ -21,7 +21,7 @@
   };
 
   function downloadURI(uri, name) {
-    var link      = document.createElement("a");
+    var link      = document.createElement('a');
     link.download = name;
     link.href     = uri;
     document.body.appendChild(link);
@@ -30,7 +30,7 @@
     delete link;
   }
 
-  new Dropzone(".dropzone", options);
+  new Dropzone('.dropzone', options);
   // initialisation de Vue
   var app = new Vue({
     el:      '#app',

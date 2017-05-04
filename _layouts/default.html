@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <base href="{{site.baseurl}}">
     {% include meta.html %}
-	  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     {% if page.stylesheet %}
       {% for  style in page.stylesheet %}
         <link rel="stylesheet" type="text/css" href="{{ style }}" />
@@ -11,6 +10,7 @@
     {% endif %}
   </head>
   <body>
+    {% include nav.html %}
     <div class="wrap {{ page.wrapClass }}">
       {{ content }}
     </div>

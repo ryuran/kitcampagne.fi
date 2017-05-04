@@ -4,23 +4,22 @@ creator: necropotame
 wrapClass: 'wrap-home'
 contentdescription:
 ---
-
-<h1 id="index-logo-frame"><img src="assets/images/kcn-logo.svg" alt="Kit de Campagne Numérique pour Insoumis·e" id="index-logo" /></h1>
+<h1 id="index-logo-frame"><img src="/assets/images/kcn-logo.svg" alt="Kit de Campagne Numérique pour Insoumis·e" id="index-logo" /></h1>
 <p class="logo-desc">Outils, aides et conseils sur la communication numérique pour les législatives de 2017</p>
 
 {% for c in site.collections %}
-{% if c.label != 'posts' %}
-<h2 class="index-category">{{c.title}}</h2>
-<ul class="navicons" role="navigation">
-{% for p in c.docs %}
-  <li>
-    <a class="page-icon" href="{{p.url}}">
-      <div class="icon"><img src="assets/images/icons/{{p.icon}}" /></div>
-     	{{p.title}}
-    </a>
-  </li>
-{% endfor %}
-</ul>
-{% endif %}
+  {% if c.label != 'posts' %}
+    <h2 class="index-category">{{c.title}}</h2>
+    <ul class="navicons" role="navigation">
+      {% for p in c.docs %}
+        <li>
+          <a class="page-icon" href="{{ p.url }}">
+            <div class="icon"><img src="/assets/images/icons/{{p.icon}}" /></div>
+            {{p.title}}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 {% endfor %}
 

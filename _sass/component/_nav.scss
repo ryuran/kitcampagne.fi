@@ -1,0 +1,130 @@
+.nav {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20rem;
+  max-width: 80vw;
+  z-index: 10;
+  padding-right: 1rem;
+  transform: translateX(-100%);
+  transition: transform .4s ease;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1rem;
+    background: rgba(0,0,0,0.4);
+    width: 120vw;
+    z-index: 5;
+    transition: opacity .4s ease;
+    opacity: 0;
+  }
+
+  &-toggle {
+    display: block;
+    z-index: 10;
+    position: absolute;
+    top: .5rem;
+    left: 100%;
+    transform: translateX(.5rem);
+    border-radius: .2rem;
+    background: $color-white;
+    text-transform: uppercase;
+    width: 6rem;
+    overflow: hidden;
+    box-shadow: 0 0 .2em 0 #000;
+
+    &-open,
+    &-close {
+      display: block;
+      text-decoration: none;
+      color: $color-text;
+      padding: .5em .5em;
+      text-align: center;
+      background: $color-white;
+    }
+
+    &-close {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: translateY(100%);
+      transition: transform .2s ease;
+    }
+  }
+
+  &:target { // open state
+    transform: translateX(0);
+
+    &:before {
+      transition: opacity .4s ease, transform 0 linear .4s;
+      transform: translateX(100%);
+      opacity: .4;
+    }
+
+    .nav-toggle-close {
+      transform: translateY(0%);
+    }
+  }
+
+  &-pan {
+    width: auto;
+    z-index: 10;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: $color-white;
+    box-shadow: 0 0 5px 0 #000;
+  }
+
+  &-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &-group {
+    &-title {
+      display: block;
+      font-weight: bold;
+      padding: .5em;
+      padding-top: 1em;
+    }
+  }
+
+  &-sublist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &-link {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    text-decoration: none;
+    color: $color-text;
+
+    &-icon {
+      width: 3rem;
+      height: auto;
+      padding: .5em;
+    }
+
+    &-label {
+      padding: .5em;
+    }
+
+    &:hover {
+      background: #f1f1f1;
+    }
+  }
+}

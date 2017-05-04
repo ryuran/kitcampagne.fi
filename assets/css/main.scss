@@ -7,37 +7,18 @@
 
 // base and init
 @import 'base/fontface';
+@import 'base/box-sizing';
+@import 'base/body';
+@import 'base/typo';
 
 // UI element
 @import 'element/loader';
 
+// UI component
+@import 'component/nav';
 
 // TODO: cut it in partials
 
-*,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
-html {
-  font-size: calc(1vw + .6em);
-  line-height: 1.2em;
-}
-
-body {
-	height: 100%;
-	width: 100%;
-	background: url("../images/bg.jpg");
-  background-color: #ccc;
-	background-attachment: fixed;
-	background-size: cover;
-	margin: 0;
-	position: relative;
-	color: $color-white;
-	font-family: $font-standard;
-  padding: 3.5rem 1rem;
-  line-height: 1.5rem;
-}
 
 .wrap {
 	max-width: 40rem;
@@ -149,37 +130,6 @@ body {
   }
 }
 
-h1 {
-  font-family: $font-calligraphic;
-  font-size: 2rem;
-  font-weight: normal;
-  text-align: center;
-  margin: 2rem 0 1.5rem;
-  line-height: 1.2em;
-}
-
-h2 {
-	margin: 3rem 0 1.5rem;
-	padding-bottom: .5rem;
-	font-size: 1.6rem;
-	text-align: left;
-	border-bottom: 1px solid $color-corail;
-	font-weight: bold;
-  line-height: 1.2em;
-}
-
-h3 {
-	margin: 3rem 0 1.5rem;
-	font-size: 1.4rem;
-	text-align: left;
-	font-weight: bold;
-  line-height: 1.2em;
-}
-
-p {
-	margin: 1.5rem 0;
-  line-height: 1.5em;
-}
 
 #index-logo-frame {
   margin-left: auto;
@@ -214,8 +164,8 @@ ul.inline {
 }
 
 .scene {
-  width: 30rem;
-  height: 30rem;
+  width: 512px;
+  height: 512px;
   position: relative;
   display: block;
   background: $color-white;
@@ -226,7 +176,7 @@ ul.inline {
   }
 
   &.big {
-    margin: 1.5em;
+    margin: 1.5em auto;
   }
 
   img {
@@ -272,26 +222,9 @@ ul.inline {
   }
 }
 
-.fullscreen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: $color-corail;
-  z-index: 10;
-  min-width: 100vw;
-  min-height: 100vh;
-  transform: translateY(-100%);
-  transition: .3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  &.open {
-    transform: translateY(0);
-  }
+.render {
+  margin: 1.5em auto;
+  background: $color-white;
 }
 
 button {
