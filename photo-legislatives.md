@@ -4,6 +4,8 @@ title: Conseils pour la photo des législatives
 permalink: /photo-legislatives/
 creator: necropotame
 contentdescription:
+category: legislatives
+icon: photo.svg
 ---
 
 Votre photo de campagne servira à l’affiche des législatives, aux tracts et à la communication numérique. **Toujours faire faire cette photo par un photographe professionnel**. Si ce n’est pas possible, demandez dans votre groupe d’appui si une personne a le matériel et les compétences pour faire une bonne photo. Une photo de mauvaise qualité sera contre-productive dans la communication. 

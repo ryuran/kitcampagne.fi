@@ -4,6 +4,8 @@ title: Apprendre à rejoindre la France Insoumise
 permalink: /rejoindre-france-insoumise/
 creator: necropotame
 contentdescription:
+category: franceinsoumise
+icon: logo-fi.png
 ---
 
 Pour rejoindre la France insoumise, rendez-vous à [https://lafranceinsoumise.fr](https://lafranceinsoumise.fr), et completez le formulaire.

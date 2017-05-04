@@ -7,65 +7,39 @@ contentdescription:
 
 <h1 id="index-logo-frame"><img src="assets/images/kcn-logo.svg" alt="Kit de Campagne Numérique pour Insoumis·e" id="index-logo" /></h1>
 <p class="logo-desc">Outils, aides et conseils sur la communication numérique pour les législatives de 2017</p>
+<h2 class="index-category">La France Insoumise</h2>
 <ul class="navicons" role="navigation">
+{% assign pagesWeb = site.pages | where: 'category','franceinsoumise' %}
+{% for p in pagesWeb %}
   <li>
-    <a class="page-icon" href="rejoindre-france-insoumise">
-      <div class="icon"><img src="assets/images/icons/logo-fi.png" /></div>
-      Apprendre à rejoindre la France Insoumise
+    <a class="page-icon" href="{{p.permalink}}">
+      <div class="icon"><img src="assets/images/icons/{{p.icon}}" /></div>
+     	{{p.title}}
     </a>
   </li>
+{% endfor %}
+</ul>
+<h2 class="index-category">Réseaux sociaux</h2>
+<ul class="navicons" role="navigation">
+{% assign pagesWeb = site.pages | where: 'category','web' %}
+{% for p in pagesWeb %}
   <li>
-    <a class="page-icon" href="rejoindre-groupe">
-      <div class="icon"><img src="assets/images/icons/groupe-rejoindre.svg" /></div>
-      Apprendre à rejoindre un groupe d'appui
+    <a class="page-icon" href="{{p.permalink}}">
+      <div class="icon"><img src="assets/images/icons/{{p.icon}}" /></div>
+     	{{p.title}}
     </a>
   </li>
+{% endfor %}
+</ul>
+<h2 class="index-category">Législatives 2017</h2>
+<ul class="navicons" role="navigation">
+{% assign pagesWeb = site.pages | where: 'category','legislatives' %}
+{% for p in pagesWeb %}
   <li>
-    <a class="page-icon" href="facebook-creer-page">
-      <div class="icon"><img src="assets/images/icons/logo-facebook.svg" /></div>
-      Apprendre à créer une page Facebook
+    <a class="page-icon" href="{{p.permalink}}">
+      <div class="icon"><img src="assets/images/icons/{{p.icon}}" /></div>
+     	{{p.title}}
     </a>
   </li>
-  <li>
-    <a class="page-icon" href="facebook-generer-cover">
-      <div class="icon"><img src="assets/images/icons/cover-facebook.svg" /></div>
-      Générer une cover Facebook
-    </a>
-  </li>
-  <li>
-    <a class="page-icon" href="twitter-creer-compte">
-      <div class="icon"><img src="assets/images/icons/logo-twitter.svg" /></div>
-      Apprendre à créer un compte Twitter
-    </a>
-  </li>
-  <li>
-    <a class="page-icon" href="dicord-utilise">
-      <div class="icon"><img src="assets/images/icons/logo-discord.svg" /></div>
-      Apprendre à utiliser Discord
-    </a>
-  </li>
-  <li>
-    <a class="page-icon" href="generer-photo-profil">
-      <div class="icon"><img src="assets/images/icons/profil-photo.svg" /></div>
-      Générer une photo de profil
-    </a>
-  </li>
-  <li>
-    <a class="page-icon" href="photo-legislatives/">
-      <div class="icon"><img src="assets/images/icons/photo.svg" /></div>
-      Conseils pour la photo des législatives
-    </a>
-  </li>
-  <li>
-    <a class="page-icon" href="regles-financement-campagne/">
-      <div class="icon"><img src="assets/images/icons/book-coin.svg" /></div>
-      Règles pour le financement d'une campagne
-    </a>
-  </li>
-  <li>
-    <a class="page-icon" href="conseils-financer-campagne/">
-      <div class="icon"><img src="assets/images/icons/coin.svg" /></div>
-      Conseils pour financer sa campagne
-    </a>
-  </li>
+{% endfor %}
 </ul>
