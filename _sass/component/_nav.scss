@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 20rem;
+  max-width: 80vw;
+  transform: translateX(-100%);
+
+  &.is-open {
+    transform: translateX(0);
+  }
+
+  &-toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -3rem;
+  }
+
+  &-pan {
+    width: 100%;
+  }
+
+  &-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-link {
+    &-icon {
+
+    }
+
+    &-label {
+
+    }
+  }
+}
