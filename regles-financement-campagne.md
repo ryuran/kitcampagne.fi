@@ -6,8 +6,6 @@ creator: discord local, necropotame
 contentdescription:
 ---
 
-# Financement d’une campagne législative
-
 ## Mandataire financier
 
 Tout candidat aux élections législatives de 2017 doit désigner un *mandataire financier*. Désigné par le candidat, le mandataire est soit une personne physique, soit une association de financement électorale. La période de financement électoral ouvre le 1er décembre 2016.
