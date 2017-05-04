@@ -1,9 +1,9 @@
 ---
 layout: article
 title: Apprendre à créer une page Facebook
-permalink: /facebook-creer-page/
 creator: necropotame
 contentdescription:
+icon: logo-facebook.svg
 ---
 
 ## Créer une page Facebook pour votre candidature
