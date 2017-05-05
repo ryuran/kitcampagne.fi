@@ -1,61 +1,82 @@
-window.imageBuilder = (function (Dropzone, html2canvas) {
-  var imageBuilder = {
-    options: {},
+window.ImageBuilder = (function () {
 
-    init: function (options) {
-      imageBuilder.options = options;
-
-      // configuration du drag & drop des images
-      Dropzone.autoDiscover = false;
-      var dzOptions         = {
-        url:                'fi', // pas besoin d'URL : on n'envoie pas les images au serveur
-        autoProcessQueue:   false,
-        thumbnailWidth:     imageBuilder.options.width,
-        thumbnailHeight:    imageBuilder.options.height,
-        dictDefaultMessage: imageBuilder.options.dropzoneMessage,
-        thumbnail:          imageBuilder.injectImage
-      };
-
-      // initialisation de la dropzone
-      new Dropzone(".dropzone", dzOptions);
-    },
-
-    saveImage: function (filename, cb) {
-      var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-      var scene     = document.getElementById('scene');
-
-      // on transform la scene en image
-      html2canvas(scene, {
-        onrendered: function (canvas) {
-          // repositionnement du scroll car html2canvas fait un scrollTop à la fin du rendu ><
-          window.scrollTo(0, scrollPos);
-
-          // Téléchargement de l'image générée
-          imageBuilder.downloadURI(canvas.toDataURL('image/png'), filename);
-
-          // appel de la fonction de retour
-          cb();
-        }
-      });
-    },
-
-    downloadURI: function (uri, name) {
-      var link      = document.createElement("a");
-      link.download = name;
-      link.href     = uri;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      delete link;
-    },
-
-    // quand l'image est prête, on l'injecte dans la scène
-    injectImage: function (file, dataUrl) {
-      console.log(imageBuilder.options);
-      imageBuilder.options.thumbnail(dataUrl);
-      document.getElementById('preview').setAttribute('style', 'background-image: url(' + dataUrl + ')');
-    }
+  var defaultConfig = {
+    canvasID: 'canvas'
   };
 
-  return imageBuilder;
-})(window.Dropzone, window.html2canvas);
+  function extend(out) {
+    out = out || {};
+
+    for (var i = 1; i < arguments.length; i++) {
+      if (!arguments[i])
+        continue;
+
+      for (var key in arguments[i]) {
+        if (arguments[i].hasOwnProperty(key))
+          out[key] = arguments[i][key];
+      }
+    }
+
+    return out;
+  };
+
+  function ImageBuilder(config) {
+    this.config = extend({}, defaultConfig, config);
+
+    this.canvas = document.getElementById(this.config.canvasID);
+
+    this.width = this.canvas.getAttribute('width');
+    this.height = this.canvas.getAttribute('height');
+  }
+
+  ImageBuilder.prototype.addImg = function addImg(img) {
+    var context = this.canvas.getContext('2d');
+
+    // default offset is center
+    var offsetX = 0.5;
+    var offsetY = 0.5;
+
+    var w = this.canvas.width,
+        h = this.canvas.height,
+        iw = img.width,
+        ih = img.height,
+        r = Math.min(w / iw, h / ih),
+        nw = iw * r,   // new prop. width
+        nh = ih * r,   // new prop. height
+        cx, cy, cw, ch, ar = 1;
+
+    // decide which gap to fill    
+    if (nw < w) ar = w / nw;                             
+    if (Math.abs(ar - 1) < 1e-14 && nh < h) ar = h / nh;  // updated
+    nw *= ar;
+    nh *= ar;
+
+    // calc source rectangle
+    cw = iw / (nw / w);
+    ch = ih / (nh / h);
+
+    cx = (iw - cw) * offsetX;
+    cy = (ih - ch) * offsetY;
+
+    // make sure source rectangle is valid
+    if (cx < 0) cx = 0;
+    if (cy < 0) cy = 0;
+    if (cw > iw) cw = iw;
+    if (ch > ih) ch = ih;
+
+    // fill image in dest. rectangle
+    context.drawImage(img, cx, cy, cw, ch, 0, 0, w, h);
+  };
+
+  ImageBuilder.prototype.clear = function clear() {
+    var context = this.canvas.getContext('2d');
+    context.fillStyle = 'white';
+    context.fillRect(0, 0, this.canvas.width, this.canvas.height);
+  }
+
+  ImageBuilder.prototype.getDaraUri = function getDaraUri() {
+    return this.canvas.toDataURL('image/png');
+  }
+
+  return ImageBuilder;
+})();

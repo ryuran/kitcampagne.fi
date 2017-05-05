@@ -6,10 +6,7 @@ contentdescription:
 icon: profil-photo.svg
 sortinglabel: tool
 footerScript:
-- "https://unpkg.com/vue@2.3.2/dist/vue.js"
 - "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"
-- "https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"
-- "/assets/js/avatarBuilder.js"
 - "/assets/js/imageBuilder.js"
 - "/assets/js/avatarBuilder.js"
 stylesheet:
@@ -18,42 +15,38 @@ stylesheet:
 
 <div class="tool-step">
   <h2 class="tool-step-title">Importer une photo</h2>
-  <div class="dropzone">
-    <div id="preview"></div>
-  </div>
+  <div class="dropzone preview"></div>
 </div>
 
-<div id="app">
+<div class="tool-step">
+  <h2 class="tool-step-title">Choisir le style</h2>
+
+  <ul class="chooseTemplate">
+    <li>
+      <label class="chooseTemplate-item preview" for="template-rw">
+        <input id="template-rw" name="template" type="radio" value="template-rw-svg" />
+        {% include template-avatar.svg id="template-rw-svg" colorFi='#c94e34' colorSquare='#fff' %}
+      </label>
+    </li>
+    <li>
+      <label class="chooseTemplate-item preview" for="template-rb">
+        <input id="template-rb" name="template" type="radio" value="template-rb-svg" />
+        {% include template-avatar.svg id="template-rb-svg" colorFi='#c94e34' colorSquare='#0098b6' %}
+      </label>
+    </li>
+    <li>
+      <label class="chooseTemplate-item preview" for="template-bw">
+        <input id="template-bw" name="template" type="radio" value="template-bw-svg"/>
+        {% include template-avatar.svg id="template-bw-svg" colorFi='#0098b6' colorSquare='#fff' %}
+      </label>
+    </li>
+  </ul>
+
   <div class="tool-step">
-    <h2 class="tool-step-title">Choisir le style</h2>
+    <h2 class="tool-step-title">Télécharger la photo de profil</h2>
 
-    <!-- Boucle avec les différents styles -->
-    <ul class="inline">
-      <!-- Quand on clique sur un style, l'aperçu est modifié -->
-      <li v-for="template in templates" v-on:click="selected = template" class="modeles scene"
-          v-bind:class="{selected: selected == template}">
-        <img v-bind:src="image.url" v-if="image.url"/>
-        <img v-bind:src="template"/>
-      </li>
-    </ul>
+    <canvas id="render" class="render" width="512" height="512"></canvas>
 
-    <div class="tool-step">
-      <h2 class="tool-step-title">Télécharger la photo de profil</h2>
-
-      <!-- Le bouton ouvre le générateur -->
-      <button v-on:click="reflechissez()"  v-if="selected && image.url">
-        Télécharger
-      </button>
-
-      <div v-if="!selected || !image.url">
-        Envoyez votre image et choisissez votre modèle
-      </div>
-
-      <!-- Une étape en "fullscreen" est obligatoire pour le rendu -->
-      <div id="scene" class="scene render">
-        <img v-bind:src="image.url" v-if="image.url"/>
-        <img v-bind:src="selected"/>
-      </div>
-    </div>
+    <a class="tool-submit" id="download" href="#" download aria-disabled="true">Télécharger votre image de profile insoumise</a>
   </div>
 </div>

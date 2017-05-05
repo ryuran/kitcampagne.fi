@@ -1,0 +1,21 @@
+.dropzone {
+  width: 10em;
+  height: 10em;
+  background: transparent none;
+  color: $color-pacific;
+  padding: 0;
+  border: 2px solid $color-pacific;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 0;
+
+  .dz-message {
+    margin: 1em;
+    line-height: 1.4em;
+  }
+
+  .dz-preview {
+    display: none !important;
+  }
+}
