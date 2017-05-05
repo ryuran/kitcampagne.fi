@@ -25,3 +25,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - cibuild.sh
+
+gems:
+  - jekyll-sitemap
+  - jekyll-relative-links
