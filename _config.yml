@@ -19,3 +19,9 @@ collections:
 sass:
   sass_dir: _sass
   style: compressed
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - cibuild.sh
