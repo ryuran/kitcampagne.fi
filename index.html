@@ -15,7 +15,8 @@ contentdescription:
     <div class="home-category">
       <h2 class="home-category-title">{{c.title}}</h2>
       <ul class="home-nav" role="navigation">
-        {% for p in c.docs %}
+	{% assign sortedPages = c.docs | sort: 'sortinglabel' %}
+        {% for p in sortedPages %}
           <li>
             <a class="home-nav-link" href="{{ p.url }}">
               <div class="home-nav-link-icon"><img src="/assets/images/icons/{{p.icon}}" alt="" /></div>
