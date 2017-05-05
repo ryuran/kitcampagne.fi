@@ -4,6 +4,7 @@ title: Règles pour le financement d’une campagne législative
 creator: discord local, necropotame
 contentdescription:
 icon: book-coin.svg
+sortinglabel: finance-l1
 ---
 
 ## Mandataire financier

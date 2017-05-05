@@ -5,5 +5,6 @@ permalink: /rejoindre-groupe/
 creator: necropotame
 contentdescription:
 icon: groupe-rejoindre.svg
+sortinglabel: fi-l2
 ---
 
