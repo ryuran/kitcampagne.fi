@@ -12,6 +12,10 @@ collections:
     output: true
     permalink: reseauxsociaux/:name/
     title: Réseaux sociaux
+  cat_discord:
+    output: true
+    permalink: discord/:name/
+    title: Discord
   cat_legislatives2017:
     output: true
     permalink: legislatives2017/:name/
