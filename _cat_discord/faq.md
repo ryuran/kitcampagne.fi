@@ -19,7 +19,7 @@ le Discord « Les Insoumis Locaux » a été créé à l'initiative de @MrBrenan
 Un Animateur a pour rôle d'animer et de modérer les salons de discussions vocaux et textuels du serveur, de répondre aux question des groupes d'appui ou des candidats aux élections législatives, d'accompagner au développement de projets, de soutenir les initiatives locales avec les référents Régions.
 
 **Comment devenir Animateur ?**
-Pour devenir animateur vous devez en faire la demande directement à l'un des membres du staff.par message privé uniquement.
+Pour devenir animateur vous devez en faire la demande directement à l'un des membres du staff par message privé.
 
 **C'est quoi un Référent Région ?**
 Pour devenir Référent Région vous pouvez sollicier soit un animateur, soit un membre du staff par message privé.
@@ -39,6 +39,7 @@ Contacte un animateur, il t'aidera à résoudre ton problème.
 Oui, pour cela demande à un animateur à quelle Région tu souhaites être ajouté.
 
 **Je suis graphiste et je n'ai pas accès au salon visuels**
+Tu peux en faire la demande en envoyant un message privé à un animateur.
 
 ## Questions relatives aux informations générales concernant les élections Législatives
 
@@ -56,10 +57,10 @@ Pour pouvoir se présenter il faut être de nationalité française, âgé d'au 
 Pour plus d'infos : [http://www.vie-publique.fr](http://www.vie-publique.fr/decouverte-institutions/institutions/fonctionnement/parlement/depute-senateur/quelles-sont-conditions-necessaires-pour-devenir-depute-ou-senateur.html)
 
 **Puis-je me présenter ?**
-*l est important de rejoindre l'un des groupes d'appui de sa circonscription afin de savoir s'il n'y a pas déjà un candidat désigné. S'il n'y a pas de candidat désigné il est effectivement possible de te proposer comme candidat.
+*Il est important de rejoindre l'un des groupes d'appui de sa circonscription afin de savoir s'il n'y a pas déjà un candidat désigné. S'il n'y a pas de candidat désigné il est effectivement possible de te proposer comme candidat.
 
 **Existe-t-il une charte des candidats officielles ?**
-Oui, elle est sur le site JLM2017 à [cette adresse](http://f-i.jlm2017.fr/charte_legislatives) 
+Oui, elle est sur le site JLM2017 à [cette adresse](http://f-i.jlm2017.fr/charte_legislatives).
 
 **Peut-on passer des accords avec le PCF, les verts ou le PS en local pour les élections Législatives ?**
 Non, pas de carabistouilles. Des discussions nationales ont eu lieu et au niveau local il ne doit pas y avoir d'accord d'appareil. N'oubliez pas que nous sommes le seul groupe politique de gauche légitime désormais.
@@ -97,7 +98,7 @@ Oui bien sûr, nos graphistes les réalisent pour vous.
 Cela existait sur le site JLM2017 mais la boutique a été désactivée. Il n'y en a donc plus actuellement.
 
 **Est-ce qu'on a une stratégie concernant les vidéos que l'on diffuserait sur les réseaux sociaux ?**
-Plusieurs personnes ont des projets à ce sujet mais cela concerne le discord insoumis national. Nous ne savons pas si ces projets ont été validé
+Plusieurs personnes ont des projets à ce sujet mais cela concerne le discord insoumis national. Nous ne savons pas si ces projets ont été validé.
 
 **Y a-t-il des maquettes de bannières facebook pour les candidats ?**
 Le projet est en cours, elles seront intégrés au site « Kit de campagne ».
@@ -106,7 +107,7 @@ Le projet est en cours, elles seront intégrés au site « Kit de campagne ».
 Non, tous les insoumis de France rejoignent ce Discord pour avoir des informations globales et discuter de la préparation aux élections Législatives et des actions de terrain dans toute la France.
 
 **Avez-vous un document sur les résultats du 1ier tour de l'élection Présidentielle par Circonscription ?**
-Oui nous avons ce document [ici](https://docs.google.com/spreadsheets/d/1f29__papp8BWttR0etAGImMtwy0XjYwYAEJyuo3VcvE/edit?usp=sharing)
+Oui nous avons ce document [ici](https://docs.google.com/spreadsheets/d/1f29__papp8BWttR0etAGImMtwy0XjYwYAEJyuo3VcvE/edit?usp=sharing).
 
 **Existe-t-il un template de site internet pour les candidats ?**
 Un projet est en cours dans le salon #prj_template. Nous vous préviendrons dès qu'il sera achevé.
