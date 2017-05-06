@@ -7,7 +7,7 @@ icon: discord-faq.svg
 sortinglabel: discord-l2
 ---
 
-## Questions relatives au Discord Insoumlis Locaux
+## Questions relatives au Discord Insoumis Locaux
 
 **Quels sont les liens entre ce Discord et le Discord Insoumis ?**
 Ce Discord a été créé à la suite de discussions au lendemain du 1ier tour de la Présidentielle 2017 sur le Discord Insoumis. De nombreuses personnes parmi le staff, les animateurs et les responsables projets du Discord Insoumis sont présents ici et participent au développement de cette plateforme dédiée aux actions locales de la France Insoumise.
