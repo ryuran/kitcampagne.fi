@@ -10,7 +10,9 @@
 	  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
   </head>
   <body>
+    {% if layout.navigation == true %}
     {% include nav.html %}
+    {% endif %}
     <div id="main" class="wrap {{ page.wrapClass }}">
       {{ content }}
     </div>
