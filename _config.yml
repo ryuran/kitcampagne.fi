@@ -20,6 +20,7 @@ sass:
   sass_dir: _sass
   style: compressed
 exclude:
+  - vendor
   - CNAME
   - README.md
   - Gemfile

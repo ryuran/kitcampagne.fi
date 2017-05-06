@@ -1,14 +1,17 @@
-(function (Dropzone, ImageBuilder) {  
+(function (Dropzone, ImageBuilder) {
 
 
   var DOMURL = window.URL || window.webkitURL || window;
 
   var builder = new ImageBuilder({
     canvasID: 'render'
-  })
+  });
+
+  var width = 512;
+  var height = 512;
 
   var img = new Image();
-  var svg = new Image(512, 512);
+  var svg = new Image(width, height);
 
   var downloadBtn = document.getElementById('download');
   function updateUrl(dataUri) {
@@ -50,15 +53,15 @@
   new Dropzone('.dropzone', {
     url: 'fi', // pas besoin d'URL : on n'envoie pas les images au serveur
     autoProcessQueue: false,
-    thumbnailWidth: 512,
-    thumbnailHeight: 512,
+    thumbnailWidth: width,
+    thumbnailHeight: height,
     dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
     thumbnail: function (file, dataUrl) {
       img.src = dataUrl;
       var previews = document.getElementsByClassName('preview');
       Array.prototype.forEach.call(previews, function(el, i){
         el.setAttribute('style', 'background-image: url('+dataUrl+')');
-      });  
+      });
     }
   });
 

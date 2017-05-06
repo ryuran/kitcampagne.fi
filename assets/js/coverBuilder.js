@@ -1,37 +1,67 @@
-(function (Dropzone, ImageBuilder) {  
-  Dropzone.autoDiscover = false;
-  
+(function (Dropzone, ImageBuilder) {
+
+
   var DOMURL = window.URL || window.webkitURL || window;
 
   var builder = new ImageBuilder({
     canvasID: 'render'
-  })
+  });
+
+  var width = 835;
+  var height = 315;
 
   var img = new Image();
-  var svg = new Image(512, 515);
+  var svg = new Image(width, height);
+
+  var downloadBtn = document.getElementById('download');
+  function updateUrl(dataUri) {
+    downloadBtn.setAttribute('href', dataUri);
+  }
+
+  function preventDefaultListener(e) {
+    e.preventDefault();
+  }
+
+  function ennableDownload() {
+    downloadBtn.removeEventListener('click', preventDefaultListener, false);
+    downloadBtn.removeAttribute('aria-disabled');
+  }
+
+  downloadBtn.addEventListener('click', preventDefaultListener, false);
 
   img.addEventListener('load', function() {
+    builder.clear()
     builder.addImg(img);
+    var template = document.querySelector('.chooseTemplate-item > input:checked');
+    if (template) {
+      builder.addImg(svg);
+    }
   }, false);
 
   svg.addEventListener('load', function() {
-    builder.addImg(img);
+    builder.clear();
+    if (img.src) {
+      builder.addImg(img);
+    }
     builder.addImg(svg);
     DOMURL.revokeObjectURL(svg.src);
+    updateUrl(builder.getDaraUri());
+    ennableDownload();
   }, false);
 
+  Dropzone.autoDiscover = false;
   new Dropzone('.dropzone', {
     url: 'fi', // pas besoin d'URL : on n'envoie pas les images au serveur
     autoProcessQueue: false,
-    thumbnailWidth: 512,
-    thumbnailHeight: 512,
-    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
+    thumbnailWidth: width,
+    thumbnailHeight: height,
+    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre couverture Facebook',
     thumbnail: function (file, dataUrl) {
-      img.src = dataUrl; // quand l'image est prête, on l'injecte dans la scène
+      img.src = dataUrl;
       var previews = document.getElementsByClassName('preview');
       Array.prototype.forEach.call(previews, function(el, i){
         el.setAttribute('style', 'background-image: url('+dataUrl+')');
-      });  
+      });
     }
   });
 
