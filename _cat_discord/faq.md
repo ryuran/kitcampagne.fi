@@ -3,8 +3,8 @@ layout: article
 title: La F.A.Q. du Discord Insoumis Locaux
 creator: Zedhyn
 contentdescription:
-icon: 
-sortinglabel: discord-faq
+icon: discord-faq.svg
+sortinglabel: discord-l2
 ---
 
 ## Questions relatives au Discord Insoumlis Locaux
