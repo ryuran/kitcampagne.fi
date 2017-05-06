@@ -7,8 +7,8 @@
     canvasID: 'render'
   });
 
-  var width = 512;
-  var height = 512;
+  var width = 835;
+  var height = 315;
 
   var img = new Image();
   var svg = new Image(width, height);
@@ -55,7 +55,7 @@
     autoProcessQueue: false,
     thumbnailWidth: width,
     thumbnailHeight: height,
-    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
+    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre couverture Facebook',
     thumbnail: function (file, dataUrl) {
       img.src = dataUrl;
       var previews = document.getElementsByClassName('preview');

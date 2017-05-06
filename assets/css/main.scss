@@ -14,9 +14,13 @@
 // UI element
 @import 'element/wrap';
 @import 'element/loader';
+@import 'element/dropzone';
+@import 'element/render';
+@import 'element/preview';
 
 // UI component
 @import 'component/nav';
+@import 'component/chooseTemplate';
 @import 'component/home';
 
 // TODO: cut it in partials
@@ -57,101 +61,19 @@
       }
     }
   }
-}
-
-ul.inline {
-  display: flex;
-  list-style-type: none;
-  padding-left: 0;
-  flex-wrap: wrap;
-
-  .modeles {
-    background: #ccc;
-    width: 10em;
-    height: 10em;
+  &-submit {
+    display: inline-block;
+    background: $color-corail;
+    color: $color-white;
+    padding: .5em 1em;
     margin: 1em;
     cursor: pointer;
+    text-decoration: none;
 
-    img {
-      max-width: 100%;
+    &[aria-disabled=true] {
+      background-color: $color-grey;
+      cursor: not-allowed;
+      text-decoration: none;
     }
-  }
-}
-
-.scene {
-  width: 512px;
-  height: 512px;
-  position: relative;
-  display: block;
-  background: $color-white;
-  box-shadow: 0 0 0 .2em $color-pacific;
-
-  &.selected {
-    box-shadow: 0 0 0 .2em $color-corail;
-  }
-
-  &.big {
-    margin: 1.5em auto;
-  }
-
-  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-  }
-}
-
-.tool{
-  .dropzone {
-    width: 10em;
-    height: 10em;
-    background: transparent none;
-    color: $color-pacific;
-    padding: 0;
-    border: 2px solid $color-pacific;
-    position: relative;
-    display: flex;
-    align-items: center;
-
-    .dz-message {
-      margin: .5em;
-    }
-
-    .dz-preview {
-      display: none !important;
-    }
-
-    #preview {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      pointer-events: none;
-      background-size: cover;
-      background-position: center;
-    }
-  }
-}
-
-.render {
-  margin: 1.5em auto;
-  background: $color-white;
-}
-
-button {
-  border: 1px solid $color-corail;
-  background: none;
-  color: $color-corail;
-  text-transform: uppercase;
-  padding: 6px 10px;
-  cursor: pointer;
-
-  &[disabled] {
-    color: $color-grey;
-    border-color: $color-grey;
   }
 }

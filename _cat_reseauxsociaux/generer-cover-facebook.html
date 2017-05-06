@@ -1,0 +1,86 @@
+---
+layout: tool
+title: Générer une photo de couverture pour Facebook
+creator:
+contentdescription:
+icon: cover-facebook.svg
+footerScript:
+sortinglabel: facebook-tool
+footerScript:
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"
+- "/assets/js/imageBuilder.js"
+- "/assets/js/coverBuilder.js"
+stylesheet:
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css"
+---
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Importer une photo</h2>
+  <div class="dropzone dropzone_cover preview"></div>
+</div>
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Choisir le style</h2>
+
+  <ul class="chooseTemplate">
+    <li>
+      <label class="chooseTemplate-item chooseTemplate-item_cover preview" for="template-cover">
+        <input id="template-cover" name="template" type="radio" value="template-cover-svg" />
+        {% include template-cover.svg id="template-cover-svg" %}
+      </label>
+    </li>
+    <li>
+      <label class="chooseTemplate-item chooseTemplate-item_cover preview" for="template-cover-msg">
+        <input id="template-cover-msg" name="template" type="radio" value="template-cover-msg-svg" />
+        {% include template-cover.svg id="template-cover-msg-svg" message=true %}
+      </label>
+    </li>
+  </ul>
+</div>
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Compléter les informations</h2>
+
+  <div>
+    <label for="canditate-firstname">Prénom candidat</label>
+    <input id="canditate-firstname" name="canditate-firstname" type="text" />
+  </div>
+
+  <div>
+    <label for="canditate-lastname">Nom candidat</label>
+    <input id="canditate-lastname" name="canditate-lastname" type="text" />
+  </div>
+
+  <div>
+    <label for="substitute-firstname">Prénom suppléant</label>
+    <input id="substitute-firstname" name="substitute-firstname" type="text" />
+  </div>
+
+  <div>
+    <label for="substitute-lastname">Nom suppléant</label>
+    <input id="substitute-lastname" name="substitute-lastname" type="text" />
+  </div>
+
+  <div>
+    <label for="title">Titre</label>
+    <input id="title" name="title" type="text" />
+  </div>
+
+  <div>
+    <label for="subtitle">Sous-titre</label>
+    <input id="subtitle" name="subtitle" type="text" />
+  </div>
+
+  <div>
+    <label for="circonscription">Circonscription</label>
+    <input id="circonscription" name="circonscription" type="text" />
+  </div>
+</div>
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Télécharger la photo de profil</h2>
+
+  <canvas id="render" class="render" width="835" height="315"></canvas>
+
+  <a class="tool-submit" id="download" href="#main" download aria-disabled="true">Télécharger votre couverture Facebook insoumise</a>
+</div>
