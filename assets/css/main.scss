@@ -22,58 +22,6 @@
 @import 'component/nav';
 @import 'component/chooseTemplate';
 @import 'component/home';
-
-// TODO: cut it in partials
-
-.tuto {
-  max-width: 30em;
-  margin: 0 auto;
-
-  img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    border: 1px solid #000000;
-  }
-}
-
-.tool {
-  counter-reset: tool-step;
-
-  &-header {
-    display: block;
-    text-align: center;
-  }
-
-  &-step {
-    counter-increment: tool-step;
-
-    &-title {
-      &:before {
-        content: counter(tool-step);
-        color: $color-corail;
-        display: inline-block;
-        font-weight: bold;
-        margin-right: .5em;
-      }
-    }
-  }
-  &-submit {
-    display: inline-block;
-    background: $color-corail;
-    color: $color-white;
-    padding: .5em 1em;
-    margin: 1em;
-    cursor: pointer;
-    text-decoration: none;
-
-    &[aria-disabled=true] {
-      background-color: $color-grey;
-      cursor: not-allowed;
-      text-decoration: none;
-    }
-  }
-}
+@import 'component/tool';
+@import 'component/tuto';
+@import 'component/form';
