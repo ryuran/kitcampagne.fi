@@ -19,14 +19,14 @@ Le Discord « Les Insoumis Locaux » a été créé à l'initiative de @MrBrenan
 Un Animateur a pour rôle d'animer et de modérer les salons de discussions vocaux et textuels du serveur, de répondre aux question des groupes d'appui ou des candidats aux élections législatives, d'accompagner au développement de projets, de soutenir les initiatives locales avec les référents Régions.
 
 **Comment devenir Animateur ?**
-Pour devenir animateur vous devez en faire la demande directement à l'un des membres du staff par message privé.
+Pour devenir animateur vous devez faire partie des membres du serveur depuis un certain temps et être actif. 
 
 **C'est quoi un Référent Région ?**
 Un référent a un rôle de coordination des actions locales.
 Il possède en plus de cela un lien avec le Staff et a à sa disposition un channel pour discuter entre référents.
 
 **Comment devenir Référent Région ?**
-Pour devenir référent Région vous pouvez solliciter soit un animateur, soit un membre du staff par message privé.
+Pour devenir référent Région vous pouvez solliciter soit un animateur, soit un membre du staff par message privé. Expliquez lui vos motivations, vos relations avec les Insoumis sur le terrain...
 
 **Comment faire pour inviter quelqu'un sur le Discord « Les Insoumis Locaux » ?**
 Pour cela, suivez le tutoriel sur le site [kit de campagne](/).
