@@ -111,4 +111,8 @@ Oui nous avons ce document [ici](https://docs.google.com/spreadsheets/d/1f29__pa
 **Existe-t-il un template de site internet pour les candidats ?**
 Un projet est en cours dans le salon #prj_template. Nous vous préviendrons dès qu'il sera achevé.
 
+**Pourquoi les Français de l'Étrangers votent-ils une semaine plus tôt pour le premier tour des Législatives et seulement 24 heures plus tôt pour le second tour ?**
+C'est une excellente question, nous avons également remarqué cela et nous n'avons pas la réponse à cette question. est-ce une erreur de l'administration ou ont-ils une raison valable pour expliquer cette différence ? Nous avons envoyé une demnade de précision via le formulaire de contact du site vie-public.fr et vous tiendrons informé dès réception de la réponse.
 
+**Que signifie le petit triangle rouge à côté des pseudos et sur la veste de Jean-Luc Mélenchon ?**
+Adopté le 1ier Mai 1890 à Paris, le triangle rouge symbolise la revendication ouvrière pour 8heures de travail, 8 heures de loisirs et 8 heures de sommeil. Une triple équitée représentée par les 3 faces du triangle équilatérale. Par ailleurs, pendant la seconde guerre mondiale, les nazis ont utilisé ce sympbole pour marquer les opposants à la politique du 3ième Reich (communistes, résistants, etc). Aujourd'hui, il est considéré comme le symbole de résistance aux idées d'extrême droite.
