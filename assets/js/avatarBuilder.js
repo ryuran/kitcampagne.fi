@@ -1,6 +1,4 @@
 (function (Dropzone, ImageBuilder) {
-
-
   var DOMURL = window.URL || window.webkitURL || window;
 
   var builder = new ImageBuilder({
@@ -27,26 +25,32 @@
     downloadBtn.removeAttribute('aria-disabled');
   }
 
-  downloadBtn.addEventListener('click', preventDefaultListener, false);
-
-  img.addEventListener('load', function() {
-    builder.clear()
-    builder.addImg(img);
-    var template = document.querySelector('.chooseTemplate-item > input:checked');
-    if (template) {
-      builder.addImg(svg);
-    }
-  }, false);
-
-  svg.addEventListener('load', function() {
+  function draw() {
     builder.clear();
     if (img.src) {
       builder.addImg(img);
     }
-    builder.addImg(svg);
-    updateUrl(builder.getDaraUri());
-    ennableDownload();
-  }, false);
+    if (svg.src) {
+      builder.addImg(svg);
+    }
+    if (svg.src && img.src) {
+      updateUrl(builder.getDaraUri());
+      ennableDownload();
+    }
+  }
+
+  function applyTemplate(id) {
+    var svgEl = document.getElementById(id);
+    var data = (new XMLSerializer()).serializeToString(svgEl);
+    var svgBlob = new Blob([data], {type: 'image/svg+xml;charset=utf-8'});
+    svg.src = DOMURL.createObjectURL(svgBlob);
+  }
+
+  downloadBtn.addEventListener('click', preventDefaultListener, false);
+
+  img.addEventListener('load', draw, false);
+
+  svg.addEventListener('load', draw, false);
 
   Dropzone.autoDiscover = false;
   new Dropzone('.dropzone', {
@@ -66,10 +70,7 @@
 
   Array.prototype.forEach.call(document.querySelectorAll('.chooseTemplate-item > input'), function(el) {
     el.addEventListener('click', function() {
-      var svgEl = document.getElementById(el.getAttribute('value'));
-      var xml = (new XMLSerializer()).serializeToString(svgEl);
-
-      svg.src = 'data:image/svg+xml;base64,' + window.btoa(xml);
+      applyTemplate(el.value);
     });
   });
 })(window.Dropzone, window.ImageBuilder);

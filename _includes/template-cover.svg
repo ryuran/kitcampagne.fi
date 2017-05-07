@@ -27,25 +27,25 @@
     EN COMMUN
   </text>
   <text style="fill:#00AFCC;font-family:'Montserrat-Semibold';font-size:14.907px;" text-anchor="end" x="820" y="70">
-    avec <tspan class="fbcover-candidate-firstname">Charlotte</tspan>
+    avec <tspan id="{{ include.id }}-canditate-firstname">Charlotte</tspan>
   </text>
-  <text class="fbcover-candidate-lastname" style="fill:#C9452E;font-family:'Montserrat-Semibold';font-size:35.8779px;" text-anchor="end" x="820" y="102">
-    RARGIS
+  <text id="{{ include.id }}-canditate-lastname" style="fill:#C9452E;font-family:'Montserrat-Semibold';font-size:34px;text-transform:uppercase" text-anchor="end" x="820" y="102">
+    Rargis
   </text>
   <text style="fill:#00AFCC;font-family:'Montserrat-Semibold';font-size:14.907px;" text-anchor="end" x="820" y="128">
-    et <tspan class="fbcover-substitute-firstname">Alexis</tspan>
+    et <tspan id="{{ include.id }}-substitute-firstname">Alexis</tspan>
   </text>
-  <text class="fbcover-substitute-lastname" style="fill:#C9452E;font-family:'Montserrat-Semibold';font-size:28.7067px;" text-anchor="end" x="820" y="156">
-    BIERECORD
+  <text id="{{ include.id }}-substitute-lastname" style="fill:#C9452E;font-family:'Montserrat-Semibold';font-size:28.7067px;text-transform:uppercase" text-anchor="end" x="820" y="156">
+    Bierecord
   </text>
-  <text class="fbcover-circonscription" style="fill:#FFFFFF;font-family:'Montserrat-Extrabold';font-size:17.725px;" text-anchor="end" x="600" y="295">
+  <text id="{{ include.id }}-circonscription" style="fill:#FFFFFF;font-family:'Montserrat-Extrabold';font-size:17.725px;" text-anchor="end" x="600" y="295">
     Val-du-Rhône, 5e circonscription
   </text>
   {% if include.message == true %}
-    <text class="fbcover-title" style="fill:#C9452E;font-family:'Montserrat-Bold';font-size:32.6112px;" text-anchor="start" x="30" y="152">
+    <text id="{{ include.id }}-title" style="fill:#C9452E;font-family:'Montserrat-Bold';font-size:32.6112px;" text-anchor="start" x="30" y="152">
       Poursuivons ensemble
     </text>
-    <text class="fbcover-subtitle" style="fill:#C9452E;font-family:'Montserrat-Bold';font-size:25.4759px;" text-anchor="start" x="30" y="184">
+    <text id="{{ include.id }}-subtitle" style="fill:#C9452E;font-family:'Montserrat-Bold';font-size:25.4759px;" text-anchor="start" x="30" y="184">
       Redonnons le pouvoir au peuple !
     </text>
   {% endif %}
