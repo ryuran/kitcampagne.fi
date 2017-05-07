@@ -9,6 +9,9 @@ sortinglabel: facebook-l2
 
 {% include rargis-disclaimer.md %}
 
+>**Prérequis :**
+>pour suivre cette page d'aide, vous devez avoir une page Facebook dédiée à votre candidature pour les législatives. Si vous n'en avez pas, [vous pouvez suivre cette autre page d'aide](/reseauxsociaux/facebook-creer-page).
+
 ## Changer sa photo de profil Facebook
 
 ### Préparer sa photo

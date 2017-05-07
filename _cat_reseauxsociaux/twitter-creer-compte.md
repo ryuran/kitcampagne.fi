@@ -48,3 +48,6 @@ Remplissez les informations vous concernant dans les champs à gauche. Nous reco
 ### Enregistrer les modifications
 
 N’oubliez pas d’enregistrer vos modifications avant de quitter. Pour cela, cliquez sur « Enregistrer les modifications ».
+
+>**Pour aller plus loin :**
+>il est important que votre compte Twitter soit rapidement identifié à la France Insoumise. Pour mettre votre compte Twitter aux couleurs de la France Insoumise, [vous pouvez suivre cette page d'aide](/reseauxsociaux/twitter-theme).
