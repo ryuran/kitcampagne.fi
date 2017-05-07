@@ -15,7 +15,7 @@ sortinglabel: facebook-l2
 
 Les dimensions optimales pour une photo de profil sont : 500 x 500 pixels. Avant de la télécharger sur votre page Facebook, il est conseillé de la recadrer à la bonne dimension. Pour cela, vous pouvez utiliser un service en ligne comme [iloveimg.com](http://www.iloveimg.com/fr/recadrer-image).
 
-Une fois recadrée, ajoutez le symbole Phi sur votre avatar en utilisant [le générateur](reseauxsociaux/generer-photo-profil/)
+Une fois recadrée, ajoutez le symbole Phi sur votre avatar en utilisant [l'outil de génération de photo de profil de ce kit de campagne](/reseauxsociaux/generer-photo-profil/)
 
 ![Exemple de photo de profil](/assets/images/screenshots/profil-rargis.png)
 
