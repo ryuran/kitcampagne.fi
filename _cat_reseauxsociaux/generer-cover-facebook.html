@@ -41,44 +41,47 @@ stylesheet:
 <div class="tool-step">
   <h2 class="tool-step-title">Compléter les informations</h2>
 
-  <div>
-    <label for="canditate-firstname">Prénom candidat</label>
-    <input id="canditate-firstname" name="canditate-firstname" type="text" />
-  </div>
+  <fiedset class="form">
+    <div class="form-field">
+      <label class="form-field-label" for="canditate-firstname">Prénom du candidat</label>
+      <input class="form-field-input" id="canditate-firstname" name="canditate-firstname" type="text" placeholder="Charlotte"/>
+    </div>
 
-  <div>
-    <label for="canditate-lastname">Nom candidat</label>
-    <input id="canditate-lastname" name="canditate-lastname" type="text" />
-  </div>
+    <div class="form-field">
+      <label class="form-field-label" for="canditate-lastname">Nom du candidat</label>
+      <input class="form-field-input" id="canditate-lastname" name="canditate-lastname" type="text" placeholder="Rargis"/>
+    </div>
 
-  <div>
-    <label for="substitute-firstname">Prénom suppléant</label>
-    <input id="substitute-firstname" name="substitute-firstname" type="text" />
-  </div>
+    <div class="form-field">
+      <label class="form-field-label" for="substitute-firstname">Prénom du suppléant</label>
+      <input class="form-field-input" id="substitute-firstname" name="substitute-firstname" type="text" placeholder="Alexis"/>
+    </div>
 
-  <div>
-    <label for="substitute-lastname">Nom suppléant</label>
-    <input id="substitute-lastname" name="substitute-lastname" type="text" />
-  </div>
+    <div class="form-field">
+      <label class="form-field-label" for="substitute-lastname">Nom du suppléant</label>
+      <input class="form-field-input" id="substitute-lastname" name="substitute-lastname" type="text" placeholder="Bierecord"/>
+    </div>
 
-  <div>
-    <label for="title">Titre</label>
-    <input id="title" name="title" type="text" />
-  </div>
+    <div class="form-field">
+      <label class="form-field-label" for="circonscription">Circonscription</label>
+      <input class="form-field-input" id="circonscription" name="circonscription" type="text" placeholder="Val-du-Rhône, 5e circonscription"/>
+    </div>
+    <fiedset>
+      <div class="form-field">
+        <label class="form-field-label" for="title">Titre</label>
+        <input class="form-field-input" id="title" name="title" type="text" placeholder="Poursuivons ensemble"/>
+      </div>
 
-  <div>
-    <label for="subtitle">Sous-titre</label>
-    <input id="subtitle" name="subtitle" type="text" />
-  </div>
-
-  <div>
-    <label for="circonscription">Circonscription</label>
-    <input id="circonscription" name="circonscription" type="text" />
-  </div>
+      <div class="form-field">
+        <label class="form-field-label" for="subtitle">Sous-titre</label>
+        <input class="form-field-input" id="subtitle" name="subtitle" type="text" placeholder="Redonnons le pouvoir au peuple !"/>
+      </div>
+    </fiedset>
+  </fieldset>
 </div>
 
 <div class="tool-step">
-  <h2 class="tool-step-title">Télécharger la photo de profil</h2>
+  <h2 class="tool-step-title">Télécharger la couverture Facebook</h2>
 
   <canvas id="render" class="render" width="835" height="315"></canvas>
 

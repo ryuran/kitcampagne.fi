@@ -1,0 +1,21 @@
+.form {
+  text-align: left;
+  max-width: 25rem;
+  margin: 0 auto;
+  display: block;
+
+  &-field {
+    margin: 1em;
+
+    &-label {
+      display: block;
+      margin-bottom: .25em;
+    }
+    &-input {
+      display: block;
+      width: 100%;
+      padding: .5em;
+      font-size: 1em;
+    }
+  }
+}
