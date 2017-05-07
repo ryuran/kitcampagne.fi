@@ -9,6 +9,9 @@ sortinglabel: twitter-l2
 
 {% include rargis-disclaimer.md %}
 
+>**Prérequis :**
+>pour suivre cette page d'aide, vous devez avoir un compte Twitter dédiée à votre candidature pour les législatives. Si vous n'en avez pas, [vous pouvez suivre cette autre page d'aide](/reseauxsociaux/twitter-creer-compte).
+
 ## Configurer votre compte Twitter
 
 Rendez-vous sur [https://twitter.com](https://twitter.com) pour acceder à votre compte Twitter. Puis cliquez sur votre nom a gauche pour acceder à votre profil.

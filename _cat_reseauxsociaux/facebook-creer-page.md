@@ -37,3 +37,6 @@ Puis cliquez sur l’onglet « Vos pages »
 Pour accéder à votre page, cliquez sur son nom dans la liste
 
 ![Facebook](/assets/images/screenshots/facebook-6.png)
+
+>**Pour aller plus loin :**
+>il est important que votre page Facebook soit rapidement identifiée à la France Insoumise. Pour mettre votre page Facebook aux couleurs de la France Insoumise, [vous pouvez suivre cette page d'aide](/reseauxsociaux/facebook-theme).
