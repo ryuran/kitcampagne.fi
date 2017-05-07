@@ -1,6 +1,8 @@
 (function (Dropzone, ImageBuilder) {
   var DOMURL = window.URL || window.webkitURL || window;
 
+  var form = document.getElementById('generator');
+
   var builder = new ImageBuilder({
     canvasID: 'render'
   });
@@ -25,10 +27,27 @@
     downloadBtn.removeAttribute('aria-disabled');
   }
 
+  function applyTemplate(id){
+    var svgEl = document.getElementById(id);
+    var data = (new XMLSerializer()).serializeToString(svgEl);
+    var svgBlob = new Blob([data], {type: 'image/svg+xml;charset=utf-8'});
+    svg.src = DOMURL.createObjectURL(svgBlob);
+  }
+
+  function applySelectedTemplate(){
+    var template = form.querySelector('.chooseTemplate-item > input:checked');
+    if (template) {
+      applyTemplate(template.value);
+    }
+  }
+
   function draw() {
     builder.clear();
     if (img.src) {
       builder.addImg(img);
+    }
+    if (!svg.src) {
+      applySelectedTemplate();
     }
     if (svg.src) {
       builder.addImg(svg);
@@ -37,13 +56,6 @@
       updateUrl(builder.getDaraUri());
       ennableDownload();
     }
-  }
-
-  function applyTemplate(id) {
-    var svgEl = document.getElementById(id);
-    var data = (new XMLSerializer()).serializeToString(svgEl);
-    var svgBlob = new Blob([data], {type: 'image/svg+xml;charset=utf-8'});
-    svg.src = DOMURL.createObjectURL(svgBlob);
   }
 
   downloadBtn.addEventListener('click', preventDefaultListener, false);
