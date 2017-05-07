@@ -44,7 +44,6 @@
       builder.addImg(img);
     }
     builder.addImg(svg);
-    DOMURL.revokeObjectURL(svg.src);
     updateUrl(builder.getDaraUri());
     ennableDownload();
   }, false);
@@ -68,9 +67,9 @@
   Array.prototype.forEach.call(document.querySelectorAll('.chooseTemplate-item > input'), function(el) {
     el.addEventListener('click', function() {
       var svgEl = document.getElementById(el.getAttribute('value'));
-      var data = (new XMLSerializer()).serializeToString(svgEl);
-      var svgBlob = new Blob([data], {type: 'image/svg+xml;charset=utf-8'});
-      svg.src = DOMURL.createObjectURL(svgBlob);
+      var xml = (new XMLSerializer()).serializeToString(svgEl);
+
+      svg.src = 'data:image/svg+xml;base64,' + window.btoa(xml);
     });
   });
 })(window.Dropzone, window.ImageBuilder);
