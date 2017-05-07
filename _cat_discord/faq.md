@@ -7,13 +7,13 @@ icon: discord-faq.svg
 sortinglabel: discord-l2
 ---
 
-## Questions relatives au Discord Insoumis Locaux
+## Questions relatives au Discord « Les Insoumis Locaux »
 
-**Quels sont les liens entre ce Discord et le Discord Insoumis ?**
-Ce Discord a été créé à la suite de discussions au lendemain du 1ier tour de la Présidentielle 2017 sur le Discord Insoumis. De nombreuses personnes parmi le staff, les animateurs et les responsables projets du Discord Insoumis sont présents ici et participent au développement de cette plateforme dédiée aux actions locales de la France Insoumise.
+**Quels sont les liens entre le Discord « Les Insoumis Locaux » et le Discord « Les Insoumis » ?**
+Le Discord « Les Insoumis Locaux » a été créé à la suite de discussions au lendemain du premier tour de la Présidentielle 2017 sur le Discord « Les Insoumis ». De nombreuses personnes parmi le staff, les animateurs et les responsables projets du Discord Insoumis sont présents dans le Discord « Les Insoumis Locaux » et participent au développement de cette plateforme dédiée aux actions locales de la France Insoumise.
 
-**Qui a créé ce Discord ?**
-le Discord « Les Insoumis Locaux » a été créé à l'initiative de @MrBrenan
+**Qui a créé le Discord « Les Insoumis Locaux » ?**
+Le Discord « Les Insoumis Locaux » a été créé à l'initiative de @MrBrenan.
 
 **C'est quoi un Animateur ?**
 Un Animateur a pour rôle d'animer et de modérer les salons de discussions vocaux et textuels du serveur, de répondre aux question des groupes d'appui ou des candidats aux élections législatives, d'accompagner au développement de projets, de soutenir les initiatives locales avec les référents Régions.
@@ -22,24 +22,23 @@ Un Animateur a pour rôle d'animer et de modérer les salons de discussions voca
 Pour devenir animateur vous devez en faire la demande directement à l'un des membres du staff par message privé.
 
 **C'est quoi un Référent Région ?**
-Pour devenir Référent Région vous pouvez sollicier soit un animateur, soit un membre du staff par message privé.
-Un référent a en plus un rôle de coordination des actions locales.
+Un référent a un rôle de coordination des actions locales.
 Il possède en plus de cela un lien avec le Staff et a à sa disposition un channel pour discuter entre référents.
 
 **Comment devenir Référent Région ?**
 Pour devenir référent Région vous pouvez solliciter soit un animateur, soit un membre du staff par message privé.
 
-**Comment faire pour inviter quelqu'un sur le Discord Insoumis Locaux ?**
+**Comment faire pour inviter quelqu'un sur le Discord « Les Insoumis Locaux » ?**
 Pour cela, suivez le tutoriel sur le site [kit de campagne](/).
 
 **Je suis perdu, je n'ai pas accès aux salons de ma région**
-Contacte un animateur, il t'aidera à résoudre ton problème.
+Contactez un animateur, il vous aidera à résoudre votre problème.
 
 **Est-il possible de rejoinde plusieurs région (déménagement, etc.) ?**
-Oui, pour cela demande à un animateur à quelle Région tu souhaites être ajouté.
+Oui. Pour cela, demandez à un animateur à quelle Région vous souhaitez être ajouté.
 
-**Je suis graphiste et je n'ai pas accès au salon visuels**
-Tu peux en faire la demande en envoyant un message privé à un animateur.
+**Je suis graphiste et je n'ai pas accès au salon #infographies**
+Vous pouvez en faire la demande en envoyant un message privé à un animateur.
 
 ## Questions relatives aux informations générales concernant les élections Législatives
 
@@ -54,7 +53,7 @@ Nous avons réalisé un document appelé [Listing des candidats aux élections l
 
 **Qui peut se présenter ?**
 Pour pouvoir se présenter il faut être de nationalité française, âgé d'au moins 18 ans et de "n'être dans aucun cas d'incapacité prévu par la loi"*
-Pour plus d'infos : [http://www.vie-publique.fr](http://www.vie-publique.fr/decouverte-institutions/institutions/fonctionnement/parlement/depute-senateur/quelles-sont-conditions-necessaires-pour-devenir-depute-ou-senateur.html)
+Pour plus d'infos : [http://www.vie-publique.fr](http://www.vie-publique.fr/decouverte-institutions/institutions/fonctionnement/parlement/depute-senateur/quelles-sont-conditions-necessaires-pour-devenir-depute-ou-senateur.html).
 
 **Puis-je me présenter ?**
 *Il est important de rejoindre l'un des groupes d'appui de sa circonscription afin de savoir s'il n'y a pas déjà un candidat désigné. S'il n'y a pas de candidat désigné il est effectivement possible de te proposer comme candidat.
