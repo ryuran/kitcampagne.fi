@@ -3,7 +3,7 @@ layout: article
 title: Guide du Candidat
 creator: Zedhyn
 contentdescription:
-icon:
+icon: book-affiche.svg
 sortinglabel:
 ---
 
