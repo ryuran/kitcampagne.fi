@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Règles pour le financement d’une campagne législative
+title: Mémento du Mandataire
 creator: discord local, necropotame
 contentdescription:
 icon: book-coin.svg

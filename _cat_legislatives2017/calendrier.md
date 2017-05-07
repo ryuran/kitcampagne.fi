@@ -2,9 +2,9 @@
 layout: article
 title: Calendrier des Législatives
 creator: Zedhyn
-contentdescription: 
-icon: 
-sortinglabel: 
+contentdescription:
+icon: calendrier.svg
+sortinglabel:
 ---
 
 ## Lundi 15 Mai 2017
@@ -25,7 +25,7 @@ A cette date, le représentant de l'Etat (Préfecture) doit avoir publié la lis
 
 ## Mardi 30 Mai 2017
 **Date limite de dépôts des Affiches, circulaires et bulletins de vote à la Préfecture.**
-Le délai limite pour déposer les circulaires ainsi que les Bulletins de vote à la Préfecture est fixé au mardi 30 Mai à 12h00. Vous avez toutefois la possibilité de déposer les bulletins de vote au Maire. En ce qui concerne les quantités vous devez fournir au moins autant de circulaire qu'il y a de votants dans votre circonscription et concernant les bulletins de vote au moins le double de votants. 
+Le délai limite pour déposer les circulaires ainsi que les Bulletins de vote à la Préfecture est fixé au mardi 30 Mai à 12h00. Vous avez toutefois la possibilité de déposer les bulletins de vote au Maire. En ce qui concerne les quantités vous devez fournir au moins autant de circulaire qu'il y a de votants dans votre circonscription et concernant les bulletins de vote au moins le double de votants.
 Si vous avez un doute sur les quantités ou pour connaître le nombre de votants dans votre Circonscription, n'hésitez pas à appeler la commission en charge de la préparation des élections à la Préfecture.
 
 ## Mardi 6 Juin
@@ -33,11 +33,12 @@ Si vous avez un doute sur les quantités ou pour connaître le nombre de votants
 
 ## Samedi 10 Juin 2017
 **Délai limite de dépôt des bulletins de vote au Maire**
-Si vous souhaiter distribuer vous-même vos bulletins de vote, vous devez les déposer avant le Samedi 10 Juin à midi. 
+Si vous souhaiter distribuer vous-même vos bulletins de vote, vous devez les déposer avant le Samedi 10 Juin à midi.
 
-## Samedi 10 Juin 2017 
+## Samedi 10 Juin 2017
 **Fin de la campagne officielle pour le premier tour le samedi 10 Juin à minuit**
 
 ## Dimanche 11 Juin 2017
 **Premier tour des Élections Législatives.**
 
+![Dates clef pour les législatives](/assets/images/screenshots/dates-legislatives.png)
