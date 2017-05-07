@@ -11,7 +11,8 @@ sortinglabel: discord-l1
 
 Discord est un service de messagerie instantanée et de communication vocale comparable à Skype.
 
-Ce service est totalement gratuit et ne nécessite aucune inscription. Vous n'avez rien d'autre à faire que de choisir un nom au moment de vous connecter. Par la suite vous pourrez créer un compte conserver et personnaliser votre compte.
+Ce service est totalement gratuit et ne nécessite aucune inscription. Vous n'avez rien d'autre à faire que de choisir un nom au moment de vous connecter. Par la suite, vous pourrez créer un compte, conserver et personnaliser votre compte.
+
 
 ## Installer
 
@@ -34,7 +35,7 @@ Le server Discord « Les Insoumis » est un serveur national indépendant de l'�
 
 ## Rejoindre le serveur Discord « Les Insoumis Locaux »
 
-Le server Discord « Les Insoumis Locaux » est un serveur regroupant les insoumis de toute la France et a pour but de coordonner les actions au sein des groupes d'appui de la France Insoumise. L'accès à ce serveur est restreint. Pour le rejoundre, Rendez-vous sur le Discord « Les Insoumis » et demandez une invitation pour le Discord « Les Insoumis Locaux ». Vous pouvez également demander une invitation au sein de votre groupe d'appui.
+Le server Discord « Les Insoumis Locaux » est un serveur regroupant les insoumis de toute la France et a pour but de coordonner les actions au sein des groupes d'appui de la France Insoumise. L'accès à ce serveur est restreint. Pour le rejoindre, Rendez-vous sur le Discord « Les Insoumis » et demandez une invitation pour le Discord « Les Insoumis Locaux ». Vous pouvez également demander une invitation au sein de votre groupe d'appui.
 
 ## Utilisation de Discord
 
