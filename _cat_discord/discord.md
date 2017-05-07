@@ -54,7 +54,7 @@ Votre compte recevra les messages textes même lorsque votre application sera d�
 
 Sous la liste des salons textuels, se trouve la listes des salons vocaux. Pour y accéder, il vous suffit de cliquer sur un de ces salons. 
 La mention « vocal connecté » apparaîtra en vert sous la liste des salons. Juste à côté de celle-ci se trouve le bouton pour se déconnecter du chat vocal.
-Une fois que vous serez entré sur un salon, vous pourrez discuter avec les autres personnes présentes (si votre micro est correctement branché et configuré). Vous verrez aussi votre pseudo dans la liste des personnnes présentes sur le salon.
+Une fois que vous serez entré sur un salon, vous pourrez discuter avec les autres personnes présentes (si votre micro est correctement branché et configuré). Vous verrez aussi votre pseudo dans la liste des personnnes présentes sur le salon. Si votre micro est fonctionnel, votre avatar s'entourera d'un rond vert.
 
 
 
