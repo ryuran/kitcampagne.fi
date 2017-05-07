@@ -7,6 +7,8 @@ icon: logo-fi.png
 sortinglabel: fi-l1
 ---
 
+{% include rargis-disclaimer.md %}
+
 ## Rejoindre la France Insoumise
 
 Pour rejoindre la France insoumise, rendez-vous à [https://lafranceinsoumise.fr](https://lafranceinsoumise.fr), et completez le formulaire.
@@ -28,4 +30,3 @@ Vous allez recevoir un email pour permettre l'activation de votre compte. Clique
 Dans la page qui s'ouvre, remplissez le information et validez en cliquant sur « Activer le compte ».
 
 ![Copie d’écran du formulaire de création de compte - Etape 2](/assets/images/screenshots/fi-nationbuilder3.png)
-

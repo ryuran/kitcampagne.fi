@@ -7,6 +7,8 @@ icon: twitter-theme.svg
 sortinglabel: twitter-l2
 ---
 
+{% include rargis-disclaimer.md %}
+
 ## Configurer votre compte Twitter
 
 Rendez-vous sur [https://twitter.com](https://twitter.com) pour acceder à votre compte Twitter. Puis cliquez sur votre nom a gauche pour acceder à votre profil.
@@ -44,4 +46,3 @@ Cliquez sur « Appliquer ».
 ### Enregistrer les modifications
 
 N’oubliez pas d’enregistrer vos modifications avant de quitter. Pour cela, cliquez sur « Enregistrer les modifications ».
-

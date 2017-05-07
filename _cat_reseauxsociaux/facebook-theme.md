@@ -1,11 +1,13 @@
 ---
 layout: article
 title: Apprendre à mettre sa page Facebook aux couleurs de la France Insoumise
-creator: 
+creator:
 contentdescription:
 icon: facebook-theme.svg
 sortinglabel: facebook-l2
 ---
+
+{% include rargis-disclaimer.md %}
 
 ## Changer sa photo de profil Facebook
 
@@ -46,7 +48,7 @@ Facebook laisse la possibilité de télécharger un bandeau pour le haut de la p
 
 ### Préparer l'image
 
-Les dimensions recommandées sont : 835 x 315 pixels. 
+Les dimensions recommandées sont : 835 x 315 pixels.
 
 Cette image apparaîtra derrière la photo de profil, ce qui signifie que l'angle en bas à gauche sera recouvert. Il faut donc élaborer les éléments de l'image soigneusement. Nous vous conseillons de faire porter les informations essentielles sur le tiers droit de l'image, qui apparaît clairement à l'affichage du mur.
 
@@ -67,5 +69,3 @@ Facebook vous montre ensuite un aperçu de la couverture en place. Vous pouvez f
 Votre mur a maintenant une apparence qui respecte les codes des réseaux sociaux et vous allez vous faire rapidement remarquer. Bravo !
 
 ![Apparence final de votre page Facebook](/assets/images/screenshots/facebook-final.png)
-
-

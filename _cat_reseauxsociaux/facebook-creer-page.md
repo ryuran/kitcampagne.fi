@@ -7,6 +7,8 @@ icon: create-facebook-page.svg
 sortinglabel: facebook-l1
 ---
 
+{% include rargis-disclaimer.md %}
+
 ## Créer une page Facebook pour votre candidature
 
 Vous devez déjà posséder un compte facebook. Dans cette aide, c’est « Charlotte Rargie » qui utilisera son compte Facebook pour sa page pour les législatives.
