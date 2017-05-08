@@ -34,7 +34,7 @@ Puis cliquez sur l’onglet « Vos pages »
 
 ![Facebook](/assets/images/screenshots/facebook-5.png)
 
-Pour accéder à votre page, cliquez sur son nom dans la liste
+Pour accéder à votre page, cliquez sur son nom dans la liste.
 
 ![Facebook](/assets/images/screenshots/facebook-6.png)
 

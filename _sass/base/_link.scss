@@ -1,0 +1,9 @@
+a {
+  color: $color-pacific;
+  text-decoration: none;
+
+  &:hover {
+    color: $color-pacific-dark;
+    text-decoration: underline;
+  }
+}
