@@ -4,6 +4,7 @@ title: Implique toi
 contentdescription:
 icon: logo-fi.svg
 sortinglabel: fi-l3
+status: hidden
 ---
 
 ## Les Actions Web
