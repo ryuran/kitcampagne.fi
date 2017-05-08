@@ -32,10 +32,14 @@
     border: none;
     text-align: center;
 
+    &:hover {
+      color: $color-white;
+      text-decoration: none;
+    }
+
     &[aria-disabled=true] {
       background-color: $color-grey;
       cursor: not-allowed;
-      text-decoration: none;
     }
   }
 }
