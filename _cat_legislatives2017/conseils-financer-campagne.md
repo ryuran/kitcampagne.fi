@@ -28,7 +28,7 @@ Le financement de votre campagne est conditionné à la nomination d'un mandatai
 **Attention** : Les dons consentis par une personne morale publique ou privée, française ou étrangère, sont interdits, sous quelque forme que ce soit (versement d'une somme d'argent, concours en nature…) à l’exception de ceux provenant des partis ou groupements politiques français
 - Les dons en espèces sont limités à 150 euros. Au-delà, le don devra être versé par chèque, virement, prélèvement automatique ou carte bancaire.
 - **La pratique du financement participatif (« crowdfunding ») n’est pas conforme à la législation** relative à la perception de dons pour le financement des campagnes électorales
-- Les dons en ligne doivent être versés directement sur le compte bancaire du mandataire (utiliser paypal est clairement interdit)
+- Les dons en ligne doivent être versés directement sur le compte bancaire du mandataire (**utiliser paypal est clairement interdit**)
 - Les dons, comme les autres recettes de campagne, peuvent être versés jusqu’à la date de dépôt du compte.
 - Le mandataire est tenu de délivrer à chaque donateur un reçu tiré d’une formule numérotée pour tout versement effectué en faveur du candidat, quel que soit son montant et le moyen de règlement utilisé.
 - Seuls les dons effectués par chèque, virement, prélèvement automatique ou carte bancaire ouvrent droit, pour les donateurs, à réduction d’impôt sur le revenu. Celle-ci est égale à 66 % du montant du don dans la limite de 20 % du revenu imposable.
