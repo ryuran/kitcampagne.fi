@@ -53,6 +53,7 @@ Facebook laisse la possibilité de télécharger un bandeau pour le haut de la p
 Les dimensions recommandées sont : 835 x 315 pixels.
 
 Cette image apparaîtra derrière la photo de profil, ce qui signifie que l’angle en bas à gauche sera recouvert. Il faut donc élaborer les éléments de l’image soigneusement. Nous vous conseillons de faire porter les informations essentielles sur le tiers droit de l’image, qui apparaît clairement à l’affichage du mur.
+Nous vous invitons à utiliser le [générateur de couverture Facebook](/reseauxsociaux/generer-cover-facebook/) du kit de campagne.
 
 ![Exemple de photo de couverture pour Facebook](/assets/images/screenshots/facebook-cover.png)
 
