@@ -6,7 +6,7 @@ icon: logo-discord.svg
 sortinglabel: discord-l1
 ---
 
-## Qu’est ce que Discord ?
+## Qu’est-ce que Discord ?
 
 Discord est un service de messagerie instantanée et de communication vocale comparable à Skype.
 
@@ -16,7 +16,7 @@ Ce service est totalement gratuit et ne nécessite aucune inscription. Vous n’
 
 La première étape est d’installer le logiciel Discord sur votre ordinateur. Rendez-vous sur le [site Officiel de Discord](https://discordapp.com/) et cliquez sur « Télécharger pour… » pour obtenir le programme.
 
-Pour installer Discord sur votre téléphone, il est conseillé d’avoir créé son compte au préalable sur un ordinateur. Passez ensuite directement par « google play » ou « Apple store » pour télécharger l’application.
+Pour installer Discord sur votre téléphone, il est conseillé d’avoir créé son compte au préalable sur un ordinateur. Passez ensuite directement par « Google Play » ou « Apple store » pour télécharger l’application.
 
 ## Créer un compte
 
@@ -29,11 +29,11 @@ Cliquez sur « Continuer ».
 
 ## Rejoindre le serveur Discord « Les Insoumis »
 
-Le server Discord « Les Insoumis » est un serveur national indépendant de l'équipe de la France Insoumise. Il est accessible aux insoumis comme aux curieux, aux militant d’autres formations politique et aux journalistes. Pour rejoindre le serveur Discord « Les Insoumis », [cliquez sur ce lien](https://discord.gg/JQGdHpj).
+Le server Discord « Les Insoumis » est un serveur national indépendant de l'équipe de la France Insoumise. Il est accessible aux insoumis comme aux curieux, aux militants d’autres formations politiques et aux journalistes. Pour rejoindre le serveur Discord « Les Insoumis », [cliquez sur ce lien](https://discord.gg/JQGdHpj).
 
 ## Rejoindre le serveur Discord « Les Insoumis Locaux »
 
-Le server Discord « Les Insoumis Locaux » est un serveur regroupant les insoumis de toute la France et a pour but de coordonner les actions au sein des groupes d’appui de la France Insoumise. L'accès à ce serveur est restreint. Pour le rejoindre, Rendez-vous sur le Discord « Les Insoumis » et demandez une invitation pour le Discord « Les Insoumis Locaux ». Vous pouvez également demander une invitation au sein de votre groupe d’appui.
+Le server Discord « Les Insoumis Locaux » est un serveur regroupant les insoumis de toute la France et a pour but de coordonner les actions au sein des groupes d’appuis de la France Insoumise. L'accès à ce serveur est restreint. Pour le rejoindre, rendez-vous sur le Discord « Les Insoumis » et demandez une invitation pour le Discord « Les Insoumis Locaux ». Vous pouvez également demander une invitation au sein de votre groupe d’appui.
 
 ## Utilisation de Discord
 
@@ -56,4 +56,4 @@ Sous la liste des salons textuels, se trouve la listes des salons vocaux. Pour y
 
 La mention « vocal connecté » apparaîtra en vert sous la liste des salons. Juste à côté de celle-ci se trouve le bouton pour se déconnecter du chat vocal.
 
-Une fois que vous serez entré sur un salon, vous pourrez discuter avec les autres personnes présentes (si votre micro est correctement branché et configuré). Vous verrez aussi votre pseudo dans la liste des personnnes présentes sur le salon. Si votre micro est fonctionnel, votre avatar s’entourera d’un rond vert.
+Une fois que vous serez entré sur un salon, vous pourrez discuter avec les autres personnes présentes (si votre micro est correctement branché et configuré). Vous verrez aussi votre pseudo dans la liste des personnes présentes sur le salon. Si votre micro est fonctionnel, votre avatar s’entourera d’un rond vert.
