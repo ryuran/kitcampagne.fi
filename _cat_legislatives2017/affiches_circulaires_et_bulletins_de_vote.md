@@ -1,19 +1,19 @@
 ---
 layout: article
-title: affiches, circulaires et bulletins de vote
+title: Affiches, circulaires et bulletins de vote
 creator: Zedhyn
-contentdescription: 
-icon: 
-sortinglabel: 
+contentdescription:
+icon: affiches.svg
+sortinglabel:
 ---
 
 ### Préambule
-Nous n'aborderons pas ici comment financer ou se faire rembourser le montant des affiches, circulaires et bulletins de vote. Cependant vous trouverez de nombreuses informations très utiles à ce sujet dans la section "financer sa campagne".
+Nous n'aborderons pas ici comment financer ou se faire rembourser le montant des affiches, circulaires et bulletins de vote. Cependant vous trouverez de nombreuses informations très utiles à ce sujet dans la section « financer sa campagne ».
 Nous vous recommandons de faire vérifier vos affiches électorales, bulletins de vote et circulaires auprès de la commission de propagande avant de les faire imprimer. (pour avoir les coordonnées de la commission de propagande, contactez directement votre Préfecture ou Sous-Préfecture)
 
 ## Les affiches
 ### Le format standard
-Les affiches doivent avoir une largeur maximale de 594 mm et une hauteur maximale de 841 mm ou un format maximal de 297 mm x 420 mm (affiches annonçant la tenue de réunions électorales). 
+Les affiches doivent avoir une largeur maximale de 594 mm et une hauteur maximale de 841 mm ou un format maximal de 297 mm x 420 mm (affiches annonçant la tenue de réunions électorales).
 
 ### Les couleurs à respecter
 Sont interdites les affiches imprimées sur papier blanc (sauf lorsqu’elles sont recouvertes de caractères ou d’illustrations de couleur) ou celles comprenant une combinaison des couleurs bleu, blanc et rouge à l'exception de la reproduction de l'emblème d'un parti ou groupement politique.
@@ -27,8 +27,8 @@ Le candidat est informé du jour et de l'heure du tirage au sort et peut y assis
 
 
 ## Les circulaires
-### Les couleurs à respecter 
-La combinaison des trois couleurs (bleu, blanc et rouge), à l’exception de la reproduction de l’emblème d’un parti ou groupement politique, est interdite. Son texte doit être uniforme pourl’ensemble de la circonscription législative.
+### Les couleurs à respecter
+La combinaison des trois couleurs (bleu, blanc et rouge), à l’exception de la reproduction de l’emblème d’un parti ou groupement politique, est interdite. Son texte doit être uniforme pour l’ensemble de la circonscription législative.
 
 ### Le format standard
 Le papier utilisé pour les circulaires doit avoir un grammage compris entre 60 et 80 grammes au mètre carré et d’un format de 210 x 297 millimètres. La circulaire peut être imprimée recto verso.
@@ -43,7 +43,7 @@ représentant de l’État, au mardi 30 mai 2017 à 12 heures pour le premier to
 juin 2017 à 12 heures pour le second tour. ATTENTION : Sauf délai supplémentaire accordé au niveau local, la commission n'est pas tenue d'assurer l'envoi des imprimés remis postérieurement à ces dates.
 
 ### Combien de Circulaires faut-il prévoir ?
-Le nombre de circulaires à remettre à la commission de propagande est égal au nombre des électeurs inscrits dans la circonscription électorale. 
+Le nombre de circulaires à remettre à la commission de propagande est égal au nombre des électeurs inscrits dans la circonscription électorale.
 
 ### Y a-t-il autre chose à savoir ?
 Oui ! Les circulaires peuvent également être publiées sur Internet. Vous trouverez toutes les infos à ce sujet en téléchargeant le [guide officiel du candidat](http://www.interieur.gouv.fr/content/download/102271/806359/file/M%C3%A9mento%20du%20candidat%20aux%20%C3%A9lections%20l%C3%A9gislatives%202017%20V4.pdf).
@@ -57,13 +57,13 @@ Les bulletins doivent être imprimés en une seule couleur (ce qui exclut par ex
 Les bulletins de vote doivent respecter le format paysage 105 x 148 millimètres et un grammage compris entre 60 et 80 grammes au mètre carré pour le papier utilisé.
 
 ### Qui les imprime ?
-L’impression des bulletins est à la charge des candidats. 
+L’impression des bulletins est à la charge des candidats.
 
 ### Combien de bulletins faut-il prévoir ?
 Le nombre de bulletins de vote doit être au moins égal au double du nombre d’électeurs inscrits.
 
 ### Que doit comporter un bulletin de vote ?
-Les bulletins doivent porter d'abord le nom du candidat, puis l'une des mentions suivantes : « remplaçant » ou « suppléant », suivie du nom du remplaçant. 
+Les bulletins doivent porter d'abord le nom du candidat, puis l'une des mentions suivantes : « remplaçant » ou « suppléant », suivie du nom du remplaçant.
 Le nom du remplaçant doit être imprimé en caractères de moindres dimensions que celui du candidat.
 Les noms des candidat(e)s et suppléant(e)s doivent cependant être conformes aux noms d’usage et prénoms usuels portés sur la déclaration de candidature.
 
