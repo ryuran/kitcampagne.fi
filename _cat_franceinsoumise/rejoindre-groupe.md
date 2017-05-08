@@ -16,7 +16,7 @@ Pour rejoindre un groupe d’appui, vous devez vous connecter à votre compte Fr
 
 ![Page d’accueil de la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-connexion1.png)
 
-Dans la page qui s’ouvre, remplissez le formulaire à gauche intitulé « j’ai un compte », puis cliquez sur « Se connnecter avec son adresse email ».
+Dans la page qui s’ouvre, remplissez le formulaire à gauche intitulé « j’ai un compte », puis cliquez sur « Se connecter avec son adresse email ».
 
 ![Formulaire de connexion de la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-connexion2.png)
 
@@ -28,7 +28,7 @@ Dans la carte, vous pouvez vous déplacer en maintenant le bouton gauche pressé
 
 ![Carte des groupes d’appui sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-carte1.png)
 
-Losque vous avez trouvez un groupe d’appui, cliquez dessus pour afficher son nom, puis cliquez sur le nom lui-même.
+Lorsque vous avez trouvé un groupe d’appui, cliquez dessus pour afficher son nom, puis cliquez sur le nom lui-même.
 
 ![Un groupe d’appui selectionné sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-carte2.png)
 
@@ -36,4 +36,4 @@ Dans la page qui s’ouvre, cliquez sur le bouton « Rejoindre ce groupe d’ap
 
 ![Page d’un groupe d’appui sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-groupeappui.png)
 
-Félicitation, vous avez rejoint un groupe d’appui !
+Félicitations, vous avez rejoint un groupe d’appui !
