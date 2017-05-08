@@ -2,7 +2,7 @@
 layout: article
 title: Rejoindre la France Insoumise
 contentdescription:
-icon: logo-fi.png
+icon: logo-fi.svg
 sortinglabel: fi-l1
 ---
 
