@@ -19,8 +19,8 @@ contentdescription:
         {% for p in sortedPages %}
           <li>
             <a class="home-nav-link" href="{{ p.url }}">
-              <div class="home-nav-link-icon"><img src="/assets/images/icons/{{p.icon}}" alt="" /></div>
-              {{p.title}}
+              <span class="home-nav-link-icon"><img src="/assets/images/icons/{{p.icon}}" alt="" /></span>
+              <span class="home-nav-link-label">{{p.title}}</span>
             </a>
           </li>
         {% endfor %}
