@@ -1,19 +1,36 @@
 title: Kit de Campagne Numérique pour Insoumis·e
-baseurl: "/kitcampagne.fi/"
 
 # Build settings
 permalink: /:title/
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+collections:
+  cat_franceinsoumise:
+    output: true
+    permalink: franceinsoumise/:name/
+    title: La France Insoumise
+  cat_reseauxsociaux:
+    output: true
+    permalink: reseauxsociaux/:name/
+    title: Réseaux sociaux
+  cat_discord:
+    output: true
+    permalink: discord/:name/
+    title: Discord
+  cat_legislatives2017:
+    output: true
+    permalink: legislatives2017/:name/
+    title: Législatives 2017
 sass:
   sass_dir: _sass
   style: compressed
-autoprefixer:
-  browsers:
-  - last 2 versions
+exclude:
+  - vendor
+  - CNAME
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - cibuild.sh
+
+gems:
+  - jekyll-sitemap
+  - jekyll-relative-links

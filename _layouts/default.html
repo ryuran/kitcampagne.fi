@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <base href="{{site.baseurl}}">
     {% include meta.html %}
-	  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     {% if page.stylesheet %}
       {% for  style in page.stylesheet %}
         <link rel="stylesheet" type="text/css" href="{{ style }}" />
       {% endfor %}
     {% endif %}
+	  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
   </head>
   <body>
-    <div class="wrap {{ page.wrapClass }}">
+    {% if layout.navigation == true %}
+    {% include nav.html %}
+    {% endif %}
+    <div id="main" class="wrap {{ page.wrapClass }}">
       {{ content }}
     </div>
     {% if page.footerScript %}

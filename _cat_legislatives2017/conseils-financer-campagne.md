@@ -1,9 +1,8 @@
 ---
 layout: article
 title: Financer sa campagne
-permalink: /financer-campagne/
-creator: discord local, necropotame
 contentdescription:
+icon: coin.svg
+sortinglabel: finance-l2
+status: hidden
 ---
-
-

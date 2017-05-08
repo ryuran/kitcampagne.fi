@@ -1,0 +1,45 @@
+
+.tool {
+  counter-reset: tool-step;
+
+  &-header {
+    display: block;
+    text-align: center;
+  }
+
+  &-step {
+    counter-increment: tool-step;
+
+    &-title {
+      &:before {
+        content: counter(tool-step);
+        color: $color-corail;
+        display: inline-block;
+        font-weight: bold;
+        margin-right: .5em;
+      }
+    }
+  }
+  &-submit {
+    display: inline-block;
+    background: $color-corail;
+    color: $color-white;
+    padding: .5em 1em;
+    margin: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    border: none;
+    text-align: center;
+
+    &:hover {
+      color: $color-white;
+      text-decoration: none;
+    }
+
+    &[aria-disabled=true] {
+      background-color: $color-grey;
+      cursor: not-allowed;
+    }
+  }
+}

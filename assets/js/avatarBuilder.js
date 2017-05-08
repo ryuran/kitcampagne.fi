@@ -1,67 +1,88 @@
-(function(Dropzone, Vue, html2canvas){
+(function (Dropzone, ImageBuilder) {
+  var DOMURL = window.URL || window.webkitURL || window;
 
-  var templates = [
-    'assets/images/templates/photo-profil-rw.svg',
-    'assets/images/templates/photo-profil-br.svg',
-    'assets/images/templates/photo-profil-bw.svg'
-  ];
+  var form = document.getElementById('generator');
 
-  // configuration du drag & drop des images
-  Dropzone.autoDiscover = false;
-  var options           = {
-    url:                'fi', // pas besoin d'URL : on n'envoie pas les images au serveur
-    autoProcessQueue:   false,
-    thumbnailWidth:     512,
-    thumbnailHeight:    512,
-    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
-    thumbnail:          function (file, dataUrl) {
-      app.image.url = dataUrl // quand l'image est prête, on l'injecte dans la scène
-      document.getElementById('preview').setAttribute('style', 'background-image: url('+dataUrl+')');
-    }
-  };
+  var builder = new ImageBuilder({
+    canvasID: 'render'
+  });
 
-  function downloadURI(uri, name) {
-    var link      = document.createElement("a");
-    link.download = name;
-    link.href     = uri;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    delete link;
+  var width = 512;
+  var height = 512;
+
+  var img = new Image();
+  var svg = new Image(width, height);
+
+  var downloadBtn = document.getElementById('download');
+  function updateUrl(dataUri) {
+    downloadBtn.setAttribute('href', dataUri);
   }
 
-  new Dropzone(".dropzone", options);
-  // initialisation de Vue
-  var app = new Vue({
-    el:      '#app',
-    data:    {
-      image:     { url: null },
-      templates: templates,
-      selected:  null,
-      image_url: null,
-      debat:     false
-    },
-    methods: {
-      reflechissez: function () {
-        var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var scene     = document.getElementById('scene');
-        this.debat    = true;
-        // on attend 100ms que l'image soit "prête"
-        setTimeout(function () {
-          // on transform la scene en image
-          html2canvas(scene, {
-            onrendered: function (canvas) {
-              // repositionnement du scroll car html2canvas fait un scrollTop à la fin du rendu ><
-              window.scrollTo(0, scrollPos);
-              // modification du lien de l'image générée
-              downloadURI(canvas.toDataURL('image/jpeg'), 'Photo de profil');
-              setTimeout(function () {
-                app.debat = false;
-              }, 2500);
-            }
-          });
-        }, 300);
-      }
+  function preventDefaultListener(e) {
+    e.preventDefault();
+  }
+
+  function ennableDownload() {
+    downloadBtn.removeEventListener('click', preventDefaultListener, false);
+    downloadBtn.removeAttribute('aria-disabled');
+  }
+
+  function applyTemplate(id){
+    var svgEl = document.getElementById(id);
+    var data = (new XMLSerializer()).serializeToString(svgEl);
+    var svgBlob = new Blob([data], {type: 'image/svg+xml;charset=utf-8'});
+    svg.src = DOMURL.createObjectURL(svgBlob);
+  }
+
+  function applySelectedTemplate(){
+    var template = form.querySelector('.chooseTemplate-item > input:checked');
+    if (template) {
+      applyTemplate(template.value);
+    }
+  }
+
+  function draw() {
+    builder.clear();
+    if (img.src) {
+      builder.addImg(img);
+    }
+    if (!svg.src) {
+      applySelectedTemplate();
+    }
+    if (svg.src) {
+      builder.addImg(svg);
+    }
+    if (svg.src && img.src) {
+      updateUrl(builder.getDaraUri());
+      ennableDownload();
+    }
+  }
+
+  downloadBtn.addEventListener('click', preventDefaultListener, false);
+
+  img.addEventListener('load', draw, false);
+
+  svg.addEventListener('load', draw, false);
+
+  Dropzone.autoDiscover = false;
+  new Dropzone('.dropzone', {
+    url: 'fi', // pas besoin d'URL : on n'envoie pas les images au serveur
+    autoProcessQueue: false,
+    thumbnailWidth: width,
+    thumbnailHeight: height,
+    dictDefaultMessage: 'Cliquez ou glissez votre photo ici pour générer votre photo de profil',
+    thumbnail: function (file, dataUrl) {
+      img.src = dataUrl;
+      var previews = document.getElementsByClassName('preview');
+      Array.prototype.forEach.call(previews, function(el, i){
+        el.setAttribute('style', 'background-image: url('+dataUrl+')');
+      });
     }
   });
-})(window.Dropzone, window.Vue, window.html2canvas);
+
+  Array.prototype.forEach.call(document.querySelectorAll('.chooseTemplate-item > input'), function(el) {
+    el.addEventListener('click', function() {
+      applyTemplate(el.value);
+    });
+  });
+})(window.Dropzone, window.ImageBuilder);

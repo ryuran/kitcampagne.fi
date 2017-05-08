@@ -1,0 +1,89 @@
+---
+layout: tool
+title: Générer une photo de couverture pour Facebook
+contentdescription:
+icon: cover-facebook.svg
+footerScript:
+sortinglabel: facebook-tool
+footerScript:
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"
+- "/assets/js/imageBuilder.js"
+- "/assets/js/coverBuilder.js"
+stylesheet:
+- "https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css"
+---
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Importer une photo</h2>
+  <div class="dropzone dropzone_cover preview"></div>
+</div>
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Choisir le style</h2>
+
+  <ul class="chooseTemplate">
+    <li>
+      <label class="chooseTemplate-item chooseTemplate-item_cover preview" for="template-cover">
+        <input id="template-cover" name="template" type="radio" value="template-cover-svg" checked />
+        {% include template-cover.svg id="template-cover-svg" %}
+      </label>
+    </li>
+    <li>
+      <label class="chooseTemplate-item chooseTemplate-item_cover preview" for="template-cover-msg">
+        <input id="template-cover-msg" name="template" type="radio" value="template-cover-msg-svg" />
+        {% include template-cover.svg id="template-cover-msg-svg" message=true %}
+      </label>
+    </li>
+  </ul>
+</div>
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Compléter les informations</h2>
+
+  <fiedset class="form">
+    <div class="form-field">
+      <label class="form-field-label" for="canditate-firstname">Prénom du candidat</label>
+      <input class="form-field-input" id="canditate-firstname" name="canditate-firstname" type="text" placeholder="Charlotte" maxlength="28"/>
+    </div>
+
+    <div class="form-field">
+      <label class="form-field-label" for="canditate-lastname">Nom du candidat</label>
+      <input class="form-field-input" id="canditate-lastname" name="canditate-lastname" type="text" placeholder="Rargis" maxlength="20"/>
+    </div>
+
+    <div class="form-field">
+      <label class="form-field-label" for="substitute-firstname">Prénom du suppléant</label>
+      <input class="form-field-input" id="substitute-firstname" name="substitute-firstname" type="text" placeholder="Alexis" maxlength="28"/>
+    </div>
+
+    <div class="form-field">
+      <label class="form-field-label" for="substitute-lastname">Nom du suppléant</label>
+      <input class="form-field-input" id="substitute-lastname" name="substitute-lastname" type="text" placeholder="Bierecord" maxlength="20"/>
+    </div>
+
+    <div class="form-field">
+      <label class="form-field-label" for="circonscription">Circonscription</label>
+      <input class="form-field-input" id="circonscription" name="circonscription" type="text" placeholder="Val-du-Rhône, 5e circonscription" maxlength="60"/>
+    </div>
+    <fiedset>
+      <div class="form-field">
+        <label class="form-field-label" for="title">Titre</label>
+        <input class="form-field-input" id="title" name="title" type="text" placeholder="Poursuivons ensemble" maxlength="30"/>
+      </div>
+
+      <div class="form-field">
+        <label class="form-field-label" for="subtitle">Sous-titre</label>
+        <input class="form-field-input" id="subtitle" name="subtitle" type="text" placeholder="Redonnons le pouvoir au peuple !" maxlength="50"/>
+      </div>
+    </fiedset>
+  </fieldset>
+  <button type="submit" class="tool-submit">Mettre à jour l’image</button>
+</div>
+
+<div class="tool-step">
+  <h2 class="tool-step-title">Télécharger la couverture Facebook</h2>
+
+  <canvas id="render" class="render" width="835" height="315"></canvas>
+
+  <a class="tool-submit" id="download" href="#main" download aria-disabled="true">Télécharger votre couverture Facebook insoumise</a>
+</div>

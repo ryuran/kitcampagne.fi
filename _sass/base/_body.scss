@@ -1,0 +1,12 @@
+body {
+	min-height: 100vw;
+	width: auto;
+	background: url("../images/bg.jpg");
+  background-color: #ccc;
+	background-attachment: fixed;
+	background-size: cover;
+	position: relative;
+  padding: 3.5rem 1rem;
+	margin: 0;
+  color: $color-text;
+}

@@ -1,0 +1,45 @@
+html {
+	font-family: $font-standard;
+  font-size: calc(.5vw + .7em);
+  line-height: 1.2em;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-family: $font-calligraphic;
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+  margin: 2rem 0 1.5rem;
+  line-height: 1.2em;
+}
+
+h2 {
+	margin: 3rem 0 1.5rem;
+	padding-bottom: .5rem;
+	font-size: 1.6rem;
+	text-align: left;
+	border-bottom: 1px solid $color-corail;
+	font-weight: normal;
+  line-height: 1.2em;
+}
+
+h3 {
+	margin: 3rem  0 1.5rem;
+	font-size: 1.2rem;
+	text-align: left;
+	font-weight: bold;
+  line-height: 1.2em;
+}
+
+p {
+	margin: 1.5rem 0;
+  line-height: 1.5em;
+}
+
+blockquote {
+  margin: 1.5rem;
+  padding: 0 1.5rem;
+  background-color: #eeeeee;
+  border: 1px solid #aaaaaa;
+}
