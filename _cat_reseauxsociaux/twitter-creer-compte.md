@@ -29,7 +29,7 @@ Votre compte twitter est maintenant activé. Pour le finaliser, n’oubliez pas 
 
 ## Configurer votre compte Twitter
 
-Rendez-vous sur [https://twitter.com](https://twitter.com) pour acceder à votre compte Twitter. Puis cliquez sur votre nom a gauche pour acceder à votre profil.
+Rendez-vous sur [https://twitter.com](https://twitter.com) pour acceder à votre compte Twitter. Puis cliquez sur votre nom à gauche pour acceder à votre profil.
 
 ![Copie d’écran de la page d’accueil de Twitter](/assets/images/screenshots/tw-5.png)
 
