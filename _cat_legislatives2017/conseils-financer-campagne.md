@@ -6,14 +6,6 @@ icon: coin.svg
 sortinglabel: finance-l2
 status: hidden
 ---
----
-layout: article
-title: Financer sa campagne Législative
-creator: Zedhyn
-contentdescription: 
-icon:
-sortinglabel: 
----
 
 ### Préambule
 
