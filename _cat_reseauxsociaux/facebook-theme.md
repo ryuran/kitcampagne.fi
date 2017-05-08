@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Apprendre à mettre sa page Facebook aux couleurs de la France Insoumise
-creator:
+title: Mettre sa page Facebook aux couleurs de la France Insoumise
 contentdescription:
 icon: facebook-theme.svg
 sortinglabel: facebook-l2

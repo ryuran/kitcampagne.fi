@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Apprendre à utiliser Discord
-creator: necropotame
+title: Utiliser Discord
 contentdescription:
 icon: logo-discord.svg
 sortinglabel: discord-l1

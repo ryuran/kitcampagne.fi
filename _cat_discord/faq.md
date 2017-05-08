@@ -1,7 +1,6 @@
 ---
 layout: article
 title: La F.A.Q. du Discord Insoumis Locaux
-creator: Zedhyn
 contentdescription:
 icon: discord-faq.svg
 sortinglabel: discord-l2

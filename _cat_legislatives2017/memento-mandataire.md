@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Mémento du Mandataire
-creator: discord local, necropotame
 contentdescription:
 icon: book-coin.svg
 sortinglabel: finance-l1

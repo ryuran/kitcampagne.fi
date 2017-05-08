@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Affiches, circulaires et bulletins de vote
-creator: Zedhyn
 contentdescription:
 icon: affiches.svg
 sortinglabel:

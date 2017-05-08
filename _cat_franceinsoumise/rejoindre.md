@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Apprendre à rejoindre la France Insoumise
-creator: necropotame
+title: Rejoindre la France Insoumise
 contentdescription:
 icon: logo-fi.png
 sortinglabel: fi-l1

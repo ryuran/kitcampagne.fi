@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Apprendre à mettre son compte Twitter aux couleurs de la France Insoumise
-creator: necropotame
+title: Mettre son compte Twitter aux couleurs de la France Insoumise
 contentdescription:
 icon: twitter-theme.svg
 sortinglabel: twitter-l2

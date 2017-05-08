@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Apprendre à créer une page Facebook
-creator: necropotame
+title: Créer une page Facebook
 contentdescription:
 icon: create-facebook-page.svg
 sortinglabel: facebook-l1

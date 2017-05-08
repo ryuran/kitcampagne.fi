@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Conseils pour la photo des législatives
-creator: necropotame
 contentdescription:
 icon: photo.svg
 sortinglabel: material-l2

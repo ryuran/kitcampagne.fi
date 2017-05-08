@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Calendrier des Législatives
-creator: Zedhyn
 contentdescription:
 icon: calendrier.svg
 sortinglabel:

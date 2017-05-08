@@ -17,15 +17,16 @@ contentdescription:
       <ul class="home-nav" role="navigation">
 	{% assign sortedPages = c.docs | sort: 'sortinglabel' %}
         {% for p in sortedPages %}
+        {% if p.status != 'hidden' %}
           <li>
             <a class="home-nav-link" href="{{ p.url }}">
               <span class="home-nav-link-icon"><img src="/assets/images/icons/{{p.icon}}" alt="" /></span>
               <span class="home-nav-link-label">{{p.title}}</span>
             </a>
           </li>
+        {% endif %}
         {% endfor %}
       </ul>
     </div>
   {% endif %}
 {% endfor %}
-

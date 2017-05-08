@@ -1,7 +1,6 @@
 ---
 layout: article
-title: Apprendre à créer un compte Twitter
-creator: necropotame
+title: Créer un compte Twitter
 contentdescription:
 icon: create-twitter.svg
 sortinglabel: twitter-l1
