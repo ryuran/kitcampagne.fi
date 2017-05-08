@@ -23,7 +23,7 @@ Sont interdites les affiches imprimées sur papier blanc (sauf lorsqu’elles so
 Les affiches sont apposées par les soins des candidats ou de leurs représentants (donc tout membre de votre groupe d’appui).
 
 ### L’attribution de l’emplacement d’affichage
-L’emplacement d’affichage est attribué par un tirage au sort effectué par un représentant de l’Etat (en Préfecture j'imagine), à l’issue du délai de dépôt des candidatures.
+L’emplacement d’affichage est attribué par un tirage au sort effectué par un représentant de l’Etat, à l’issue du délai de dépôt des candidatures.
 Le candidat est informé du jour et de l’heure du tirage au sort et peut y assister personnellement ou s’y faire représenter par un mandataire désigné par lui.
 
 
@@ -36,14 +36,14 @@ La combinaison des trois couleurs (bleu, blanc et rouge), à l’exception de la
 Le papier utilisé pour les circulaires doit avoir un grammage compris entre 60 et 80 grammes au mètre carré et d’un format de 210 x 297 millimètres. La circulaire peut être imprimée recto verso.
 
 ### Qui les imprime ?
-C’est vous ! Enfin, passez par un imprimeur bien sûr.
+C’est vous ! En passant par un imprimeur bien sûr.
 
 ### Qui envoie les circulaires ?
 C’est la commission de propagande (nommée par le Préfet) qui a la charge d’envoyer les circulaires par courrier aux électeurs.
 
-Afin de tenir compte des délais nécessaires aux travaux de la commission pour assurer l’envoi des documents électoraux en temps utile, les dates limites avant lesquelles les candidats doivent remettre leurs circulaires et bulletins à la commission devraient être fixées, par arrêté du représentant de l’État, au mardi 30 mai 2017 à 12 heures pour le premier tour et au mercredi 14 juin 2017 à 12 heures pour le second tour. ATTENTION : Sauf délai supplémentaire accordé au niveau local, la commission n’est pas tenue d’assurer l’envoi des imprimés remis postérieurement à ces dates.
+Afin de tenir compte des délais nécessaires aux travaux de la commission pour assurer l’envoi des documents électoraux en temps utile, les dates limites avant lesquelles les candidats doivent remettre leurs circulaires et bulletins à la commission devraient être fixées, par arrêté du représentant de l’État, au mardi 30 mai 2017 à 12 heures pour le premier tour et au mercredi 14 juin 2017 à 12 heures pour le second tour. ATTENTION : sauf délai supplémentaire accordé au niveau local, la commission n’est pas tenue d’assurer l’envoi des imprimés remis postérieurement à ces dates.
 
-### Combien de Circulaires faut-il prévoir ?
+### Combien de circulaires faut-il prévoir ?
 Le nombre de circulaires à remettre à la commission de propagande est égal au nombre des électeurs inscrits dans la circonscription électorale.
 
 ### Y a-t-il autre chose à savoir ?
@@ -73,8 +73,7 @@ Le bulletin peut comporter le prénom du candidat et celui du remplaçant.
 Le bulletin peut comporter des photos, l’emblème d’un ou plusieurs partis ou groupements politiques, sous réserve que ces photos ou emblèmes soient imprimés d’une seule couleur.
 
 ### A qui doit-on remettre les bulletins de vote une fois imprimés ?
-- Soit à la Commission de propagande avant le mardi 30 mai 2017 à 12 heures pour le premier tour et avant le mercredi 14 juin 2017 à 12 heures pour le second tour (appeler la préfecture pour savoir où c’est).
-- Soit les candidats ou leur mandataire peuvent également assurer eux-mêmes la distribution de leurs bulletins de vote en les remettant au maire, au plus tard la veille du scrutin à midi, ou au
-président du bureau de vote le jour du scrutin.
+- Soit à la Commission de propagande avant le mardi 30 mai 2017 à 12 heures pour le premier tour et avant le mercredi 14 juin 2017 à 12 heures pour le second tour (nous recommandons d'appeller la préfecture pour bien vérifier).
+- Soit les candidat·es ou leur mandataire, qui peuvent également assurer eux-mêmes la distribution de leurs bulletins de vote en les remettant au maire, au plus tard la veille du scrutin à midi, ou au président du bureau de vote le jour du scrutin.
 
 Source officielle à télécharger (Ministère de l’Intérieur) : [Guide du Candidat](http://www.interieur.gouv.fr/content/download/102271/806359/file/M%C3%A9mento%20du%20candidat%20aux%20%C3%A9lections%20l%C3%A9gislatives%202017%20V4.pdf)
