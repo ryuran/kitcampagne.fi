@@ -18,7 +18,7 @@ Félicitation, vous êtes maintenant un insoumis !
 
 ## Créer un compte d’accès
 
-Pour accèder aux outils de la plate-forme de la France Insoumise, il est necessaire de créer un compte. Pour cela, rendez-vous à cette adresse [https://jlm2017.nationbuilder.com/login](https://jlm2017.nationbuilder.com/login), et tapez votre adresse email dans la section « Créer un compte ».
+Pour accèder aux outils de la plate-forme de la France Insoumise, il est nécessaire de créer un compte. Pour cela, rendez-vous à cette adresse [https://jlm2017.nationbuilder.com/login](https://jlm2017.nationbuilder.com/login), et tapez votre adresse email dans la section « Créer un compte ».
 
 ![Formulaire de création de compte](/assets/images/screenshots/fi-nationbuilder1.png)
 
@@ -26,6 +26,6 @@ Vous allez recevoir un email pour permettre l’activation de votre compte. Cliq
 
 ![Email d’activation du compte](/assets/images/screenshots/fi-nationbuilder2.png)
 
-Dans la page qui s’ouvre, remplissez le information et validez en cliquant sur « Activer le compte ».
+Dans la page qui s’ouvre, remplissez les informations et validez les en cliquant sur « Activer le compte ».
 
 ![Formulaire de création de compte, deuxième étape](/assets/images/screenshots/fi-nationbuilder3.png)

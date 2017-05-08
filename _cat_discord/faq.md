@@ -33,18 +33,18 @@ Pour cela, suivez le tutoriel sur le site [kit de campagne](/).
 ### Je suis perdu, je n’ai pas accès aux salons de ma région.
 Contactez un animateur, il vous aidera à résoudre votre problème.
 
-### Est-il possible de rejoinde plusieurs région (déménagement, etc.) ?
+### Est-il possible de rejoinde plusieurs régions (déménagement, etc.) ?
 Oui. Pour cela, demandez à un animateur à quelle Région vous souhaitez être ajouté.
 
-### Je suis graphiste et je n’ai pas accès au salon #infographies.
+### Je suis graphiste et je n’ai pas accès au salon ``#infographies``.
 Vous pouvez en faire la demande en envoyant un message privé à un animateur.
 
-## Questions relatives aux informations générales concernant les élections Législatives
+## Questions relatives aux informations générales concernant les élections législatives
 
 ### Quelle est la date de la campagne officielle ?
 La date de début de la campagne officielle commence 20 jours avant le scrutin. Soit logiquement le Lundi 22 Mai 2017.*
 
-### Quand auront-lieu les élections Législatives en 2017 ?
+### Quand auront-lieu les élections législatives en 2017 ?
 Le premier tour aura lieu le 11 Juin 2017 et le second tour le 18 Juin 2017.
 
 ### Où peut-on trouver la liste des candidats, les liens vers leurs réseaux sociaux ?
@@ -79,10 +79,10 @@ Les affiches officielles doivent avoir un format max de 594 mm x 841 mm.
 ### Et concernant les affiches pour les réunions électorales ?
 Les affiches annonçant les réunions électorales doivent avoir un format max de 297 mm x 420 mm.
 
-### Qu’entendez vous par affiche pour les réunions électorales ?
+### Qu’entendez-vous par affiche pour les réunions électorales ?
 Elles servent pour indiquer la date et le lieu d’une réunion publique.
 
-### Quels sont les restrictions sur les couleurs et le contenu de l’affiche ?
+### Quelles sont les restrictions sur les couleurs et le contenu de l’affiche ?
 Sont interdites les affiches imprimées sur papier blanc sauf lorsqu’elles sont recouvertes de caractères ou d’illustrations de couleur ou celles comprenant une combinaison des couleurs bleu blanc rouge à l’exception de l’emblème d’un parti ou groupement politique.
 
 ### Ai-je le droit de coller des tracts ou des affiches de la France Insoumise sur ma maison ?
@@ -105,7 +105,7 @@ Le projet est en cours, elles seront intégrés au site « Kit de campagne ».
 ### Y a-t-il d’autres endroits où se retrouvent les insoumis sur le web ?
 Non, tous les insoumis de France rejoignent ce Discord pour avoir des informations globales et discuter de la préparation aux élections Législatives et des actions de terrain dans toute la France.
 
-### Avez-vous un document sur les résultats du 1ier tour de l’élection Présidentielle par Circonscription ?
+### Avez-vous un document sur les résultats du 1er tour de l’élection Présidentielle par Circonscription ?
 Oui nous avons ce document [ici](https://docs.google.com/spreadsheets/d/1f29__papp8BWttR0etAGImMtwy0XjYwYAEJyuo3VcvE/edit?usp=sharing).
 
 ### Existe-t-il un template de site internet pour les candidats ?
@@ -115,4 +115,4 @@ Un projet est en cours dans le salon #prj_template. Nous vous préviendrons dès
 C’est une excellente question, nous avons également remarqué cela et nous n’avons pas la réponse à cette question. est-ce une erreur de l’administration ou ont-ils une raison valable pour expliquer cette différence ? Nous avons envoyé une demande de précision via le formulaire de contact du site [vie-public.fr](http://www.vie-public.fr/) et vous tiendrons informé dès réception de la réponse.
 
 ### Que signifie le petit triangle rouge à côté des pseudos et sur la veste de Jean-Luc Mélenchon ?
-Adopté le 1ier Mai 1890 à Paris, le triangle rouge symbolise la revendication ouvrière pour 8 heures de travail, 8 heures de loisirs et 8 heures de sommeil. Une triple équitée représentée par les 3 faces du triangle équilatéral. Par ailleurs, pendant la seconde guerre mondiale, les nazis ont utilisé ce symbole pour marquer les opposants à la politique du 3e Reich (communistes, résistants, etc.). Aujourd’hui, il est considéré comme [le symbole de résistance aux idées d’extrême droite](http://www.trianglerouge.be/).
+Adopté le 1er Mai 1890 à Paris, le triangle rouge symbolise la revendication ouvrière pour 8 heures de travail, 8 heures de loisirs et 8 heures de sommeil. Une triple équitée représentée par les 3 faces du triangle équilatéral. Par ailleurs, pendant la Seconde Guerre mondiale, les nazis ont utilisé ce symbole pour marquer les opposants à la politique du 3eme Reich (communistes, résistants, etc.). Aujourd’hui, il est considéré comme [le symbole de résistance aux idées d’extrême droite](http://www.trianglerouge.be/).
