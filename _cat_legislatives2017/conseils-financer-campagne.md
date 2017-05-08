@@ -22,7 +22,7 @@ Dans cet email, il est stipulé que le candidat doit remplir un formulaire nomin
 Par ailleurs, nous avons appris que plusieurs candidats n'ont jamais reçu cet email et craignent donc d'être désavantagé sur le plan financier pour leur campagne par rapport aux candidats qui ont pu bénéficer de ce soutien.
 Nous avons contacté le QG à ce sujet et invitons tous les candidats dans cette situation à essayer de les contacter également afin de pouvoir demander à bénéficier de cette solution pour le financement des affiches, tracts et bulkletins de vote excepté si vous souhaitez réaliser vous-même vos affiches, bulletins de vote et circulaires.
 
-Le financement de votre campagne est conditionné à la nomination d'un mandataire et l'ouverture d'un comtpe de campagne. Pour connaître les démarches, n'hésitez pas à consulter le [Mémento du Mandataire](http://kitcampagne.lesinsoumislocaux.fr/legislatives2017/memento-mandataire/)
+Le financement de votre campagne est conditionné à la nomination d'un mandataire et l'ouverture d'un compte de campagne. Pour connaître les démarches, n'hésitez pas à consulter le [Mémento du Mandataire](http://kitcampagne.lesinsoumislocaux.fr/legislatives2017/memento-mandataire/)
 
 ## Les Dons 
 **Attention** : Les dons consentis par une personne morale publique ou privée, française ou étrangère, sont interdits, sous quelque forme que ce soit (versement d'une somme d'argent, concours en nature…) à l’exception de ceux provenant des partis ou groupements politiques français
@@ -47,6 +47,8 @@ Le financement de votre campagne est conditionné à la nomination d'un mandatai
 - Il peut s'agir de la vente d'objets : maillots, stylos, briquets, épinglettes, etc. effectuée dans le cadre de la campagne électorale.
 - Il peut s’agir également du produit de manifestations ou tombolas. 
 - 'ensemble des recettes et dépenses correspondantes doit figurer au compte de campagne.
+
+Source officielle [Mémento du Mandataire](http://www.interieur.gouv.fr/content/download/102271/806359/file/M%C3%A9mento%20du%20candidat%20aux%20%C3%A9lections%20l%C3%A9gislatives%202017%20V4.pdf)
 
 ## Contribution des insoumis locaux
 **Les personnes connectées sur le Discord Insoumis Locaux ont été appelés durant le premier week-edn du mois de Mai à un brainstorming afin de trouver des idées de financement pour les campagnes Législatives en local. Voici la liste des propositions qui ont été synthétisées :**
