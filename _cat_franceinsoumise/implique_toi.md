@@ -8,7 +8,7 @@ sortinglabel: fi-l3
 
 ## Les Actions Web
 - Créez un compte Twitter/Facebook pour votre candidat·e. Pour cela, aidez-vous du [Kit de Campagne Numérique en ligne des Insoumis](/).
-- Créez un site web pour votre candidat·e. Un projet #prj_template est en cours à ce sujet.
+- Créez un site web pour votre candidat·e. Un projet "template" (modèle) est en cours à ce sujet.
 - Organisez un concours photo sur la [cause animale](https://www.melenchatsmelenchiens.fr/)
 
 ## Les idées pour une communication web originale
