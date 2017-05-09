@@ -10,7 +10,7 @@ sortinglabel: facebook-l1
 
 ## Créer une page Facebook pour votre candidature
 
-Vous devez déjà posséder un compte facebook. Dans cette aide, c’est « Charlotte Rargie » qui utilisera son compte Facebook pour sa page pour les législatives.
+Vous devez déjà posséder un compte Facebook. Dans cette aide, c’est « Charlotte Rargie » qui utilisera son compte Facebook pour sa page pour les législatives.
 Allez sur votre page Facebook [https://www.facebook.com](https://www.facebook.com) puis cliquez sur « Page » dans la section « Créer » du menu gauche. Dans la figure suivante, ce bouton est entouré en rouge :
 
 ![Facebook](/assets/images/screenshots/facebook-1.png)
@@ -38,4 +38,4 @@ Pour accéder à votre page, cliquez sur son nom dans la liste.
 ![Facebook](/assets/images/screenshots/facebook-6.png)
 
 >**Pour aller plus loin :**
->il est important que votre page Facebook soit rapidement identifiée à la France Insoumise. Pour mettre votre page Facebook aux couleurs de la France Insoumise, [vous pouvez suivre cette page d'aide](/reseauxsociaux/facebook-theme).
+>il est important que votre page Facebook soit rapidement identifiée à la France Insoumise. Pour mettre votre page Facebook aux couleurs de la France Insoumise, [vous pouvez suivre cette page d’aide](/reseauxsociaux/facebook-theme).
