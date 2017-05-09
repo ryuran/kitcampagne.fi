@@ -20,7 +20,7 @@ Pour qu'un candidat ait le droit de se présenter au second tour, il doit avoir 
 Si un seul candidat remplit cette condition, le candidat ayant obtenu le plus grand nombre de suffrages après lui peut se maintenir au second tour. 
 Si aucun candidat ne remplit cette condition, seuls les deux candidats arrivés en tête peuvent se maintenir au second tour.
 
-###Règles relatives au non cumul des mandats
+### Règles relatives au non cumul des mandats
 Si vous êtes concerné·e·s, nous vous invitons à télécharger le [guide du candidat](http://www.interieur.gouv.fr/content/download/102271/806359/file/M%C3%A9mento%20du%20candidat%20aux%20%C3%A9lections%20l%C3%A9gislatives%202017%20V4.pdf) afin d'avoir de connaître en détail ces nouvelles règles qui s'appliqueront pour la première fois aux députés élus en 2017.
 
 
