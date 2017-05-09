@@ -68,7 +68,7 @@ Les bulletins doivent porter d’abord le nom du candidat ou de la candidate, pu
 Les noms des candidat·e·s et suppléant·e·s doivent cependant être conformes aux noms d’usage et prénoms usuels portés sur la déclaration de candidature.
 
 ### Peut-on mettre autre chose sur le bulletin de vote ?
-Le bulletin peut comporter les prénoms du candidat.
+Le bulletin peut comporter les prénoms du candidat ou de la candidate et de son·sa suppléant·e.
 Le bulletin peut comporter des photos, l’emblème d’un ou plusieurs partis ou groupements politiques, sous réserve que ces photos ou emblèmes soient imprimés d’une seule couleur.
 
 ### A qui doit-on remettre les bulletins de vote une fois imprimés ?
