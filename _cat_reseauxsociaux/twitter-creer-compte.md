@@ -28,7 +28,7 @@ Votre compte twitter est maintenant activé. Pour le finaliser, n’oubliez pas 
 
 ## Configurer votre compte Twitter
 
-Rendez-vous sur [https://twitter.com](https://twitter.com) pour acceder à votre compte Twitter. Puis cliquez sur votre nom à gauche pour acceder à votre profil.
+Rendez-vous sur [https://twitter.com](https://twitter.com) pour accéder à votre compte Twitter. Puis cliquez sur votre nom à gauche pour accéder à votre profil.
 
 ![Copie d’écran de la page d’accueil de Twitter](/assets/images/screenshots/tw-5.png)
 
@@ -40,7 +40,7 @@ Cliquez sur le boutton « Éditer le profil » pour pouvoir changer votre phot
 
 ### Changer les informations dans votre profil
 
-Remplissez les informations vous concernant dans les champs à gauche. Nous recommandons de mentionnner votre candidature dans votre biographie.
+Remplissez les informations vous concernant dans les champs à gauche. Nous recommandons de mentionner votre candidature dans votre biographie.
 
 ![Copie d’écran du formulaire pour éditer votre biographie](/assets/images/screenshots/tw-edit-bio.png)
 

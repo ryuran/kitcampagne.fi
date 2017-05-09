@@ -31,8 +31,7 @@ Vous pouvez également vous déplacer en maintenant le bouton gauche pressé tou
 ![Carte des groupes d’appui sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-carte1.png)
 
 Les groupes d'appui sont indiqués en bleu sur la carte, les événements locaux en vert.
-
-Losque vous avez trouvez un groupe d’appui, cliquez dessus pour afficher son nom, puis cliquez sur le nom lui-même.
+Lorsque vous avez trouvé un groupe d’appui, cliquez dessus pour afficher son nom, puis cliquez sur le nom lui-même.
 
 ![Un groupe d’appui selectionné sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-carte2.png)
 
@@ -40,5 +39,5 @@ Dans la page qui s’ouvre, cliquez sur le bouton « Rejoindre ce groupe d’ap
 
 ![Page d’un groupe d’appui sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-groupeappui.png)
 
-Félicitation, vous avez rejoint un groupe d’appui !
+Félicitations, vous avez rejoint un groupe d’appui !
 Vous recevrez dorénavant les informations sur les activités du groupe directement par email et un référent local vous recontactera très rapidement.
