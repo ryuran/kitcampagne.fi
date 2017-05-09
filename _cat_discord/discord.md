@@ -29,7 +29,7 @@ Cliquez sur « Continuer ».
 
 ## Rejoindre le serveur Discord « Les Insoumis »
 
-Le serveur Discord « Les Insoumis » est un serveur national indépendant de l'équipe de la France Insoumise. Il est accessible aux insoumis.es comme aux curieux.ses, aux militants.es d’autres formations politiques et aux journalistes. Pour rejoindre le serveur Discord « Les Insoumis », [cliquez sur ce lien](https://discord.gg/JQGdHpj).
+Le serveur Discord « Les Insoumis » est un serveur national indépendant de l'équipe de la France Insoumise. Il est accessible aux insoumis·es comme aux curieux·ses, aux militants·es d’autres formations politiques et aux journalistes. Pour rejoindre le serveur Discord « Les Insoumis », [cliquez sur ce lien](https://discord.gg/JQGdHpj).
 
 ## Rejoindre le serveur Discord « Les Insoumis Locaux »
 
@@ -37,7 +37,7 @@ Le serveur Discord « Les Insoumis Locaux » est un serveur regroupant les ins
 
 ## Utilisation de Discord
 
-Sur Discord, il est possible d’être connecté.e sur plusieurs serveurs en même temps. Une fois connecté.e, vous êtes automatiquement présent.e sur toutes les fenêtres des salons textuels auxquels vous avez accès par défaut.
+Sur Discord, il est possible d’être connecté·e sur plusieurs serveurs en même temps. Une fois connecté·e, vous êtes automatiquement présent·e sur toutes les fenêtres des salons textuels auxquels vous avez accès par défaut.
 
 Lors de votre première utilisation du logiciel, un tutoriel va automatiquement se lancer afin de vous indiquer où trouver telles ou telles options. N’hésitez pas à suivre ces quelques étapes afin de vous familiariser avec l’application.
 
@@ -45,9 +45,9 @@ Lors de votre première utilisation du logiciel, un tutoriel va automatiquement 
 
 Chaque serveur Discord possède, selon sa configuration, plusieurs salons textuels pour communiquer. En cliquant sur un de ces divers salons, vous pouvez lire ce que les autres écrivent et y taper vos propres messages.
 
-Dans le cas du serveur Discord « Les Insoumis Locaux », vous serez invité.e lors de votre première connection à lire le salon textuel des #règles afin de savoir comment accéder à des salons spécifiques de votre région ou département.
+Dans le cas du serveur Discord « Les Insoumis Locaux », vous serez invité·e lors de votre première connection à lire le salon textuel des #règles afin de savoir comment accéder à des salons spécifiques de votre région ou département.
 
-N’hésitez pas à demander de l’aide une fois connecté.e au serveur si vous ne comprenez pas comment faire.
+N’hésitez pas à demander de l’aide une fois connecté·e au serveur si vous ne comprenez pas comment faire.
 Votre compte recevra les messages textes même lorsque votre application sera déconnectée. À chaque retour sur l’application, vous pourrez donc lire les messages que vous avez ratés si cela vous est utile.
 
 ### Utilisation des salons vocaux
@@ -56,4 +56,4 @@ Sous la liste des salons textuels, se trouve la liste des salons vocaux. Pour y 
 
 La mention « vocal connecté » apparaîtra en vert sous la liste des salons. Juste à côté de celle-ci se trouve le bouton pour se déconnecter du chat vocal.
 
-Une fois que vous serez entré.e sur un salon, vous pourrez discuter avec les autres personnes présentes (si votre micro est correctement branché et configuré). Vous verrez aussi votre pseudo dans la liste des personnes présentes sur le salon. Si votre micro est fonctionnel, votre avatar s’entourera d’un rond vert.
+Une fois que vous serez entré·e sur un salon, vous pourrez discuter avec les autres personnes présentes (si votre micro est correctement branché et configuré). Vous verrez aussi votre pseudo dans la liste des personnes présentes sur le salon. Si votre micro est fonctionnel, votre avatar s’entourera d’un rond vert.
