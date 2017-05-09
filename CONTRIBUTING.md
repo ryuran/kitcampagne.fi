@@ -15,7 +15,7 @@
 - Usage du point médian `·`. (Exemple : « un·e candidat·e »)
 - Pas de « illes » ou « celleux », etc.
 
-### autres rêgles
+### Autres rêgles
 - Majuscule pour les noms de compagnie (Twitter à la place de twitter)
 - Italique pour les mots étrangers
 - Pas de tutoiement
