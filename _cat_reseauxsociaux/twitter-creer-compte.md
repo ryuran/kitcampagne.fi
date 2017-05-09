@@ -10,15 +10,15 @@ sortinglabel: twitter-l1
 
 ## Créer un compte Twitter
 
-Allez sur la page [https://twitter.com/signup](https://twitter.com/signup) pour créer un compte, et remplissez les champs « Nom complet », « Email » et « Mot de passe » comme montré dans la figure suivante, puis cliquez sur « S’inscrire ».
+Il vous faut aller sur la page [https://twitter.com/signup](https://twitter.com/signup) pour créer un compte Twitter, et remplir les champs « Nom complet », « Email » et « Mot de passe » comme montré dans la figure suivante, puis cliquer sur « S’inscrire ».
 
 ![Copie d’écran du formulaire de création d’un compte Twitter - Etape 1](/assets/images/screenshots/tw-1.png)
 
-Entrez votre numéro de téléphone pour sécuriser votre compte. Cette étape est importante car en période de campagne, les piratages sont fréquents. Cliquez sur « Suivant » une fois le champ rempli.
+Vous devez votre numéro de téléphone pour sécuriser votre compte. Cette étape est importante car en période de campagne, les piratages sont fréquents. Puis cliquez sur « Suivant » une fois le champ rempli.
 
 ![Copie d’écran du formulaire de création d’un compte Twitter - Etape 2](/assets/images/screenshots/tw-2.png)
 
-Vous allez recevoir un SMS avec un code : « Votre code de confirmation Twitter est 977350 ». Entrez ce code dans la page et cliquez sur suivant.
+Vous allez ensuite recevoir un SMS avec un code : « Votre code de confirmation Twitter est 977350 ». Entrez ce code dans la case au centre de la page  et cliquez sur suivant.
 
 ![Copie d’écran du formulaire de création d’un compte Twitter - Etape 3](/assets/images/screenshots/tw-3.png)
 
@@ -32,7 +32,7 @@ Rendez-vous sur [https://twitter.com](https://twitter.com) pour accéder à votr
 
 ![Copie d’écran de la page d’accueil de Twitter](/assets/images/screenshots/tw-5.png)
 
-Cliquez sur le boutton « Éditer le profil » pour pouvoir changer votre photo et votre biographie.
+Cliquez sur le bouton « Éditer le profil » pour changer votre photo et votre biographie.
 
 ![Copie d’écran de votre profil Twitter](/assets/images/screenshots/tw-6.png)
 
@@ -40,7 +40,7 @@ Cliquez sur le boutton « Éditer le profil » pour pouvoir changer votre phot
 
 ### Changer les informations dans votre profil
 
-Remplissez les informations vous concernant dans les champs à gauche. Nous recommandons de mentionner votre candidature dans votre biographie.
+Remplissez les informations vous concernant dans les champs à gauche. Nous vous recommandons de mentionner votre candidature dans votre biographie.
 
 ![Copie d’écran du formulaire pour éditer votre biographie](/assets/images/screenshots/tw-edit-bio.png)
 
@@ -49,4 +49,4 @@ Remplissez les informations vous concernant dans les champs à gauche. Nous reco
 N’oubliez pas d’enregistrer vos modifications avant de quitter. Pour cela, cliquez sur « Enregistrer les modifications ».
 
 >**Pour aller plus loin :**
->il est important que votre compte Twitter soit rapidement identifié à la France Insoumise. Pour mettre votre compte Twitter aux couleurs de la France Insoumise, [vous pouvez suivre cette page d'aide](/reseauxsociaux/twitter-theme).
+>il est important que votre compte Twitter soit rappidement rapproché à la France Insoumise. Pour mettre votre compte Twitter aux couleurs de la France Insoumise, [vous pouvez suivre cette page d'aide](/reseauxsociaux/twitter-theme).
