@@ -49,3 +49,5 @@ Le plafond de dépenses (hors campagne officielle) est fixé à 38 000 euros, ma
 A l’exception des partis ou groupements politiques, seules les personnes physiques peuvent effectuer des dons. Ils sont plafonnés à 4 600 euros par personne pour une même élection, en application de l’article L.52-8 du code électoral. Au-delà de 150 euros, les dons doivent être réglés par chèque, par virement, prélèvement automatique ou par carte bancaire.
 
 Chaque candidat ayant obtenu au moins 5% des suffrages exprimés au premier tour du scrutin et dont le compte de campagne a été approuvé par la Commission nationale des comptes de campagne bénéficie d’un remboursement forfaitaire de ses dépenses de campagne.
+
+Source officielle : [http://www.vie-publique.fr/actualite/faq-citoyens/elections-legislatives-2017/](http://www.vie-publique.fr/actualite/faq-citoyens/elections-legislatives-2017/)
