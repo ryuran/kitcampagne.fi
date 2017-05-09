@@ -29,6 +29,7 @@ sortinglabel: fi-l3
 - Organisez un débat public dans la rue sur un thème précis (monarchie présidentielle, l'intérêt de l'abstention, etc). 
 - Organisez des réunions/événements inter-groupes d'appuis ou inter-circonscriptions.
 - Organisez des micro-trottoirs sur les places publiques. Choisissez une question, inscrivez-là sur un panneau et amenez-la avec vous et demandez aux gens ce que les gens pense de cette question (ex. : à quoi sert les législatives, etc). Renseignez-vous sur les autorisations nécessaires.
+
 **Pensez à vous renseignez, les rassemblements de ce type sont souvent soumis à l'approbation des mairies ou des préféctures.**
 
 ## Aider votre candidat aux Législatives
@@ -37,4 +38,5 @@ sortinglabel: fi-l3
 - Transmettez à votre candidat.e l'ensemble des résultats du premier tour de l'élection présidentielle dans votre circonscription [avec ce document](https://drive.google.com/file/d/0B_9O1c4QM3X_WmgzYl9XeWNscGM/view).
 - Transmettez à votre candidat.e [ce document](https://cdn.discordapp.com/attachments/308741470238670848/308741693417717761/Deputes_votes.xlsx) regroupant les votes des députés par sujet pour argumenter.
 - Rassemblez des infos sur les candidats adverses, programmes, historique politique, article de presse, s'il a voté pour la loi travail… Les débats se font toujours sur des prises de position et des opinons concrets.
+
 N'attendez pas les consignes ! Toutes les idées sont bonnes à prendre. Avant tout, renseignez-vous sur le cadre légal et restez respectueux.ses !
