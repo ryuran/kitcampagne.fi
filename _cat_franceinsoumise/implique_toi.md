@@ -1,14 +1,14 @@
 ---
 layout: article
-title: Comment s'impliquer au mieux ?
+title: Comment s’impliquer au mieux ?
 contentdescription:
 icon: logo-fi.svg
 sortinglabel: fi-l3
 ---
 
 ## Les Actions Web
-- Créez un compte Twitter/Facebook pour votre candidat.e. Pour cela, aidez-vous du [Kit de Campagne Numérique en ligne des Insoumis](/).
-- Créez un site web pour votre candidat.e. Un projet #prj_template est en cours à ce sujet.
+- Créez un compte Twitter/Facebook pour votre candidat·e. Pour cela, aidez-vous du [Kit de Campagne Numérique en ligne des Insoumis](/).
+- Créez un site web pour votre candidat·e. Un projet #prj_template est en cours à ce sujet.
 - Organisez un concours photo sur la [cause animale](https://www.melenchatsmelenchiens.fr/)
 
 ## Les idées pour une communication web originale
@@ -17,7 +17,7 @@ sortinglabel: fi-l3
 
 ## Outils visuels de terrain originaux
 - Faites imprimer des visuels du site [http://mélenshack.fr](https://melenshack.fr/legislatives) créés pour les législatives.
-- Faites des affiches de type "compteur de voiture/jauge" pour afficher le nombre de personnes ayant voté pour la France au premier tour de l'élection présidentielle. Affichez le résultet en % par rapport au nombre de votants de votre circonscription.
+- Faites des affiches de type « compteur de voiture/jauge » pour afficher le nombre de personnes ayant voté pour la France au premier tour de l'élection présidentielle. Affichez le résultet en % par rapport au nombre de votants de votre circonscription.
 - Faites des tracts parodiques ou humoristiques sur vos concurents électoraux ! Incluez-y l'impact local que l'application du programme adverse aurait de néfaste et ce qu'aurait induit notre programme à sa place ! Ciblez les propostions sur les enjeux locaux. Mais attention, ne vous faites jamais passer pour un autre partie politique et restez courtois.e.s !
 - Servez-vous des visuels du site [https://melenshack.fr/](https://melenshack.fr/) pour créer des tracts ou affiches.
 - Servez-vous de la [BD de l'Avenir en Commun](https://avenirencommun.fr/bd/) pour en faire des tracts.
@@ -36,5 +36,5 @@ sortinglabel: fi-l3
 - Organisez votre groupe d'appui en commission afin d'être plus efficace et votez les propositions des commissions collectivement pour gagner du temps (commission Budget, actions locales, communication/réseau sociaux/médias, etc.)
 - Transmettez à votre candidat.e l'ensemble des résultats du premier tour de l'élection présidentielle dans votre circonscription [avec ce document](https://drive.google.com/file/d/0B_9O1c4QM3X_WmgzYl9XeWNscGM/view).
 - Transmettez à votre candidat.e [ce document](https://cdn.discordapp.com/attachments/308741470238670848/308741693417717761/Deputes_votes.xlsx) regroupant les votes des députés par sujet pour argumenter.
-- Rassemblez des infos sur les candidats adverses, programmes, historique politique, article de presse, s'il a voté pour la loi travail... Les débats se font toujours sur des prises de position et des opinons concrets.
+- Rassemblez des infos sur les candidats adverses, programmes, historique politique, article de presse, s'il a voté pour la loi travail… Les débats se font toujours sur des prises de position et des opinons concrets.
 N'attendez pas les consignes ! Toutes les idées sont bonnes à prendre. Avant tout, renseignez-vous sur le cadre légal et restez respectueux.ses !
