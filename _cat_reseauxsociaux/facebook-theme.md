@@ -63,7 +63,7 @@ Facebook autorise le glissé/déposé pour ce téléchargement, ce qui signifie 
 
 ![Changer sa photo de couverture Facebook - Etape 1](/assets/images/screenshots/facebook-addcover1.png)
 
-Autre méthode : Il est possible cliquer sur « Ajouter une photo de couverture » puis sur « Importer un fichier… ». Il faut ensuite choisir votre fichier de couverture dans le fichiers de votre ordinateur pour le téléverser vers Facebook.
+Autre méthode : Il est possible de cliquer sur « Ajouter une photo de couverture » puis sur « Importer un fichier… ». Il faut ensuite choisir votre fichier de couverture dans le fichiers de votre ordinateur pour le téléverser vers Facebook.
 
 Facebook vous montre ensuite un aperçu de la couverture en place. Vous pouvez faire glisser l’image pour l’ajuster mais si vous avez respecté les recommandations de taille, vous n’avez pas besoin d’y toucher. Cliquez enfin sur « Enregistrer les modifications ».
 
