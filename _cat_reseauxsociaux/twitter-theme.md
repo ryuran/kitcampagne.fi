@@ -13,11 +13,11 @@ sortinglabel: twitter-l2
 
 ## Configurer votre compte Twitter
 
-Rendez-vous sur [https://twitter.com](https://twitter.com) pour acceder à votre compte Twitter. Puis cliquez sur votre nom a gauche pour acceder à votre profil.
+Rendez-vous sur [https://twitter.com](https://twitter.com) pour accéder à votre compte Twitter. Puis cliquez sur votre nom à gauche pour accéder à votre profil.
 
 ![Page d’accueil de Twitter](/assets/images/screenshots/tw-5.png)
 
-Cliquez sur le boutton « Éditer le profil » pour pouvoir changer votre photo.
+Cliquez sur le bouton « Éditer le profil » pour pouvoir changer votre photo.
 
 ![Page de profil Twitter](/assets/images/screenshots/tw-6.png)
 
@@ -33,7 +33,7 @@ Changez la couleur de votre page pour celles de la France Insoumise. Cliquez sur
 
 ### Changer votre photo de profil
 
-Cliquez sur votre photo à gauche, comme indiqué sur l’image ci-dessous, puis cliquez sur « Envoyer une photo ». Selectionnez la photo que vous souhaitez utiliser pour votre compte.
+Cliquez sur votre photo à gauche, comme indiqué sur l’image ci-dessous, puis cliquez sur « Envoyer une photo ». Sélectionnez la photo que vous souhaitez utiliser pour votre compte.
 
 ![Changement de photo de profil dans Twitter - Etape 1](/assets/images/screenshots/tw-add-photo1.png)
 

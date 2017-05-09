@@ -32,7 +32,7 @@ Commission nationale des comptes de campagne CNCCFP
 Paris cedex 1
 ```
 
-### Mon établissement banquaire refuse d’ouvrir ou cloture mon compte, que faire ?
+### Mon établissement banquaire refuse d’ouvrir ou clôturer mon compte, que faire ?
 
 En cas de refus de la part de l’établissement choisi, le mandataire peut saisir la *Banque de France* afin qu'elle désigne un établissement de crédit situé dans la circonscription dans laquelle se déroule l’élection ou à proximité d’un autre lieu de son choix, dans un délai d’un jour ouvré à compter de la réception de la demande du mandataire et des pièces requises.
 
@@ -52,6 +52,6 @@ Si le candidat reçoit 5 % ou plus des suffrages au 1er tour, il peux obtenir u
 
 - Toutes les opérations devront être accompagnées d’un justificatif (reçu de don, factures…) comme dans toute comptabilité standard en utilisant les codes d’affectation définis par la CNCCFP.
 
-- Lorsque les résultats du vote sont connus, si le candidat obtient plus de 5 % des suffrages, le mandataire suit la procédure de dépôt de dossier telle que décrite dans le « Guide du candidat et du mandataire » que vous trouverez sur le site [CNCCCFP](http://www.cnccfp.fr/index.php?art=734). Si le score n’est pas suffisant, le mendataire cloture simplement le compte de campagne.
+- Lorsque les résultats du vote sont connus, si le candidat obtient plus de 5 % des suffrages, le mandataire suit la procédure de dépôt de dossier telle que décrite dans le « Guide du candidat et du mandataire » que vous trouverez sur le site [CNCCCFP](http://www.cnccfp.fr/index.php?art=734). Si le score n’est pas suffisant, le mandataire clôture simplement le compte de campagne.
 
-Si le candidat n’espère pas faire plus de 5%, il peut opter pour procédure simplifiée. Le mandataire se suffit au dépôt de déclaration et aucune autre action ne lui sera demandée. Il ne sera même pas nécessaire d’ouvrir un compte bancaire dédié. Les « comptes de campagne » seront retournée à la CNCCFP avec aucun mouvement.
+Si le candidat n’espère pas faire plus de 5%, il peut opter pour une procédure simplifiée. Le mandataire se contente d'un dépôt de déclaration et aucune autre action ne lui sera demandée. Il ne sera même pas nécessaire d’ouvrir un compte bancaire dédié. Les « comptes de campagne » seront retournés à la CNCCFP sans aucun mouvement.
