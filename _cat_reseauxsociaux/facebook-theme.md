@@ -31,7 +31,7 @@ Une fois sur la page du compte, cliquez sur « Ajouter une photo ».
 
 ![Changer sa photo de profil - Etape 2](/assets/images/screenshots/facebook-addphoto2.jpg)
 
-Dans le dialogue qui s’ouvre ensuite, cliquez sur « Importer une photo ». Choisissez votre photo recadrée avec le symbole Phi sur votre ordinateur pour la télécharger vers Facebook.
+Dans le dialogue qui s’ouvre ensuite, cliquez sur « Importer une photo ». Choisissez votre photo recadrée avec le symbole Phi sur votre ordinateur pour la téléverser vers Facebook.
 
 ![Changer sa photo de profil - Etape 3](/assets/images/screenshots/facebook-addphoto3.png)
 
@@ -63,7 +63,7 @@ Facebook autorise le glissé/déposé pour ce téléchargement, ce qui signifie 
 
 ![Changer sa photo de couverture Facebook - Etape 1](/assets/images/screenshots/facebook-addcover1.png)
 
-Autre méthode : Vous pouvez cliquer sur « Ajouter une photo de couverture » puis sur « Importer un fichier… » Vous choisissez ensuite votre fichier de couverture sur votre ordinateur pour le télécharger vers Facebook.
+Autre méthode : Vous pouvez cliquer sur « Ajouter une photo de couverture » puis sur « Importer un fichier… ». Vous choisissez ensuite votre fichier de couverture sur votre ordinateur pour le téléverser vers Facebook.
 
 Facebook vous montre ensuite un aperçu de la couverture en place. Vous pouvez faire glisser l’image pour l’ajuster mais si vous avez respecté les recommandations de taille, vous n’avez pas besoin d’y toucher. Cliquez enfin sur « Enregistrer les modifications ».
 
