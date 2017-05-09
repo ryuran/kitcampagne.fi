@@ -10,18 +10,18 @@ sortinglabel: facebook-l1
 
 ## Créer une page Facebook pour votre candidature
 
-Vous devez déjà posséder un compte Facebook. Dans cette aide, c’est « Charlotte Rargie » qui utilisera son compte Facebook pour sa page pour les législatives.
-Allez sur votre page Facebook [https://www.facebook.com](https://www.facebook.com) puis cliquez sur « Page » dans la section « Créer » du menu gauche. Dans la figure suivante, ce bouton est entouré en rouge :
+Dans un premier lieu, vous devez posséder un compte Facebook. Dans cette aide, nous allons utiliser l'exemple de « Charlotte Rargie » qui va utiliser son compte pour créer sa page pour la campagne législative.
+Vous allez donc devoir vous connecter à votre compte Facebook [https://www.facebook.com](https://www.facebook.com) puis cliquer sur « Page » dans la section « Créer » du menu gauche. Dans la figure suivante, ce bouton est entouré en rouge :
 
 ![Facebook](/assets/images/screenshots/facebook-1.png)
 
-Choisissez le type de page à créer. Pour les législatives, cliquez sur « Cause ou communauté », puis entrez le nom de votre page : « Val-du-Rhône Insoumis, 5ème circonscription ». Cliquez sur « Démarrer ».
+Vous allez ensuite choisir le type de page à créer. Pour les législatives, il vous faudra cliquer sur « Cause ou communauté », puis vous aller entrer le nom de votre page, ici par exemple: « Val-du-Rhône Insoumis, 5ème circonscription » puis cliquer sur « Démarrer ».
 
 ![Facebook](/assets/images/screenshots/facebook-2.png)
 
 ![Facebook](/assets/images/screenshots/facebook-3.png)
 
-Votre page est maintenant créée.
+Votre page pour les législatives est maintenant créee.
 
 ## Accéder à votre page Facebook
 
@@ -38,4 +38,4 @@ Pour accéder à votre page, cliquez sur son nom dans la liste.
 ![Facebook](/assets/images/screenshots/facebook-6.png)
 
 >**Pour aller plus loin :**
->il est important que votre page Facebook soit rapidement identifiée à la France Insoumise. Pour mettre votre page Facebook aux couleurs de la France Insoumise, [vous pouvez suivre cette page d’aide](/reseauxsociaux/facebook-theme).
+>Il est important que votre page Facebook soit rapidement rapprochée à la France Insoumise. Pour mettre votre page Facebook aux couleurs de la France Insoumise, [vous pouvez suivre cette page d’aide](/reseauxsociaux/facebook-theme).
