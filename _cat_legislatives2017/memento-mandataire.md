@@ -8,7 +8,7 @@ sortinglabel: finance-l1
 
 ## Mandataire financier
 
-Tout candidat aux élections législatives de 2017 doit désigner un·e *mandataire financier·e*. Désigné·e par une·e candidat·e, un·e mandataire est soit une personne physique, soit une association de financement électorale. La période de financement électoral ouvre le 1er décembre 2016.
+Tout candidat aux élections législatives de 2017 doit désigner un·e *mandataire financier·e*. Désigné·e par un·e candidat·e, un·e mandataire est soit une personne physique, soit une association de financement électorale. La période de financement électoral ouvre le 1er décembre 2016.
 
 - Il peut être un homme ou une femme ; la parité n’est donc pas exigée, même si celle-ci est recommandée : elle permet en effet d’éviter les pénalités financières quand celle-ci n’est pas respectée au moment des subventions et remboursement des frais par l’Etat.
 
