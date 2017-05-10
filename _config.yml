@@ -7,7 +7,7 @@ collections:
   cat_franceinsoumise:
     output: true
     permalink: franceinsoumise/:name/
-    title: Militer à la France Insoumise
+    title: Militer avec la France Insoumise
   cat_legislatives2017:
     output: true
     permalink: legislatives2017/:name/
