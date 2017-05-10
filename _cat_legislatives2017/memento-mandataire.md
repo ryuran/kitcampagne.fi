@@ -46,7 +46,7 @@ A l’exception des partis ou groupements politiques, seules les personnes physi
 
 ## Remboursement de frais de campagne
 
-Si le candidat reçoit 5 % ou plus des suffrages au 1<sup>er</sup> tour, il peux obtenir un remboursement de ses frais de campagne. Dans ce cas :
+Si le candidat reçoit 5 % ou plus des suffrages au 1<sup>er</sup> tour, il peut obtenir un remboursement de ses frais de campagne. Dans ce cas :
 
 - Le ou la mandataire doit ouvrir un compte bancaire à son nom (plus facile dans la banque des candidat·e·s ou celle des mandataires) avec un libellé précisant l’objet du compte (Campagne Législatives 2017 de Mme, M…), avec un moyen de paiement (carte débit immédiat, carnet de chèque) et ouvrir un compte de campagne avec recettes et dépenses.
 
