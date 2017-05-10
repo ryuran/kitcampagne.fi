@@ -55,3 +55,5 @@ Si le candidat reçoit 5 % ou plus des suffrages au 1er tour, il peux obtenir u
 - Lorsque les résultats du vote sont connus, si le candidat obtient plus de 5 % des suffrages, le mandataire suit la procédure de dépôt de dossier telle que décrite dans le « Guide du candidat et du mandataire » que vous trouverez sur le site [CNCCCFP](http://www.cnccfp.fr/index.php?art=734). Si le score n’est pas suffisant, le mandataire clôture simplement le compte de campagne.
 
 Si le candidat n’espère pas faire plus de 5%, il peut opter pour une procédure simplifiée. Le mandataire se contente d'un dépôt de déclaration et aucune autre action ne lui sera demandée. Il ne sera même pas nécessaire d’ouvrir un compte bancaire dédié. Les « comptes de campagne » seront retournés à la CNCCFP sans aucun mouvement.
+
+Source officielle : [Commission nationale des comptes de campagne et des financements politiques](http://www.cnccfp.fr/docs/campagne/20161027_guide_candidat_edition_2016.pdf)
