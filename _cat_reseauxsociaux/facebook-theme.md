@@ -15,7 +15,7 @@ sortinglabel: facebook-l2
 
 ### Préparer sa photo
 
-Les dimensions optimales pour une photo de profil sont : 512 x 512 pixels. Avant de la télécharger sur votre page Facebook, il est conseillé de la recadrer à la bonne dimension. Pour cela, vous pouvez utiliser un service en ligne comme [iloveimg.com](http://www.iloveimg.com/fr/recadrer-image).
+Les dimensions optimales pour une photo de profil sont : 512 x 512 pixels. Avant de la téléverser sur votre page Facebook, il est conseillé de la recadrer à la bonne dimension. Pour cela, vous pouvez utiliser un service en ligne comme [iloveimg.com](http://www.iloveimg.com/fr/recadrer-image).
 
 Une fois recadrée, il vous faudra ajouter le symbole Phi sur votre avatar en utilisant [l’outil de génération de photo de profil de ce kit de campagne](/reseauxsociaux/generer-photo-profil/)
 
@@ -46,7 +46,7 @@ La photo de profil apparaît maintenant sur la page du compte Facebook et à cha
 
 ## Changer sa couverture de page Facebook
 
-Facebook propose télécharger un bandeau pour le haut de la page. Il est très fortement recommandé de le faire pour personnaliser votre mur et aussi l'utiliser comme moyen diffusion d'informations sur votre candidature.
+Facebook propose d’afficher un bandeau dans l'en-tête de votre page. Il est très fortement recommandé de le faire pour personnaliser votre mur et afficher des informations sur votre candidature.
 
 ### Préparer l’image
 
@@ -59,7 +59,7 @@ Nous vous invitons à utiliser le [générateur de couverture Facebook](/reseaux
 
 ### Téléverser l’image sur Facebook
 
-Facebook autorise le glissé/déposé pour ce téléchargement, ce qui signifie que vous pouvez faire glisser votre fichier directement dans l’espace réservé à la couverture.
+Facebook autorise le glissé/déposé pour ce téléversement, ce qui signifie que vous pouvez faire glisser votre fichier directement dans l’espace réservé à la couverture.
 
 ![Changer sa photo de couverture Facebook - Etape 1](/assets/images/screenshots/facebook-addcover1.png)
 
