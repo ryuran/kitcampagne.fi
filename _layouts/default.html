@@ -16,11 +16,11 @@
     <div id="main" class="wrap {{ page.wrapClass }}">
       {{ content }}
     </div>
+    <footer class="footer">Site à l’initiative de citoyens insoumis</footer>
     {% if page.footerScript %}
       {% for  script in page.footerScript %}
         <script src="{{ script }}"></script>
       {% endfor %}
     {% endif %}
-    <div id="footer">Site à l'initiative de citoyens insoumis</div>
   </body>
 </html>
