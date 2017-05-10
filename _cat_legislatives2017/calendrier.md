@@ -3,7 +3,7 @@ layout: article
 title: Calendrier des Législatives
 contentdescription:
 icon: calendrier.svg
-sortinglabel:
+sortinglabel: legi-l2
 ---
 
 ## Lundi 15 Mai 2017

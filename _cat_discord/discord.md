@@ -4,6 +4,7 @@ title: Utiliser Discord
 contentdescription:
 icon: logo-discord.svg
 sortinglabel: discord-l1
+status: hidden
 ---
 
 ## Qu’est-ce que Discord ?

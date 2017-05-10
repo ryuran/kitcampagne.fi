@@ -2,8 +2,9 @@
 layout: article
 title: F.A.Q.
 contentdescription:
-icon: book-affiche.svg
-sortinglabel:
+icon: bulletin-faq.svg
+sortinglabel: legi-l1
+
 ---
 
 Les élections législatives sont organisées les 11 et 18 juin 2017, soit le mois suivant l’élection présidentielle. Les député·e·s qui seront élus en juin seront les premiers à être soumis à la nouvelle législation relative au cumul des mandats.

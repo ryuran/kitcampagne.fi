@@ -3,7 +3,7 @@ layout: article
 title: Financer sa campagne
 contentdescription:
 icon: coin.svg
-sortinglabel: finance-l2
+sortinglabel: legi-l3
 status: hidden
 ---
 

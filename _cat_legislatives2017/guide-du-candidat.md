@@ -2,8 +2,8 @@
 layout: article
 title: Guide du Candidat
 contentdescription:
-icon:
-sortinglabel:
+icon: book-affiche.svg
+sortinglabel: legi-l2
 ---
 
 ## Date des élections

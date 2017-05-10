@@ -3,7 +3,7 @@ layout: article
 title: Affiches, circulaires et bulletins de vote
 contentdescription:
 icon: affiches.svg
-sortinglabel:
+sortinglabel: legi-l2
 ---
 
 ### Préambule

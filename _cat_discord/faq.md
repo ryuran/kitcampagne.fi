@@ -4,6 +4,7 @@ title: La F.A.Q. du Discord Insoumis Locaux
 contentdescription:
 icon: discord-faq.svg
 sortinglabel: discord-l2
+status: hidden
 ---
 
 ## Questions relatives au Discord « Les Insoumis Locaux »

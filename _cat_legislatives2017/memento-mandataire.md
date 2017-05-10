@@ -3,7 +3,7 @@ layout: article
 title: Mémento du Mandataire
 contentdescription:
 icon: book-coin.svg
-sortinglabel: finance-l1
+sortinglabel: legi-l2
 ---
 
 ## Mandataire financier

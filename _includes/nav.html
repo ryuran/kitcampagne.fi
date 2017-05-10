@@ -16,6 +16,14 @@
     <ul class="nav-list">
       {% for c in site.collections %}
         {% if c.label != 'posts' %}
+          {% assign counter = 0 %}
+          {% for p in c.docs %}
+            {% if p.status != 'hidden' %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          
+          {% if counter != 0 %}
           <li class="nav-group">
             <span class="nav-group-title">{{c.title}}</span>
             <ul class="nav-sublist">
@@ -33,6 +41,7 @@
               {% endfor %}
             </ul>
           </li>
+          {% endif %}
         {% endif %}
       {% endfor %}
     </ul>
