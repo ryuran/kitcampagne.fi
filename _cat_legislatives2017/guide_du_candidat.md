@@ -1,7 +1,6 @@
 ---
 layout: article
 title: Guide du Candidat
-creator: Zedhyn
 contentdescription:
 icon:
 sortinglabel:
