@@ -8,7 +8,7 @@ sortinglabel: twitter-l2
 
 {% include rargis-disclaimer.md %}
 
->**Prérequis :**
+>**Prérequis :**
 >pour suivre cette page d'aide, vous devez avoir créer un compte Twitter dédiée à votre candidature pour les législatives. Si vous n'en avez pas, [vous pouvez suivre cette autre page d'aide](/reseauxsociaux/twitter-creer-compte).
 
 ## Configurer votre compte Twitter
@@ -25,7 +25,7 @@ Cliquez ensuite sur le bouton « Éditer le profil » pour pouvoir changer vot
 
 ### Changer la couleur de votre thème
 
-Mettez votre compte aux couleurs de la France Insoumise ! Pour celà cliquez sur « Couleur du thème » dans le menu gauche, puis sur l’icône « plus », puis rentrez la couleur rouge de la France insoumise (#C9452E), ou bleu (#00AFCC).
+Mettez votre compte aux couleurs de la France Insoumise ! Pour celà cliquez sur « Couleur du thème » dans le menu gauche, puis sur l’icône « plus », puis rentrez la couleur rouge de la France insoumise (#C9452E), ou bleu (#00AFCC).
 
 ![L’outil pour changer la couleur de votre thème Twitter - Etape 1](/assets/images/screenshots/tw-color1.png)
 

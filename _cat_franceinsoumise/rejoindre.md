@@ -22,7 +22,7 @@ Pour accéder aux outils de la plate-forme de la France Insoumise, il est néces
 
 ![Formulaire de création de compte](/assets/images/screenshots/fi-nationbuilder1.png)
 
-Vous allez recevoir un email afin d'activer votre compte. Pour cela, cliquez sur « Activer votre compte ».
+Vous allez recevoir un email afin d’activer votre compte. Pour cela, cliquez sur « Activer votre compte ».
 
 ![Email d’activation du compte](/assets/images/screenshots/fi-nationbuilder2.png)
 

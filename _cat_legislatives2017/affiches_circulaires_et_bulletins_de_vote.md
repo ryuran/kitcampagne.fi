@@ -12,7 +12,7 @@ Nous n’aborderons pas ici le financement ou le remboursement du montant des af
 Nous vous recommandons de faire vérifier vos affiches électorales, bulletins de vote et circulaires par la Commission de Propagande avant de les faire imprimer. Pour avoir les coordonnées de la Commission de Propagande, contactez directement votre Préfecture.
 
 **Qui imprime les affiches, circulaires et bulletins de vote ?**
-La France Insoumise propose à l'ensemble des candidat·e·s de prendre en charge l'impression de ces documents à condition de respecter la charte graphique mise à disposition. Cependant, si vous souhaitez réaliser des affiches personnalisées par vos soins, les coûts engagés dans cette démarche seront à votre charge.
+La France Insoumise propose à l’ensemble des candidat·e·s de prendre en charge l’impression de ces documents à condition de respecter la charte graphique mise à disposition. Cependant, si vous souhaitez réaliser des affiches personnalisées par vos soins, les coûts engagés dans cette démarche seront à votre charge.
 
 
 ## Les affiches
@@ -31,8 +31,8 @@ Les affiches sont apposées par les candidat·e·s ou leurs représentant·e·s 
 L’emplacement d’affichage est attribué par tirage au sort qui est effectué par un représentant de l’Etat, à l’issue du délai de dépôt des candidatures.
 Le ou la candidat·e est informé·e du jour et de l’heure du tirage au sort et peut y assister personnellement ou s’y faire représenter par un ou une mandataire désigné·e par lui.
 
-### Combien d'affiches officielles faut-il prévoir ?
-Le nombre d'affiches officielles à prévoir au minimum correspond au double du nombre d'emplacements réels d'affichage par commune pour chaque type d'affiches (soit 2 grandes et 2 petites par bureau de vote). Dans ce cas, une affiche de remplacement sera disponible en cas de dégradation pour chaque bureau de vote.
+### Combien d’affiches officielles faut-il prévoir ?
+Le nombre d’affiches officielles à prévoir au minimum correspond au double du nombre d’emplacements réels d’affichage par commune pour chaque type d’affiches (soit 2 grandes et 2 petites par bureau de vote). Dans ce cas, une affiche de remplacement sera disponible en cas de dégradation pour chaque bureau de vote.
 
 ## Les circulaires
 
@@ -72,7 +72,7 @@ Le bulletin peut comporter les prénoms du candidat ou de la candidate et de son
 Le bulletin peut comporter des photos, l’emblème d’un ou plusieurs partis ou groupements politiques, sous réserve que ces photos ou emblèmes soient imprimés d’une seule couleur.
 
 ### A qui doit-on remettre les bulletins de vote une fois imprimés ?
-- Soit à la Commission de Propagande avant le mardi 30 mai 2017 à 12 heures pour le premier tour et avant le mercredi 14 juin 2017 à 12 heures pour le second tour (nous vous recommandons d'appeler la préfecture pour bien vérifier).
+- Soit à la Commission de Propagande avant le mardi 30 mai 2017 à 12 heures pour le premier tour et avant le mercredi 14 juin 2017 à 12 heures pour le second tour (nous vous recommandons d’appeler la préfecture pour bien vérifier).
 - Soit le·la candidat·e ou leur mandataire peuvent également assurer eux-mêmes la distribution de leurs bulletins de vote en les remettant au maire, au plus tard la veille du scrutin à midi, ou au président du bureau de vote le jour du scrutin.
 
 Source officielle à télécharger (Ministère de l’Intérieur) : [Guide du Candidat](http://www.interieur.gouv.fr/content/download/102271/806359/file/M%C3%A9mento%20du%20candidat%20aux%20%C3%A9lections%20l%C3%A9gislatives%202017%20V4.pdf)
