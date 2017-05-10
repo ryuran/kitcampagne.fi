@@ -52,7 +52,7 @@ Si le candidat reçoit 5 % ou plus des suffrages au 1<sup>er</sup> tour, il peu
 
 - Toutes les opérations devront être accompagnées d’un justificatif (reçu de don, factures…) comme dans toute comptabilité standard en utilisant les codes d’affectation définis par la CNCCFP.
 
-- Lorsque les résultats du votebtient plus de 5 % des suffrages, le ou la mandataire suit la procédure de dépôt de dossier telle que décrite dans le « Guide du candidat et du mandataire » que vous trouverez sur le site [CNCCCFP](http://www.cnccfp.fr/index.php?art=734). Si le score n’est pas suffisant, le ou la mandataire clôture simplement le compte de campagne.
+- Lorsque le ou la candidat·e obtient plus de 5 % des suffrages, le ou la mandataire suit la procédure de dépôt de dossier telle que décrite dans le « Guide du candidat et du mandataire » que vous trouverez sur le site [CNCCCFP](http://www.cnccfp.fr/index.php?art=734). Si le score n’est pas suffisant, le ou la mandataire clôture simplement le compte de campagne.
 
 Si le ou la candidat·e n’espère pas faire plus de 5 %, il ou elle peut opter pour une procédure simplifiée. Le ou la mandataire se contente d’un dépôt de déclaration et aucune autre action ne lui sera demandée. Il ne sera même pas nécessaire d’ouvrir un compte bancaire dédié. Les « comptes de campagne » seront retournés à la CNCCFP sans aucun mouvement.
 
