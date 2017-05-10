@@ -11,7 +11,7 @@ sortinglabel: fi-l2
 >pour suivre cette page d’aide, vous devez avoir un compte sur la plateforme de la France Insoumise. Si vous n’en avez pas encore créer un , [vous pouvez suivre cette autre page d’aide](/franceinsoumise/rejoindre).
 
 ## Se connecter à son compte France Insoumise
-
+ 
 Pour rejoindre un groupe d’appui, vous devez être connecté à votre compte France Insoumise. Pour cela, il vous faut aller sur la page [http://f-i.jlm2017.fr/](http://f-i.jlm2017.fr/) et cliquer sur « Connexion » en haut à droite.
 
 ![Page d’accueil de la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-connexion1.png)
@@ -23,7 +23,7 @@ Cochez la case "Rester connecté.e" uniquement si vous utilisez un ordinateur pe
 
 ## Trouver un groupe d’appui
 
-Pour celà, utilisez la carte du monde dans la page pour trouver un groupe d’appui proche de chez vous. Il n’est pas nécessaire que celui-ci soit proche de la circonscription où vous allez voter. Il vous faut simplement que ce soit groupe d’appui dans lequel vous pourrez vous rendre régulièrement.
+Pour celà, utilisez la carte mise à disposition pour trouver un groupe d’appui proche de chez vous. Il n’est pas nécessaire que celui-ci soit proche de la circonscription où vous allez voter. Il vous faut simplement que ce soit UN groupe d’appui dans lequel vous pourrez vous rendre régulièrement.
 
 Sur la carte, vous pouvez utiliser le champ de recherche apparaissant en haut à gauche et saisir le nom de votre commune pour l'afficher directement.
 Ou vous pouvez également vous déplacer en maintenant le bouton gauche de votre souris tout en la déplacant. Vous pouvez zoomer à l’aide de la molette.

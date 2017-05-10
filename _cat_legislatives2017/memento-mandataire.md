@@ -34,7 +34,7 @@ Paris cedex 1
 
 ### Mon établissement banquaire refuse d’ouvrir ou clôturer mon compte, que faire ?
 
-En cas de refus de la part de l’établissement choisi, le ou la mandataire peut saisir la *Banque de France* afin qu'elle désigne un établissement de crédit situé dans la circonscription dans laquelle se déroule l’élection ou à proximité d’un autre lieu de son choix, dans un délai d’un jour ouvré à compter de la réception de la demande du ou la mandataire et des pièces requises.
+En cas de refus de la part de l’établissement choisi, le ou la mandataire peut saisir la *Banque de France* afin qu'elle désigne un établissement de crédit situé dans la circonscription dans laquelle se déroule l’élection ou à proximité d’un autre lieu de son choix, dans un délai d’un jour ouvré à compter de la réception de la demande du ou de la mandataire et des pièces requises.
 
 Toute décision de clôture de compte à l’initiative de l’établissement de crédit désignée par la Banque de France doit faire l’objet d’une notification écrite et motivée adressée au mandataire et à la Banque de France pour information.
 
