@@ -43,11 +43,11 @@ Le papier utilisé pour les circulaires doit avoir un grammage compris entre 60 
 La combinaison des trois couleurs (bleu, blanc et rouge), à l’exception de la reproduction de l’emblème d’un parti ou groupement politique, est interdite.
 
 ### Qui envoie les circulaires ?
-C’est la Commission de Propagande (nommée par le Préfet) qui a la charge d’envoyer les circulaires par courrier aux électeurs·trices.
+C’est la Commission de Propagande (nommée par le Préfet) qui a la charge d’envoyer les circulaires par courrier aux électeurs·rices.
 Afin de tenir compte des délais nécessaires aux travaux de la Commission pour assurer l’envoi des documents électoraux en temps utile, les dates limites avant lesquelles les candidat·e·s doivent remettre leurs circulaires et bulletins à la commission devraient être fixées, par arrêté du représentant de l’État, au mardi 30 mai 2017 à 12 heures pour le premier tour et au mercredi 14 juin 2017 à 12 heures pour le second tour. **Attention**: sauf délai supplémentaire accordé au niveau local, la Commission n’est pas tenue d’assurer l’envoi des imprimés remis postérieurement à ces dates.
 
 ### Combien de circulaires faut-il prévoir ?
-Le nombre de circulaires à remettre à la Commission de Propagande est égal au nombre des électeurs·trices inscrit·e·s dans la circonscription électorale.
+Le nombre de circulaires à remettre à la Commission de Propagande est égal au nombre des électeurs·rices inscrit·e·s dans la circonscription électorale.
 
 ### Y a-t-il autre chose à savoir ?
 Oui, les circulaires peuvent également être publiées sur Internet. Vous trouverez toutes les informations à ce sujet en téléchargeant le [guide officiel du candidat](http://www.interieur.gouv.fr/content/download/102271/806359/file/M%C3%A9mento%20du%20candidat%20aux%20%C3%A9lections%20l%C3%A9gislatives%202017%20V4.pdf).
