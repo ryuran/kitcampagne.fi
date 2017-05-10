@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Guide du Candidat
+title: F.A.Q.
 contentdescription:
 icon: book-affiche.svg
 sortinglabel:
