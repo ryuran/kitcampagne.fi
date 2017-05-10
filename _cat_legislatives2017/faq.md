@@ -9,11 +9,11 @@ sortinglabel: legi-l1
 
 Les élections législatives sont organisées les 11 et 18 juin 2017, soit le mois suivant l’élection présidentielle. Les député·e·s qui seront élus en juin seront les premiers à être soumis à la nouvelle législation relative au cumul des mandats.
 
-## Combien y a-t-il de députés ?
+## Combien y a-t-il de député·e·s ?
 L’Assemblée Nationale est composée de 577 députés. Les 577 circonscriptions dans le cadre desquelles se déroule l’élection de chaque député·e sont délimitées par le Code Electoral à l’intérieur de chaque département, en fonction de l’importance de la population.
 
-## Qui peut être élu député ?
-Pour pouvoir être élu député·e, il faut avoir 18 ans révolus, disposer de la qualité d’électeur et ne pas être dans un cas d’incapacité électorale ou d’inéligibilité. Il n’est pas nécessaire d’être inscrit·e sur la liste électorale d’une des communes de la circonscription législative dans laquelle le ou la candidat·e se présente.
+## Qui peut être élu·e député·e ?
+Pour pouvoir être élu·e député·e, il faut avoir 18 ans révolus, disposer de la qualité d’électeur·rice et ne pas être dans un cas d’incapacité électorale ou d’inéligibilité. Il n’est pas nécessaire d’être inscrit·e sur la liste électorale d’une des communes de la circonscription législative dans laquelle le ou la candidat·e se présente.
 
 ## Quelles sont les nouvelles règles de non-cumul des mandats ?
 Les lois du 14 février 2014 interdisant le cumul des mandats élargissent, à compter des élections législatives de juin 2017, la liste des fonctions incompatibles avec le mandat de député·e.
