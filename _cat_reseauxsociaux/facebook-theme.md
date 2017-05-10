@@ -15,13 +15,13 @@ sortinglabel: facebook-l2
 
 ### Préparer sa photo
 
-Les dimensions optimales pour une photo de profil sont : 512 x 512 pixels. Avant de la téléverser sur votre page Facebook, il est conseillé de la recadrer à la bonne dimension. Pour cela, vous pouvez utiliser un service en ligne comme [iloveimg.com](http://www.iloveimg.com/fr/recadrer-image).
+Les dimensions optimales pour une photo de profil sont : 512 x 512 pixels. Avant d'ajouter votre photo à votre page Facebook, il est conseillé de la recadrer à la bonne dimension. Pour cela, vous pouvez utiliser un service en ligne comme [iloveimg.com](http://www.iloveimg.com/fr/recadrer-image).
 
 Une fois recadrée, il vous faudra ajouter le symbole Phi sur votre avatar en utilisant [l’outil de génération de photo de profil de ce kit de campagne](/reseauxsociaux/generer-photo-profil/)
 
 ![Exemple de photo de profil](/assets/images/screenshots/profil-rargis.png)
 
-### Téléverser sa photo sur Facebook
+### Ajouter une photo à sa page Facebook
 
 À l’ouverture de Facebook, vous allez avoir directement accès à votre mur avec les articles sélectionnés pour vous par Facebook. Vous allez ensuite accèder à votre page pour les législatives relié à votre compte en cliquant sur votre nom dans le bandeau bleu en haut de la page.
 
@@ -31,7 +31,7 @@ Une fois sur votre page Facebook, cliquez sur « Ajouter une photo ».
 
 ![Changer sa photo de profil - Etape 2](/assets/images/screenshots/facebook-addphoto2.jpg)
 
-Dans la fenètre qui s’ouvre ensuite, cliquez sur « Importer une photo ». Choisissez votre photo recadrée avec le symbole Phi sur votre ordinateur pour la téléverser vers Facebook.
+Dans la fenètre qui s’ouvre ensuite, cliquez sur « Importer une photo ». Choisissez votre photo recadrée avec le symbole Phi sur votre ordinateur pour l'importer vers Facebook.
 
 ![Changer sa photo de profil - Etape 3](/assets/images/screenshots/facebook-addphoto3.png)
 
@@ -57,13 +57,13 @@ Nous vous invitons à utiliser le [générateur de couverture Facebook](/reseaux
 
 ![Exemple de photo de couverture pour Facebook](/assets/images/screenshots/facebook-cover.png)
 
-### Téléverser l’image sur Facebook
+### Ajouter l’image sur Facebook
 
-Facebook autorise le glissé/déposé pour ce téléversement, ce qui signifie que vous pouvez faire glisser votre fichier directement dans l’espace réservé à la couverture.
+Facebook autorise le glissé/déposé pour cette importation, ce qui signifie que vous pouvez faire glisser votre fichier directement dans l’espace réservé à la couverture.
 
 ![Changer sa photo de couverture Facebook - Etape 1](/assets/images/screenshots/facebook-addcover1.png)
 
-Autre méthode : Il est possible de cliquer sur « Ajouter une photo de couverture » puis sur « Importer un fichier… ». Il faut ensuite choisir votre fichier de couverture dans le fichiers de votre ordinateur pour le téléverser vers Facebook.
+Autre méthode : Il est possible de cliquer sur « Ajouter une photo de couverture » puis sur « Importer un fichier… ». Il faut ensuite choisir votre fichier de couverture dans le fichiers de votre ordinateur pour l’importer vers Facebook.
 
 Facebook vous montre ensuite un aperçu de la couverture en place. Vous pouvez faire glisser l’image pour l’ajuster mais si vous avez respecté les recommandations de taille, vous n’avez pas besoin d’y toucher. Cliquez enfin sur « Enregistrer les modifications ».
 
