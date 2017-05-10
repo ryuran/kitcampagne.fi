@@ -22,7 +22,7 @@ Dans tous les cas un·e mandataire doit être déclaré·e en Préfecture par un
 
 ## Compte de campagne
 
-Il est obligatoire pour un·e candidat·e aux législatives de déposer un *compte de campagne*. C’est le ou la mandataire qui l’ouvre et le gère. Le compte de campagne est spécialement et expressément affecté aux opérations financières de la campagne. Il doit être déclaré en remplissant la formulaire de compte à la préfecture (bureau des élections). Ce formulaire peut être retiré en déposant la déclaration de mandataire financier.
+Il est obligatoire pour un·e candidat·e aux législatives de déposer un *compte de campagne*. C’est le ou la mandataire qui l’ouvre et le gère. Le compte de campagne est spécialement et expressément affecté aux opérations financières de la campagne. Il doit être déclaré en remplissant le formulaire de compte à la préfecture (bureau des élections). Ce formulaire peut être retiré en déposant la déclaration de mandataire financier.
 
 Le dépôt des comptes de campagne doit intervenir le dixième vendredi suivant le premier tour de scrutin, soit le *vendredi 18 août 2017 avant 18 h 00*, à cette adresse :
 
