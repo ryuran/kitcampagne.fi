@@ -14,7 +14,7 @@ Les candidat·e·s peuvent désormais déposer leur candidature à la Préfectur
 ## Vendredi 19 Mai 2017
 **Fermeture du délai de dépôt des candidatures.**
 
-Les candidat·e·s doivent tous avoir déposé leur candidature à la Préfecture avant le vendredi 19 Mai à 18 h 00. Attention ! Les candidat·e·s qui passeront le 1<sup>er</sup> tour devront renouveler leur inscription pour le 2nd tour.
+Les candidat·e·s doivent tous avoir déposé leur candidature à la Préfecture avant le vendredi 19 Mai à 18 h 00. Attention ! Les candidat·e·s qui passeront le 1<sup>er</sup> tour devront renouveler leur inscription pour le 2<sup>d</sup> tour.
 
 ## Lundi 22 Mai 2017
 **Ouverture de la campagne officielle à 00 h 00 pour le premier tour.**
