@@ -16,7 +16,7 @@ Pour rejoindre un groupe d’appui, vous devez être connecté à votre compte F
 
 ![Page d’accueil de la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-connexion1.png)
 
-Dans la page qui va s'ouvrir, vous devez remplir le formulaire à gauche intitulé « j’ai un compte », puis cliquer sur « Se connecter avec son adresse email ».
+Dans la page qui va s'ouvrir, vous devez remplir le formulaire à gauche intitulé « J’ai un compte », puis cliquer sur « Se connecter avec son adresse email ».
 Cochez la case "Rester connecté.e" uniquement si vous utilisez un ordinateur personnel.
 
 ![Formulaire de connexion de la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-connexion2.png)
@@ -25,8 +25,8 @@ Cochez la case "Rester connecté.e" uniquement si vous utilisez un ordinateur pe
 
 Pour celà, utilisez la carte du monde dans la page pour trouver un groupe d’appui proche de chez vous. Il n’est pas nécessaire que celui-ci soit proche de la circonscription où vous allez voter. Il vous faut simplement trouver un groupe d’appui dans lequel vous pourrez vous rendre régulièrement.
 
-Dans la carte, vous pouvez utiliser le champ de recherche apparaissant en haut à gauche et saisir le nom de votre commune.
-Vous pouvez également vous déplacer en maintenant le bouton gauche de votre souris tout en la déplacant. Vous pouvez zoomer à l’aide de la molette.
+Sur la carte, vous pouvez utiliser le champ de recherche apparaissant en haut à gauche et saisir le nom de votre commune pour l'afficher directement.
+Ou vous pouvez également vous déplacer en maintenant le bouton gauche de votre souris tout en la déplacant. Vous pouvez zoomer à l’aide de la molette.
 
 ![Carte des groupes d’appui sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-carte1.png)
 
