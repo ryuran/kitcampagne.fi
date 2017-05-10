@@ -20,7 +20,7 @@ contentdescription:
         {% if p.status != 'hidden' %}
           <li>
             <a class="home-nav-link" href="{{ p.url }}">
-              <span class="home-nav-link-icon"><img src="/assets/images/icons/{{p.icon}}" alt="" /></span>
+              <span class="home-nav-link-icon">{% if p.icon.size %}<img src="/assets/images/icons/{{p.icon}}" alt="" />{% endif %}</span>
               <span class="home-nav-link-label">{{p.title}}</span>
             </a>
           </li>
