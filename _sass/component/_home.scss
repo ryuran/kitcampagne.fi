@@ -28,22 +28,32 @@
 
   &-nav {
     padding: 0;
-    margin: 0;
+    margin: 0 -1rem;
     list-style: none;
     text-align: center;
-    margin: 0;
-    column-width: 14rem;
-    column-gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 
+    &:after {
+      content: '';
+    }
+
+    &:after,
     > li {
       display: block;
-      padding: 1rem 0;
-      break-inside: avoid;
+      flex: 1 1 auto;
+      padding: 1rem;
+      margin: 0;
+      width: 50%;
+      min-width: 17em;
     }
 
     &-link {
-      text-align: center;
       display: flex;
+      text-align: center;
       align-items: center;
       margin: 0 auto;
       color: $color-white;
