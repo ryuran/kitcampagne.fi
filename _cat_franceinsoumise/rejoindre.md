@@ -14,7 +14,7 @@ Pour rejoindre la France insoumise, rendez-vous sur [https://lafranceinsoumise.f
 
 ![Formulaire d’adhésion à la France Insoumise](/assets/images/screenshots/franceinsoumise-form.png)
 
-Félicitations, vous êtes maintenant un.e insoumis.e !
+Félicitations, vous êtes maintenant un·e insoumis·e !
 
 ## Créer un compte d’accès
 
@@ -29,3 +29,5 @@ Vous allez recevoir un email afin d'activer votre compte. Pour cela, cliquez sur
 Dans la page qui s’ouvre, remplissez les informations et validez en cliquant sur « Activer le compte ».
 
 ![Formulaire de création de compte, deuxième étape](/assets/images/screenshots/fi-nationbuilder3.png)
+
+Votre compte d'accès est maintenant actif !
