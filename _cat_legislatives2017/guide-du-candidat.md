@@ -4,6 +4,7 @@ title: Guide du Candidat
 contentdescription:
 icon: book-affiche.svg
 sortinglabel: legi-l2
+status: hidden
 ---
 
 ## Date des élections
