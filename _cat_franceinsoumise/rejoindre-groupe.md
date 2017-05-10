@@ -7,8 +7,8 @@ icon: groupe-rejoindre.svg
 sortinglabel: fi-l2
 ---
 
->**Prérequis :**
->pour suivre cette page d’aide, vous devez avoir un compte sur la plateforme de la France Insoumise. Si vous n’en avez pas encore créer un , [vous pouvez suivre cette autre page d’aide](/franceinsoumise/rejoindre).
+>**Prérequis :**
+>pour suivre cette page d’aide, vous devez avoir un compte sur la plateforme de la France Insoumise. Si vous n’en avez pas encore créer un, [vous pouvez suivre cette autre page d’aide](/franceinsoumise/rejoindre).
 
 ## Se connecter à son compte France Insoumise
  
@@ -30,7 +30,7 @@ Ou vous pouvez également vous déplacer en maintenant le bouton gauche de votre
 
 ![Carte des groupes d’appui sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-carte1.png)
 
-Les groupes d'appui sont indiqués en bleu sur la carte, les événements locaux en vert.
+Les groupes d’appui sont indiqués en bleu sur la carte, les événements locaux en vert.
 Lorsque vous avez trouvé un groupe d’appui, cliquez dessus pour afficher son nom, puis cliquez sur le nom lui-même.
 
 ![Un groupe d’appui selectionné sur la plateforme France Insoumise](/assets/images/screenshots/franceinsoumise-carte2.png)
