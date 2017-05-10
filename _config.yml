@@ -7,15 +7,15 @@ collections:
   cat_franceinsoumise:
     output: true
     permalink: franceinsoumise/:name/
-    title: La France Insoumise
+    title: Militer à la France Insoumise
   cat_legislatives2017:
     output: true
     permalink: legislatives2017/:name/
-    title: Législatives 2017
+    title: S'organiser pour les legislatives
   cat_reseauxsociaux:
     output: true
     permalink: reseauxsociaux/:name/
-    title: Réseaux sociaux
+    title: Les législatives sur les réseaux sociaux
   cat_discord:
     output: true
     permalink: discord/:name/
