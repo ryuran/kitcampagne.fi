@@ -8,6 +8,10 @@ collections:
     output: true
     permalink: franceinsoumise/:name/
     title: La France Insoumise
+  cat_legislatives2017:
+    output: true
+    permalink: legislatives2017/:name/
+    title: Législatives 2017
   cat_reseauxsociaux:
     output: true
     permalink: reseauxsociaux/:name/
@@ -16,10 +20,6 @@ collections:
     output: true
     permalink: discord/:name/
     title: Discord
-  cat_legislatives2017:
-    output: true
-    permalink: legislatives2017/:name/
-    title: Législatives 2017
 sass:
   sass_dir: _sass
   style: compressed
@@ -33,4 +33,4 @@ exclude:
 
 gems:
   - jekyll-sitemap
-  - jekyll-relative-links
+- jekyll-relative-links
