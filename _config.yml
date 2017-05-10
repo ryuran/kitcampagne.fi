@@ -33,4 +33,4 @@ exclude:
 
 gems:
   - jekyll-sitemap
-- jekyll-relative-links
+  - jekyll-relative-links
