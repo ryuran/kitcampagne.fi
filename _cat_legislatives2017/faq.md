@@ -43,7 +43,7 @@ L’élection a lieu les dimanches 4 et 18 juin 2017 hors zone Américaine et le
 Dans un communiqué du 6 mars 2017, le gouvernement a annoncé sa décision de ne pas recourir au vote électronique pour les élections législatives de 2017 en raison du contexte caractérisé par un niveau de menace élevé de cyberattaques.
 
 ## Quelles sont les règles de financement de la campagne législative ?
-Tout candidat·e aux élections législatives de 2017 doit désigner un ou une mandataire. Désigné par le ou la candidat·e, le ou la mandataire est soit une personne physique, soit une association de financement électoral. La période de financement électoral s’ouvre le 1er décembre 2016. Le ou la mandataire ouvre et gère un compte de dépôt spécialement et expressément affecté aux opérations financières de la campagne, dénommé compte de campagne.
+Tout candidat·e aux élections législatives de 2017 doit désigner un ou une mandataire. Désigné par le ou la candidat·e, le ou la mandataire est soit une personne physique, soit une association de financement électoral. La période de financement électoral s’ouvre le 1<sup>er</sup> décembre 2016. Le ou la mandataire ouvre et gère un compte de dépôt spécialement et expressément affecté aux opérations financières de la campagne, dénommé compte de campagne.
 
 Le plafond de dépenses (hors campagne officielle) est fixé à 38 000 euros, majoré de 15 centimes d’euro par habitant de la circonscription.
 

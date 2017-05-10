@@ -8,7 +8,7 @@ sortinglabel: finance-l1
 
 ## Mandataire financier
 
-Tout candidat aux élections législatives de 2017 doit désigner un·e *mandataire financier·e*. Désigné·e par un·e candidat·e, un·e mandataire est soit une personne physique, soit une association de financement électorale. La période de financement électoral ouvre le 1er décembre 2016.
+Tout candidat aux élections législatives de 2017 doit désigner un·e *mandataire financier·e*. Désigné·e par un·e candidat·e, un·e mandataire est soit une personne physique, soit une association de financement électorale. La période de financement électoral ouvre le 1<sup>er</sup> décembre 2016.
 
 - Il peut être un homme ou une femme ; la parité n’est donc pas exigée, même si celle-ci est recommandée : elle permet en effet d’éviter les pénalités financières quand celle-ci n’est pas respectée au moment des subventions et remboursement des frais par l’Etat.
 
@@ -46,7 +46,7 @@ A l’exception des partis ou groupements politiques, seules les personnes physi
 
 ## Remboursement de frais de campagne
 
-Si le candidat reçoit 5 % ou plus des suffrages au 1er tour, il peux obtenir un remboursement de ses frais de campagne. Dans ce cas :
+Si le candidat reçoit 5 % ou plus des suffrages au 1<sup>er</sup> tour, il peux obtenir un remboursement de ses frais de campagne. Dans ce cas :
 
 - Le ou la mandataire doit ouvrir un compte bancaire à son nom (plus facile dans la banque des candidat·e·s ou celle des mandataires) avec un libellé précisant l’objet du compte (Campagne Législatives 2017 de Mme, M…), avec un moyen de paiement (carte débit immédiat, carnet de chèque) et ouvrir un compte de campagne avec recettes et dépenses.
 
